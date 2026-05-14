@@ -54,3 +54,5 @@ declare module "vfile" {
     relativePath: FilePath
   }
 }
+
+export { HighlightTransform } from "./highlight" //ini tambahan
