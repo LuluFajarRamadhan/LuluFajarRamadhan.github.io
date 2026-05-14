@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://lulufajarramadhan.github.io/",
+    baseUrl: "lulufajarramadhan.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", "Bank Soal"],
     defaultDateType: "modified",
     theme: {
