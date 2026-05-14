@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "LuluFajarRamadhan.github.io/matematika",
     ignorePatterns: ["private", "templates", ".obsidian", "Bank Soal"],
     defaultDateType: "modified",
     theme: {
