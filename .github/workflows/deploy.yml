@@ -3,7 +3,7 @@ name: Deploy Quartz to GitHub Pages
 on:
   push:
     branches:
-      - main  # Memastikan workflow jalan saat Anda push ke branch main
+      - main
  
 permissions:
   contents: read
@@ -19,21 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6 # Diperbarui ke v6 untuk dukungan Node 24
         with:
           fetch-depth: 0
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6 # Diperbarui ke v6 untuk dukungan Node 24
         with:
-          node-version: 20
+          node-version: 24 # Menggunakan Node.js 24 langsung
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public # Folder hasil build Quartz yang akan dipublikasikan
+          path: public
  
   deploy:
     needs: build
