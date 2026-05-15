@@ -9,26 +9,21 @@ Melalui bab ini, siswa akan mempelajari cara menentukan peluang suatu kejadian m
 
 ### Aplikasi Peluang dalam Kehidupan Nyata
 
-#### 1. Statistik dan Penelitian
-Digunakan untuk menganalisis kemungkinan munculnya suatu data atau kejadian.
+**1. Statistik dan Penelitian**: Digunakan untuk menganalisis kemungkinan munculnya suatu data atau kejadian.
 
-#### 2. Asuransi dan Keuangan
-Digunakan untuk memperkirakan risiko kerugian.
+**2. Asuransi dan Keuangan**: Digunakan untuk memperkirakan risiko kerugian.
 
-#### 3. Permainan dan Strategi
-Digunakan untuk menentukan kemungkinan menang atau kalah.
+**3. Permainan dan Strategi**: Digunakan untuk menentukan kemungkinan menang atau kalah.
 
-#### 4. Sains dan Teknologi
-Digunakan dalam analisis eksperimen.
+**4. Sains dan Teknologi**: Digunakan dalam analisis eksperimen.
 
-#### 5. Kehidupan Sehari-hari
-Digunakan dalam pengambilan keputusan berdasarkan kemungkinan.
+**5. Kehidupan Sehari-hari**: Digunakan dalam pengambilan keputusan berdasarkan kemungkinan.
 
 ---
 
 # 1. Ruang Sampel
 
-Ruang sampel adalah himpunan semua hasil yang mungkin terjadi dari suatu percobaan acak. Ruang sampel dinotasikan dengan ==**S**==. 
+Ruang sampel adalah himpunan semua hasil yang mungkin terjadi dari suatu percobaan acak. Ruang sampel dinotasikan dengan $S$. 
 
 ## Bentuk Himpunan
 Jika sebuah dadu dilempar satu kali, maka ruang sampelnya adalah:
