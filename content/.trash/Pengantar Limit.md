@@ -1,0 +1,1 @@
+Dalam matematika, konsep dari limit digunakan untuk menjelaskan perilaku sebuah kurva saat nilai variabelnya mendekati pada suatu titik tertentu, apakah akan mendekati suatu nilai tertentu atau menuju ketakhinggaan. Konsep limit dipelajari sebagai pe
