@@ -1,7 +1,3 @@
----
-title: Limit
----
-
 
 Bab limit mempelajari nilai yang didekati suatu fungsi saat variabel mendekati nilai tertentu.  
   
