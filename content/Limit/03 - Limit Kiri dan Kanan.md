@@ -70,6 +70,6 @@ $$
 
   
 
-- [[Bab-Limit/04 - Syarat Limit Ada]]
+- [[Limit/04 - Syarat Limit Ada]]
 
-- [[Bab-Limit/01 - Pengertian Limit]]
+- [[Limit/01 - Pengertian Limit]]

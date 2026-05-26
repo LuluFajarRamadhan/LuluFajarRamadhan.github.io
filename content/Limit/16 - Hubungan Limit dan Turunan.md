@@ -30,6 +30,6 @@ Karena itu, limit merupakan dasar utama dalam pembelajaran turunan.
 
   
 
-- [[Bab-Limit/01 - Pengertian Limit]]
+- [[Limit/01 - Pengertian Limit]]
 
-- [[Bab-Limit/15 - Kekontinuan Fungsi]]
+- [[Limit/15 - Kekontinuan Fungsi]]

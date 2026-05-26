@@ -30,6 +30,6 @@ Dalam limit tak hingga, perhatikan pangkat tertinggi dari fungsi.
 
   
 
-- [[Bab-Limit/12 - Bentuk Tak Tentu Infinity per Infinity]]
+- [[Limit/12 - Bentuk Tak Tentu Infinity per Infinity]]
 
-- [[Bab-Limit/13 - Bentuk Tak Tentu Infinity Kurang Infinity]]
+- [[Limit/13 - Bentuk Tak Tentu Infinity Kurang Infinity]]

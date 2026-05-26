@@ -37,8 +37,8 @@ $$
 
   
 
-- [[Bab-Limit/01 - Pengertian Limit]]
+- [[Limit/01 - Pengertian Limit]]
 
-- [[Bab-Limit/03 - Limit Kiri dan Kanan]]
+- [[Limit/03 - Limit Kiri dan Kanan]]
 
-- [[Bab-Limit/05 - Sifat-Sifat Limit]]
+- [[Limit/05 - Sifat-Sifat Limit]]

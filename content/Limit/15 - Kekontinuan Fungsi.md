@@ -22,6 +22,6 @@ Suatu fungsi dikatakan kontinu di titik $x=a$ jika:
 
   
 
-- [[Bab-Limit/04 - Syarat Limit Ada]]
+- [[Limit/04 - Syarat Limit Ada]]
 
-- [[Bab-Limit/16 - Hubungan Limit dan Turunan]]
+- [[Limit/16 - Hubungan Limit dan Turunan]]

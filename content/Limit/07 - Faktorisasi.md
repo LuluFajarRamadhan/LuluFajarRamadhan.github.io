@@ -78,6 +78,6 @@ adalah....
 
   
 
-- [[Bab-Limit/06 - Substitusi Langsung]]
+- [[Limit/06 - Substitusi Langsung]]
 
-- [[Bab-Limit/08 - Perkalian Sekawan]]
+- [[Limit/08 - Perkalian Sekawan]]

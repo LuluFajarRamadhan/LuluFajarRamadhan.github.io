@@ -38,15 +38,15 @@ $$
 
   
 
-- [[Bab-Limit/06 - Substitusi Langsung]]
+- [[Limit/06 - Substitusi Langsung]]
 
-- [[Bab-Limit/07 - Faktorisasi]]
+- [[Limit/07 - Faktorisasi]]
 
-- [[Bab-Limit/08 - Perkalian Sekawan]]
+- [[Limit/08 - Perkalian Sekawan]]
 
-- [[Bab-Limit/09 - Teorema Jepit]]
+- [[Limit/09 - Teorema Jepit]]
 
-- [[Bab-Limit/14 - L'Hopital]]
+- [[Limit/14 - L'Hopital]]
 
   
 
@@ -82,6 +82,6 @@ $$
 
   
 
-- [[Bab-Limit/15 - Kekontinuan Fungsi]]
+- [[Limit/15 - Kekontinuan Fungsi]]
 
-- [[Bab-Limit/16 - Hubungan Limit dan Turunan]]
+- [[Limit/16 - Hubungan Limit dan Turunan]]

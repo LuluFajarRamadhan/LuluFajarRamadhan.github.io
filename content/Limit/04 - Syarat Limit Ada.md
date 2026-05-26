@@ -43,6 +43,6 @@ $$
 ---
 ## Konsep Terkait
 
-- [[Bab-Limit/03 - Limit Kiri dan Kanan]]
+- [[Limit/03 - Limit Kiri dan Kanan]]
 
-- [[Bab-Limit/15 - Kekontinuan Fungsi]]
+- [[Limit/15 - Kekontinuan Fungsi]]

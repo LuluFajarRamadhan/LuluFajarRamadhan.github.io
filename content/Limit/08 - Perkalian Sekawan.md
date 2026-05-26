@@ -76,6 +76,6 @@ adalah....
 
   
 
-- [[Bab-Limit/07 - Faktorisasi]]
+- [[Limit/07 - Faktorisasi]]
 
-- [[Bab-Limit/13 - Bentuk Tak Tentu Infinity Kurang Infinity]]
+- [[Limit/13 - Bentuk Tak Tentu Infinity Kurang Infinity]]

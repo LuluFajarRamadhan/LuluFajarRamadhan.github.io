@@ -35,8 +35,8 @@ $$
 
   
 
-- [[Bab-Limit/02 - Notasi Limit]]
+- [[Limit/02 - Notasi Limit]]
 
-- [[Bab-Limit/03 - Limit Kiri dan Kanan]]
+- [[Limit/03 - Limit Kiri dan Kanan]]
 
-- [[Bab-Limit/04 - Syarat Limit Ada]]
+- [[Limit/04 - Syarat Limit Ada]]

@@ -71,6 +71,6 @@ $$
 
   
 
-- [[Bab-Limit/06 - Substitusi Langsung]]
+- [[Limit/06 - Substitusi Langsung]]
 
-- [[Bab-Limit/07 - Faktorisasi]]
+- [[Limit/07 - Faktorisasi]]

@@ -64,6 +64,6 @@ adalah....
 
   
 
-- [[Bab-Limit/07 - Faktorisasi]]
+- [[Limit/07 - Faktorisasi]]
 
-- [[Bab-Limit/08 - Perkalian Sekawan]]
+- [[Limit/08 - Perkalian Sekawan]]
