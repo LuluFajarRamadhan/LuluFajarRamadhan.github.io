@@ -1,5 +1,5 @@
 ---
-title: Aturan Penjumlahan
+title:
 ---
 Aturan penjumlahan adalah kaidah pencacahan yang digunakan ketika suatu proses melibatkan beberapa pilihan yang ==**saling terpisah dan hanya salah satu yang dapat dipilih.**== Sehingga jika satu pilihan terjadi, maka pilihan lainnya tidak akan terjadi secara bersamaan.
 Jika suatu kejadian pertama dapat dilakukan dengan $m$ cara dan kejadian kedua dapat dilakukan dengan $n$ cara, maka banyak cara untuk melakukan salah satu kejadian tersebut dapat dinyatakan dengan:

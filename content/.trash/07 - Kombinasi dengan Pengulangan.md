@@ -32,4 +32,4 @@ Banyak cara memilih 3 permen dari 5 jenis permen jika boleh sama adalah....
 
 ## Konsep Terkait
 
-- [[Kaidah Pencacahan/06 - Kombinasi]]
+- [[Kaidah Pencacahan/04 - Kombinasi]]

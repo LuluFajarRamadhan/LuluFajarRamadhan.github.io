@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "lulufajarramadhan.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian", "Bank Soal", "Gambar"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Bank Soal", "Gambar", "Draft"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

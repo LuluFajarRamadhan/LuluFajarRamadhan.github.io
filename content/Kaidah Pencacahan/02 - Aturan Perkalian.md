@@ -1,5 +1,5 @@
 ---
-title: Aturan Perkalian
+title:
 ---
 Aturan perkalian adalah kaidah pencacahan yang digunakan ketika suatu kejadian dilakukan melalui ==**beberapa tahap yang saling bersamaan atau berurutan.**==  Sehingga jika terdapat dua pilihan, dimana kejadian pertama dilakukan dengan $m$ cara dan kejadian kedua dilakukan dengan $n$ cara, maka banyaknya cara terjadi kejadian $m$ dan $n$ secara bersamaan dinyatakan dengan:
 $$
@@ -26,4 +26,4 @@ Berapa banyak kombinasi pakaian yang dapat dipilih?
 ## Konsep Terkait
 
 - [[Kaidah Pencacahan/01 - Aturan Penjumlahan]]
-- [[Kaidah Pencacahan/04 - Permutasi]]
+- [[Kaidah Pencacahan/05 - Permutasi]]

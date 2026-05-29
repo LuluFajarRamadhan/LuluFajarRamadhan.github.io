@@ -1,26 +1,15 @@
 ---
-title: Faktorial
+title:
 ---
-
 # Faktorial
 
-Faktorial dari bilangan asli $n$ ditulis sebagai:
-
+Operasi faktorial adalah operasi dasar dalam kombinatorika yang digunakan untuk menyatakan ==**hasil perkalian bilangan bulat positif secara berurutan dari bilangan tersebut hingga satu.**== Operasi ini menjadi dasar utama dalam perhitungan permutasi dan kombinasi.
+## Faktorial Bilangan
+Nilai faktorial suatu bilangan bulat positif $n$ dinyatakan dengan: 
 $$
-n!
+n! = n \times (n-1) \times (n-2) \times ... \times 1
 $$
-
-dan didefinisikan sebagai:
-
-$$
-n!=n(n-1)(n-2)\cdots1
-$$
-
-Selain itu:
-
-$$
-0!=1
-$$
+dengan catatan: khusus untuk nilai $0!=1$
 
 ---
 
@@ -34,5 +23,5 @@ $$
 
 ## Konsep Terkait
 
-- [[Kaidah Pencacahan/04 - Permutasi]]
-- [[Kaidah Pencacahan/06 - Kombinasi]]
+- [[Kaidah Pencacahan/05 - Permutasi]]
+- [[Kaidah Pencacahan/04 - Kombinasi]]

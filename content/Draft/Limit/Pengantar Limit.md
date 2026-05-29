@@ -36,7 +36,7 @@ $$
 jika syarat tersebut terpenuhi, maka 
 
 Untuk lebih memahami konsep tersebut, perhatikan grafik berikut:
-![[Old Limit/Gambar/contoh-kurva-limit.png]]
+![[Draft/Limit/Gambar/contoh-kurva-limit.png]]
 
 kurva $f(x)=x^2$ tersebut mempunyai nilai $f(0)=0$, dan setiap nilai $x$ yang berada di sebelah kiri dari nilai $x=0$ pada fungsi tersebut disebut dengan *limit kiri* yang secara matematis ditulis dengan $\lim_{x \to a^-} f(x)$, sedangkan setiap nilai $x$ yang berada di sebelah kanan dari nilai $x=0$ pada fungsi tersebut disebut dengan *limit kanan* yang secara matematis ditulis dengan $\lim_{x\to a^+} f(x)$. Saat nilai limit kiri mempunyai nilai yang sama dengan limit kanan, maka disebutkan bahwa limit tersebut adalah ada. Karena $f(x)=x^2$ mempunyai nilai yang sama saat didekati dari kiri dan kanan, maka didefinisinikan bahwa limit ada untuk $f(x)=x^2$ dengan nilai limitnya adalah nol.
 

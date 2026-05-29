@@ -1,7 +1,6 @@
 ---
 title: Permutasi Siklis
 ---
-
 # Permutasi Siklis
 
 Permutasi siklis adalah permutasi yang disusun melingkar.
@@ -28,5 +27,5 @@ Banyak cara menyusun 5 orang duduk melingkar adalah....
 
 ## Konsep Terkait
 
-- [[Kaidah Pencacahan/04 - Permutasi]]
+- [[Kaidah Pencacahan/05 - Permutasi]]
 - [[Kaidah Pencacahan/03 - Faktorial]]
