@@ -1,6 +1,3 @@
----
-title: Peta Konsep Trigonometri
----
 
 # Peta Konsep Trigonometri
 
@@ -86,4 +83,4 @@ Melalui fenomena ini, trigonometri membantu manusia beradaptasi dan memanfaatkan
 
 # Ringkasan
 
-- [[Ringkasan Trigonometri]]
+- [[Trigonometri/Ringkasan Trigonometri]]
