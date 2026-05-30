@@ -1,6 +1,3 @@
----
-title: Barisan Geometri
----
 
 # Barisan Geometri
 
@@ -10,7 +7,10 @@ Jika pada barisan aritmetika perubahan antar suku terjadi karena operasi penjuml
 
 ## 1. Rumus Menentukan Rasio ($r$)
 Rasio merupakan hasil perbandingan atau pembagian antara suatu suku dengan suku tepat sebelumnya:
-$$r = \frac{U_2}{U_1} = \frac{U_3}{U_2} = \frac{U_n}{U_{n-1}}$$
+$$
+r = \frac{U_2}{U_1} = \frac{U_3}{U_2} = \frac{U_n}{U_{n-1}}
+$$
+
 
 - Jika $r > 1$, maka nilai suku-suku barisan akan semakin besar (**Barisan Geometri Naik/Pertumbuhan**).
 - Jika $0 < r < 1$, maka nilai suku-suku barisan akan semakin kecil (**Barisan Geometri Turun/Peluruhan**).
@@ -23,7 +23,9 @@ Misalkan suku pertama ($U_1$) dinotasikan dengan huruf $a$, susunan suku-sukunya
 - $U_4 = a \cdot r^3$
 
 Secara induktif, kita dapat menyimpulkan rumus umum suku ke-$n$ Barisan Geometri:
-$$\bbox[10px,border:2px solid #2cc7b0]{U_n = a \cdot r^{n-1}}$$
+$$
+✮\boxed{{U_n = a \cdot r^{n-1}}}
+$$
 
 **Keterangan:**
 - $U_n$ = Suku ke-$n$
@@ -39,7 +41,8 @@ Sebuah laboratorium biologi mengamati pertumbuhan populasi bakteri pada suatu me
 
 >[!Success]- Klik untuk Lihat Jawaban
 > **Penyelesaian:**
-> Mari kita petakan komponen waktu dan pertumbuhan bakteri ke dalam barisan geometri:
+> 
+> Kita petakan komponen waktu dan pertumbuhan bakteri ke dalam barisan geometri:
 > - Kondisi awal (Jam ke-0) = $a = 10$
 > - Rasio pembelahan diri ($r$) = $2$
 > - Hati-hati dengan penentuan $n$: 
@@ -48,11 +51,14 @@ Sebuah laboratorium biologi mengamati pertumbuhan populasi bakteri pada suatu me
 >   - Jam ke-6 ($U_7$) $\implies n = 7$
 > 
 > Terapkan rumus suku ke-$n$:
-> $$U_n = a \cdot r^{n-1}}$$
-> $$U_7 = 10 \cdot 2^{7-1}$$
-> $$U_7 = 10 \cdot 2^6$$
-> $$U_7 = 10 \cdot 64 = 640$$
-> 
+> $$
+> \begin{aligned}
+> U_n &= a \cdot r^{n-1} \\
+> U_7 &= 10 \cdot 2^{7-1} \\
+> U_7 &= 10 \cdot 2^6 \\
+> U_7 &= 10 \cdot 64 = 640
+> \end{aligned}
+> $$
 > Jadi, jumlah bakteri setelah berjalan selama 6 jam adalah **640 bakteri**.
 
 ---

@@ -1,6 +1,3 @@
----
-title: Sisipan dan Suku Tengah Geometri
----
 
 # Sisipan dan Suku Tengah Geometri
 
@@ -12,13 +9,15 @@ Sama seperti pada barisan aritmetika, kita juga dapat memodifikasi struktur bari
 
 Jika di antara dua buah bilangan $x$ dan $y$ disisipkan sebanyak $k$ buah bilangan baru sehingga seluruh bilangan tersebut membentuk barisan geometri yang baru, maka **nilai rasio barisan akan berubah**.
 
-
-
 - **Rasio Baru ($r'$) setelah disisipkan:**
-  $$r' = \sqrt[k+1]{\frac{y}{x}} \quad \text{atau} \quad r' = \sqrt[k+1]{r}$$
-  *(di mana $r$ adalah rasio barisan lama sebelum disisipkan).*
+$$
+r' = \sqrt[k+1]{\frac{y}{x}} \quad \text{atau} \quad r' = \sqrt[k+1]{r}
+$$
+*(di mana $r$ adalah rasio barisan lama sebelum disisipkan).*
 - **Banyaknya Suku Baru ($n'$):**
-  $$n' = n + (n - 1)k$$
+$$
+n' = n + (n - 1)k
+$$
 
 ---
 
@@ -26,10 +25,16 @@ Jika di antara dua buah bilangan $x$ dan $y$ disisipkan sebanyak $k$ buah bilang
 
 Suku tengah hanya berlaku pada barisan geometri yang memiliki **banyak suku ganjil** ($n$ adalah bilangan ganjil). Nilai suku tengah diperoleh melalui akar kuadrat dari hasil kali suku pertama ($a$) dengan suku terakhir ($U_n$).
 
-$$\bbox[10px,border:2px solid #2cc7b0]{U_t = \sqrt{a \cdot U_n}}$$
+$$
+✮\boxed{U_t = \sqrt{a \cdot U_n}}
+$$
+
 
 - **Posisi indeks suku tengah ($t$):**
-  $$t = \frac{n + 1}{2}$$
+
+  $$
+  t = \frac{n + 1}{2}
+  $$
 
 ---
 
@@ -45,9 +50,13 @@ Di antara bilangan 2 dan 162 disisipkan sebanyak 3 buah bilangan baru sehingga t
 > - Banyaknya suku yang disisipkan ($k$) = $3$
 > 
 > 1. Cari nilai rasio baru ($r'$):
->    $$r' = \sqrt[k+1]{\frac{y}{x}}$$
->    $$r' = \sqrt[3+1]{\frac{162}{2}} = \sqrt[4]{81}$$
->    $$r' = 3 \quad \text{(karena } 3^4 = 81\text{)}$$
+> $$
+> \begin{aligned}
+> r' &= \sqrt[k+1]{\frac{y}{x}} \\
+> r' &= \sqrt[3+1]{\frac{162}{2}} = \sqrt[4]{81} \\
+> r' &= 3 \quad \text{(karena } 3^4 = 81\text{)}
+> \end{aligned}
+> $$
 > 
 > 2. Susun barisan geometri baru dengan mengalikan setiap suku dengan $r'=3$:
 >    - $U_1 = 2$

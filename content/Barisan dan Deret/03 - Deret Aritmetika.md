@@ -1,6 +1,3 @@
----
-title: Deret Aritmetika
----
 
 # Deret Aritmetika
 
@@ -16,11 +13,16 @@ $$S_n = U_1 + U_2 + U_3 + \dots + U_n$$
 Terdapat dua bentuk rumus yang dapat digunakan untuk menghitung deret aritmetika, bergantung pada komponen apa yang diketahui di dalam soal:
 
 ### Bentuk 1: Jika Suku Terakhir ($U_n$) Diketahui
-$$\bbox[10px,border:2px solid #2cc7b0]{S_n = \frac{n}{2}(a + U_n)}$$
+$$
+✮\boxed{{S_n = \frac{n}{2}(a + U_n)}}
+$$
+
 
 ### Bentuk 2: Jika Suku Terakhir Tidak Diketahui (Hanya $a$ dan $b$)
 Substitusikan $U_n = a + (n-1)b$ ke bentuk pertama, sehingga diperoleh:
-$$\bbox[10px,border:2px solid #2cc7b0]{S_n = \frac{n}{2}\Big[2a + (n - 1)b\Big]}$$
+$$
+✮\boxed{{S_n = \frac{n}{2}\Big[2a + (n - 1)b\Big]}}
+$$
 
 **Keterangan:**
 - $S_n$ = Jumlah $n$ suku pertama
@@ -44,6 +46,7 @@ Seorang buruh pabrik konveksi mendapat upah harian yang bertambah secara tetap s
 
 >[!Success]- Klik untuk Lihat Jawaban
 > **Penyelesaian:**
+> 
 > Komponen ekonomi dari soal dapat dimodelkan ke dalam deret aritmetika:
 > - Suku pertama ($a$) = $1.200.000$
 > - Beda kenaikan ($b$) = $50.000$
@@ -52,12 +55,15 @@ Seorang buruh pabrik konveksi mendapat upah harian yang bertambah secara tetap s
 > Ditanyakan: Total seluruh uang selama 12 bulan pertama ($S_{12}$).
 > 
 > Gunakan rumus deret aritmetika bentuk kedua:
-> $$S_n = \frac{n}{2}\Big[2a + (n - 1)b\Big]$$
-> $$S_{12} = \frac{12}{2}\Big[2(1.200.000) + (12 - 1)50.000\Big]$$
-> $$S_{12} = 6 \Big[2.400.000 + (11 \times 50.000)\Big]$$
-> $$S_{12} = 6 \Big[2.400.000 + 550.000\Big]$$
-> $$S_{12} = 6 \Big[2.950.000\Big] = 17.700.000$$
-> 
+> $$
+> \begin{aligned}
+> S_n &= \frac{n}{2}\Big[2a + (n - 1)b\Big] \\
+> S_{12} &= \frac{12}{2}\Big[2(1.200.000) + (12 - 1)50.000\Big] \\
+> S_{12} &= 6 \Big[2.400.000 + (11 \times 50.000)\Big] \\
+> S_{12} &= 6 \Big[2.400.000 + 550.000\Big] \\
+> S_{12} &= 6 \Big[2.950.000\Big] = 17.700.000
+> \end{aligned}
+> $$
 > Jadi, total seluruh upah yang dikumpulkan buruh tersebut selama 1 tahun pertama adalah **Rp17.700.000**.
 
 ---

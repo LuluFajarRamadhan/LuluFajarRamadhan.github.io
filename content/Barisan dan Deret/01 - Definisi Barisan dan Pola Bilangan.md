@@ -1,6 +1,3 @@
----
-title: Definisi Barisan dan Pola Bilangan
----
 
 # Definisi Barisan dan Pola Bilangan
 

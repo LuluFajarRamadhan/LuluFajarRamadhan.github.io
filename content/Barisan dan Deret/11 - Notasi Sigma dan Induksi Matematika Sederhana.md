@@ -1,7 +1,4 @@
 
----
-title: Notasi Sigma dan Induksi Matematika Sederhana
----
 
 # Notasi Sigma dan Induksi Matematika Sederhana
 
@@ -13,7 +10,9 @@ Untuk menuliskan bentuk penjumlahan deret panjang secara ringkas dan efisien, ma
 
 Notasi Sigma menggunakan huruf kapital Yunani $\Sigma$ (Sigma) untuk melambangkan jumlahan beruntun dari suatu fungsi matematika dengan batas indeks tertentu.
 
-$$\sum_{k=1}^{n} U_k = U_1 + U_2 + U_3 + \dots + U_n$$
+$$
+\sum_{k=1}^{n} U_k = U_1 + U_2 + U_3 + \dots + U_n
+$$
 
 - $k$ disebut sebagai **indeks penjumlahan** (variabel berjalan).
 - $1$ disebut sebagai **batas bawah** (titik awal substitusi).
@@ -62,9 +61,9 @@ $$1 + 3 + 5 + \dots + (2n - 1) = n^2$$
 >   $$1 + 3 + 5 + \dots + (2k - 1) + [2(k+1) - 1] = (k+1)^2$$
 > 
 > Mari kita utak-atik ruas kiri persamaan:
-> $$\underbrace{1 + 3 + 5 + \dots + (2k - 1)}_{\text{Ganti dengan } k^2 \text{ (dari asumsi)}} + (2k + 2 - 1)$$
-> $$= k^2 + (2k + 1)$$
-> $$= k^2 + 2k + 1$$
+> $$
+> \underbrace{1 + 3 + 5 + \dots + (2k - 1)}_{\text{Ganti dengan } k^2 \text{ (dari asumsi)}} + (2k + 2 - 1)= k^2 + (2k + 1)= k^2 + 2k + 1
+> $$
 > 
 > Melalui faktorisasi bentuk kuadrat sempurna aljabar, kita tahu bahwa $k^2 + 2k + 1 = (k + 1)^2$.
 > Bentuk ini persis sama dengan ruas kanan yang ingin kita tuju.

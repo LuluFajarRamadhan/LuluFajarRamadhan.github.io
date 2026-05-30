@@ -1,6 +1,3 @@
----
-title: Deret Geometri
----
 
 # Deret Geometri
 
@@ -17,11 +14,15 @@ Untuk menghindari bias nilai negatif saat perhitungan aljabar, rumus $S_n$ dibag
 
 ### Kondisi 1: Jika Rasio Lebih Besar dari Satu ($r > 1$)
 Gunakan rumus ini untuk kasus pertumbuhan agar penyebut bernilai positif:
-$$\bbox[10px,border:2px solid #2cc7b0]{S_n = \frac{a(r^n - 1)}{r - 1}}$$
+$$
+✮\boxed{{S_n = \frac{a(r^n - 1)}{r - 1}}}
+$$
 
 ### Kondisi 2: Jika Rasio Kurang dari Satu ($0 < r < 1$)
 Gunakan rumus ini untuk kasus penyusutan/peluruhan agar penyebut bernilai positif:
-$$\bbox[10px,border:2px solid #2cc7b0]{S_n = \frac{a(1 - r^n)}{1 - r}}$$
+$$
+✮\boxed{{S_n = \frac{a(1 - r^n)}{1 - r}}}
+$$
 
 **Keterangan:**
 - $S_n$ = Jumlah $n$ suku pertama
@@ -36,6 +37,7 @@ $$\bbox[10px,border:2px solid #2cc7b0]{S_n = \frac{a(1 - r^n)}{1 - r}}$$
 Seorang investor menanamkan modal di sebuah perusahaan teknologi pada awal tahun pertama sebesar Rp5.000.000. Keuntungan investasi tersebut digulung kembali (*compound*) sehingga nilai investasi meningkat menjadi 2 kali lipat dari nilai tahun sebelumnya di setiap akhir tahun. Berapakah total akumulasi nilai investasi tersebut setelah berjalan selama 5 tahun?
 
 >[!Success]- Klik untuk Lihat Jawaban
+>
 > **Penyelesaian:**
 > Berdasarkan informasi pada soal:
 > - Nilai awal modal ($a$) = $5.000.000$
@@ -43,12 +45,17 @@ Seorang investor menanamkan modal di sebuah perusahaan teknologi pada awal tahun
 > - Jangka waktu tahun ($n$) = $5$
 > 
 > Terapkan rumus deret geometri untuk $r > 1$:
-> $$S_n = \frac{a(r^n - 1)}{r - 1}$$
-> $$S_5 = \frac{5.000.000 \cdot (2^5 - 1)}{2 - 1}$$
-> $$S_5 = \frac{5.000.000 \cdot (32 - 1)}{1}$$
-> $$S_5 = 5.000.000 \cdot 31 = 155.000.000$$
-> 
+> $$
+> \begin{aligned}
+> S_n &= \frac{a(r^n - 1)}{r - 1} \\ 
+> S_5 &= \frac{5.000.000 \cdot (2^5 - 1)}{2 - 1} \\
+> S_5 &= \frac{5.000.000 \cdot (32 - 1)}{1} \\
+> S_5 &= 5.000.000 \cdot 31 \\
+> S_5 &= 155.000.000
+> \end{aligned}
+> $$
 > Jadi, total akumulasi nilai investasi tersebut setelah berjalan selama 5 tahun adalah **Rp155.000.000**.
+
 
 ---
 

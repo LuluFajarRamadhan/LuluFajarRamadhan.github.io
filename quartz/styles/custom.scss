@@ -17,7 +17,14 @@ li .katex-display {
   text-align: center !important;
 }
 
-/*Hide tanggal*/
+/*kotak rumus penting penggati latex \bbox*/
+.rumus-penting {
+  border: 2px solid teal !important;
+  padding: 10px;
+  display: inline-block;
+  background-color: transparent !important;
+  border-radius: 4px;
+}
 
 
 /* Menambahkan foto profil bulat di atas judul */

@@ -23,9 +23,7 @@ Nilai dari:
   
 
 $$
-
 \lim_{x\to4}\frac{x-4}{\sqrt{x}-2}
-
 $$
 
   

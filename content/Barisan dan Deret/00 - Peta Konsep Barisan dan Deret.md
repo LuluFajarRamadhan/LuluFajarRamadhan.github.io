@@ -1,6 +1,3 @@
----
-title:
----
 # Peta Konsep Barisan dan Deret
 
 Barisan dan deret adalah cabang aljabar yang mempelajari pola perubahan numerik pada sekumpulan bilangan yang tersusun secara sistematis. Materi ini merupakan salah satu pilar krusial dalam matematika SMA yang menjembatani konsep fungsi linear dan eksponensial menuju penalaran induktif, pemodelan pertumbuhan, serta analisis kalkulus lanjut (limit deret).

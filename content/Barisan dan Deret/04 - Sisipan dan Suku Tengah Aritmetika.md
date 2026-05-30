@@ -1,6 +1,3 @@
----
-title: Sisipan dan Suku Tengah Aritmetika
----
 
 # Sisipan dan Suku Tengah Aritmetika
 
@@ -16,11 +13,14 @@ Misalkan kita memiliki dua buah bilangan, yaitu $x$ dan $y$. Di antara kedua bil
 
 Akibat penambahan bilangan ini, **beda dari barisan akan berubah menjadi lebih kecil**, dan banyaknya suku akan bertambah.
 
-- **Beda Baru ($b'$) setelah disisipkan:**
-  $$b' = \frac{y - x}{k + 1} \quad \text{atau} \quad b' = \frac{b}{k + 1}$$
-  *(di mana $b$ adalah beda barisan lama sebelum disisipkan).*
-- **Banyaknya Suku Baru ($n'$):**
-  $$n' = a + (n - 1)(k + 1)$$
+* **Beda Baru ($b'$) setelah disisipkan:**
+$$
+b' = \frac{y - x}{k + 1} \quad \text{atau} \quad b' = \frac{b}{k + 1}
+$$
+* **Banyaknya Suku Baru ($n'$):**
+$$
+n' = a + (n - 1)(k + 1)
+$$
 
 ---
 
@@ -29,10 +29,15 @@ Akibat penambahan bilangan ini, **beda dari barisan akan berubah menjadi lebih k
 Jika sebuah barisan aritmetika memiliki **banyak suku ganjil** ($n$ adalah bilangan ganjil), maka barisan tersebut pasti memiliki satu suku yang tepat berada di tengah-tengah barisan. Suku tengah dinotasikan dengan $U_t$.
 
 Nilai suku tengah merupakan rata-rata aritmetika dari suku pertama ($a$) dan suku terakhir ($U_n$):
-$$\bbox[10px,border:2px solid #2cc7b0]{U_t = \frac{a + U_n}{2}}$$
+$$
+{U_t = \frac{a + U_n}{2}}
+$$
 
-- **Posisi indeks suku tengah ($t$):**
-  $$t = \frac{n + 1}{2}$$
+
+**dengan posisi indeks suku tengah ($t$):**
+$$
+t = \frac{n + 1}{2}
+$$
 
 ---
 

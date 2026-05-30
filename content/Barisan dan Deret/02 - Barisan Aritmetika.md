@@ -1,6 +1,3 @@
----
-title: Barisan Aritmetika
----
 
 # Barisan Aritmetika
 
@@ -12,7 +9,10 @@ Jika perubahan dari satu suku ke suku berikutnya melibatkan operasi penjumlahan 
 
 ## 1. Rumus Menentukan Beda ($b$)
 Beda dapat dicari dengan mengurangkan suatu suku dengan suku tepat sebelum suku tersebut:
-$$b = U_2 - U_1 = U_3 - U_2 = U_n - U_{n-1}$$
+$$
+b = U_2 - U_1 = U_3 - U_2 = U_n - U_{n-1}
+$$
+
 
 - Jika $b > 0$, maka barisan dinamakan **Barisan Aritmetika Naik** (nilainya semakin besar).
 - Jika $b < 0$, maka barisan dinamakan **Barisan Aritmetika Turun** (nilainya semakin kecil).
@@ -25,7 +25,10 @@ Misalkan suku pertama ($U_1$) dinotasikan dengan huruf $a$, susunan barisannya m
 - $U_4 = a + 3b$
 
 Secara induktif, kita dapat menyimpulkan rumus umum suku ke-$n$ Barisan Aritmetika:
-$$\bbox[10px,border:2px solid #2cc7b0]{U_n = a + (n - 1)b}$$
+$$
+✮\boxed{{U_n = a + (n - 1)b}}
+$$
+
 
 **Keterangan:**
 - $U_n$ = Suku ke-$n$
@@ -41,6 +44,7 @@ Di sebuah aula pertunjukan, kursi penonton diatur membentuk barisan aritmetika. 
 
 >[!Success]- Klik untuk Lihat Jawaban
 > **Penyelesaian:**
+> 
 > Dari deskripsi soal, kita dapat mengidentifikasi komponen barisan:
 > - Suku pertama ($a$) = $15$
 > - Suku kedua ($U_2$) = $19$
@@ -50,10 +54,18 @@ Di sebuah aula pertunjukan, kursi penonton diatur membentuk barisan aritmetika. 
 > Ditanyakan: Suku ke-25 ($U_{25}$) untuk menghitung kapasitas baris paling belakang.
 > 
 > Terapkan rumus suku ke-$n$:
-> $$U_n = a + (n - 1)b$$
-> $$U_{25} = 15 + (25 - 1)4$$
-> $$U_{25} = 15 + (24 \times 4)$$
-> $$U_{25} = 15 + 96 = 111$$
+> $$
+> \begin{aligned}
+> U_n &= a + (n - 1)b \\
+> U_{25} &= 15 + (25 - 1)4 \\
+> U_{25} &= 15 + (24 \times 4) \\
+> U_{25} &= 15 + 96 = 111
+> \end{aligned}
+> $$
+> $$$$
+> $$$$
+> $$$$
+> $$$$
 > 
 > Jadi, kapasitas kursi yang tersedia tepat pada baris paling belakang (baris ke-25) adalah $111$ kursi.
 
