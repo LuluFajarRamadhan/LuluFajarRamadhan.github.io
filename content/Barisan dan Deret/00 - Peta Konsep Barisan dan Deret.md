@@ -78,4 +78,4 @@ Melalui fenomena ini, kita diajarkan untuk berpikir taktis dalam memanfaatkan ru
 
 # Ringkasan
 
-- [[Ringkasan Barisan dan Deret]]
+- [[Barisan dan Deret/Ringkasan Barisan dan Deret]]
