@@ -1,5 +1,5 @@
 ---
-title: Aturan Sinus
+title:
 ---
 
 # Aturan Sinus

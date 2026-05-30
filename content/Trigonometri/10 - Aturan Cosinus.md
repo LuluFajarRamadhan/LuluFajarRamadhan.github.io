@@ -1,5 +1,5 @@
 ---
-title: Aturan Cosinus
+title:
 ---
 
 # Aturan Cosinus

@@ -1,5 +1,5 @@
 ---
-title: Persamaan Trigonometri Sederhana
+title:
 ---
 
 # Persamaan Trigonometri Sederhana

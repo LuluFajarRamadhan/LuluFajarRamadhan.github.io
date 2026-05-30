@@ -1,8 +1,6 @@
-
 ---
-title: Rumus Jumlah dan Selisih Sudut
+title:
 ---
-
 # Rumus Jumlah dan Selisih Sudut Trigonometri
 
 Kita telah mempelajari cara menghitung nilai sudut istimewa seperti $30^{\circ}$ atau $45^{\circ}$. Namun, bagaimana jika kita diminta menghitung nilai sudut non-istimewa seperti $15^{\circ}$ atau $75^{\circ}$ tanpa kalkulator? **Rumus Jumlah dan Selisih Sudut** memungkinkan kita memecah sudut tersebut menjadi kombinasi penjumlahan atau pengurangan dari sudut-sudut istimewa yang sudah kita ketahui nilainya.

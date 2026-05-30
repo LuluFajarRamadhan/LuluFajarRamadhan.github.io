@@ -1,5 +1,5 @@
 ---
-title: Rumus Sudut Ganda dan Paruh Sudut
+title:
 ---
 
 # Rumus Sudut Ganda dan Paruh Sudut

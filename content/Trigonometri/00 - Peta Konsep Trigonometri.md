@@ -5,6 +5,7 @@ Trigonometri adalah cabang matematika yang mempelajari hubungan antara panjang s
 
 Trigonometri bukan sekadar hafalan rumus sin, cos, dan tan, melainkan alat analisis yang sangat kuat untuk menyelesaikan berbagai persoalan nyata di dunia sains, teknologi, dan kehidupan sehari-hari.
 
+### Aplikasi Trigonometri dalam Kehidupan
 #### 1. Arsitektur dan Teknik Sipil
 Dalam dunia konstruksi, trigonometri digunakan untuk menghitung dimensi dan kemiringan struktur yang sulit diukur secara langsung.
 Contohnya:

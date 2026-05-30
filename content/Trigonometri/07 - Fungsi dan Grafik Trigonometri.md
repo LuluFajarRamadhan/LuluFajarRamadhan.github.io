@@ -1,5 +1,5 @@
 ---
-title: Fungsi dan Grafik Trigonometri
+title:
 ---
 
 # Fungsi dan Grafik Trigonometri

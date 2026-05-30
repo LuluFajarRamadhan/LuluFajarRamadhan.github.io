@@ -1,8 +1,6 @@
-
 ---
-title: Rumus Perkalian, Penjumlahan, dan Pengurangan Trigonometri
+title:
 ---
-
 # Rumus Perkalian, Penjumlahan, dan Pengurangan Trigonometri
 
 Materi ini membahas cara mengubah ekspresi perkalian dua fungsi trigonometri menjadi bentuk penjumlahan/pengurangan, atau sebaliknya. Konsep ini sangat vital dalam analisis sinyal radio, akustik, serta penyederhanaan persamaan kalkulus tingkat lanjut.

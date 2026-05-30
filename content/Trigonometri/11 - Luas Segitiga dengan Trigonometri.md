@@ -1,5 +1,5 @@
 ---
-title: Luas Segitiga dengan Trigonometri
+title:
 ---
 
 # Luas Segitiga dengan Trigonometri

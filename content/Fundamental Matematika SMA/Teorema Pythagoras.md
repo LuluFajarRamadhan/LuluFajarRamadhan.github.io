@@ -67,4 +67,3 @@ Ukuran fisik (panjang-pendeknya) sisi segitiga tidak memengaruhi nilai perbandin
 * [[Kesebangunan]]
 * [[Kongruensi]]
 * [[Trigonometri/02 - Perbandingan Trigonometri Segitiga Siku-Siku |Perbandingan Trigonometri Segitiga Siku-Siku]]
-* 

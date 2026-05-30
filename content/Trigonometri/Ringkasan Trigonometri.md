@@ -1,5 +1,5 @@
 ---
-title: Ringkasan Materi Trigonometri SMA
+title:
 ---
 
 # Lembar Cepat (Cheat Sheet) Ringkasan Trigonometri
