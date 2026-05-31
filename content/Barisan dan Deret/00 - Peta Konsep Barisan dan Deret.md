@@ -1,10 +1,11 @@
-# Peta Konsep Barisan dan Deret
+# Pengantar Barisan dan Deret
 
 Barisan dan deret adalah cabang aljabar yang mempelajari pola perubahan numerik pada sekumpulan bilangan yang tersusun secara sistematis. Materi ini merupakan salah satu pilar krusial dalam matematika SMA yang menjembatani konsep fungsi linear dan eksponensial menuju penalaran induktif, pemodelan pertumbuhan, serta analisis kalkulus lanjut (limit deret).
 
 Memahami barisan dan deret bukan sekadar menghitung suku ke-$n$ dengan rumus cepat, melainkan menguasai kemampuan deteksi pola, memodelkan keteraturan, dan memprediksi akumulasi nilai dari fenomena yang bergerak secara periodik.
 
-### Aplikasi Barisan dan Deret dalam Kehidupan
+---
+# Aplikasi Barisan dan Deret dalam Kehidupan
 #### 1. Keuangan dan Investasi (Ekonomi)
 Di dunia finansial, barisan dan deret adalah motor utama di balik perhitungan nilai mata uang terhadap waktu.
 Contohnya:
@@ -46,26 +47,22 @@ Contohnya:
 Melalui fenomena ini, kita diajarkan untuk berpikir taktis dalam memanfaatkan ruang, waktu, dan sumber daya.
 
 ---
-
-# Barisan dan Deret Aritmetika
+# Peta Konsep Barisan dan Deret
+## Barisan dan Deret Aritmetika
 
 - [[Barisan dan Deret/01 - Definisi Barisan dan Pola Bilangan]]
 - [[Barisan dan Deret/02 - Barisan Aritmetika]]
 - [[Barisan dan Deret/03 - Deret Aritmetika]]
 - [[Barisan dan Deret/04 - Sisipan dan Suku Tengah Aritmetika]]
 
----
-
-# Barisan dan Deret Geometri
+## Barisan dan Deret Geometri
 
 - [[Barisan dan Deret/05 - Barisan Geometri]]
 - [[Barisan dan Deret/06 - Deret Geometri]]
 - [[Barisan dan Deret/07 - Sisipan dan Suku Tengah Geometri]]
 - [[Barisan dan Deret/08 - Deret Geometri Tak Hingga]]
 
----
-
-# Aplikasi dan Konsep Lanjut
+## Aplikasi dan Konsep Lanjut
 
 - [[Barisan dan Deret/09 - Aplikasi Barisan dan Deret Pertumbuhan dan Peluruhan]]
 - [[Barisan dan Deret/10 - Aplikasi Barisan dan Deret Bunga Majemuk dan Anuitas]]

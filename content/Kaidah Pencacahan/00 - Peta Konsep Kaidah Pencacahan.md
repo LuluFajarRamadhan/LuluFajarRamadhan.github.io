@@ -2,7 +2,7 @@
 title:
 ---
 
-# Peta Konsep Kaidah Pencacahan
+# Pengantar Kaidah Pencacahan
 
 Kaidah pencacahan adalah cabang matematika yang mempelajari cara menghitung banyaknya kemungkinan suatu kejadian tanpa harus menuliskan semua kemungkinan tersebut satu per satu. Materi ini menjadi dasar penting dalam pembelajaran matematika tingkat SMA karena melatih kemampuan berpikir logis, sistematis, dan efisien dalam menyelesaikan masalah.
 
@@ -50,40 +50,24 @@ Contohnya:
 Melalui contoh-contoh ini, terlihat bahwa kaidah pencacahan membantu kita membuat keputusan secara logis dan efisien.
 
 ---
-
-# Aturan Dasar
+# Peta Konsep Kaidah Pencacahan
+## Aturan Dasar
 
 - [[Kaidah Pencacahan/01 - Aturan Penjumlahan]]
 - [[Kaidah Pencacahan/02 - Aturan Perkalian]]
 - [[Kaidah Pencacahan/03 - Faktorial]]
 
----
 
-# Permutasi dan Kombinasi
+## Permutasi dan Kombinasi
 
-- [[Kaidah Pencacahan/05 - Permutasi]]
-- [[Kaidah Pencacahan/05 - Permutasi Siklis]]
 - [[Kaidah Pencacahan/04 - Kombinasi]]
-- [[Kaidah Pencacahan/07 - Kombinasi dengan Pengulangan]]
+- [[Kaidah Pencacahan/05 - Permutasi]]
+- [[Kaidah Pencacahan/06 - Permutasi Sebagian Objek]]
+- [[Kaidah Pencacahan/07 - Permutasi Seluruh Objek]]
+- [[Kaidah Pencacahan/08 - Permutasi Unsur Sama]]
+- [[Kaidah Pencacahan/09 - Permutasi Siklis]]
 
 ---
-
-# Peluang
-
-- [[08 - Peluang Kejadian]]
-- [[09 - Peluang Komplemen]]
-- [[10 - Peluang Kejadian Majemuk]]
-- [[11 - Peluang Bersyarat]]
-- [[12 - Kejadian Saling Bebas]]
-
----
-
-# Distribusi Peluang
-
-- [[13 - Distribusi Binomial]]
-
----
-
 # Ringkasan
 
 - [[Ringkasan Kaidah Pencacahan]]

@@ -38,15 +38,7 @@ Bab limit mempelajari nilai yang didekati suatu fungsi saat variabel mendekati n
 - [[Limit/16 - Hubungan Limit dan Turunan]]  
   
 ---  
-  
-# Latihan Soal  
-  
-- [[Contoh Soal Dasar]]  
-- [[Contoh Soal Menengah]]  
-- [[Contoh Soal UTBK]]  
-  
----  
-  
+
 # Ringkasan  
   
 - [[Limit/17 - Ringkasan Limit]]
