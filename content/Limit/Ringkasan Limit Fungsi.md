@@ -39,6 +39,6 @@ $$
 
 ## Konsep Terkait
 
-- [[Limit/00 - Peta Konsep Limit Fungsi]]
+- [[Limit/00 - Peta Konsep Limit]]
 - [[Limit/03 - Menghitung Limit Fungsi Aljabar Bentuk Tertentu dan Tak Tentu]]
 - [[Limit/06 - Menghitung Limit Fungsi Trigonometri]]

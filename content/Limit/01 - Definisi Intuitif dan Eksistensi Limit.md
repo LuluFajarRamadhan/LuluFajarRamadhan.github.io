@@ -35,5 +35,5 @@ Selidiki apakah nilai $\lim_{x \to 2} f(x)$ itu ada!
 
 ## Konsep Terkait
 
-- [[Limit/00 - Peta Konsep Limit Fungsi]]
+- [[Limit/00 - Peta Konsep Limit]]
 - [[Limit/02 - Sifat-Sifat Teorema Limit]]
