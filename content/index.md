@@ -12,7 +12,6 @@ Halo! Saya adalah seorang pengajar Matematika. Di sini saya mendokumentasikan be
 * [[Barisan dan Deret/00 - Peta Konsep Barisan dan Deret|Barisan dan Deret]]
 * [[Trigonometri/00 - Peta Konsep Trigonometri|Trigonometri]]
 * [[Sistem Persamaan dan Pertidaksamaan Linear/00 - Peta Konsep Sistem Persamaan dan Pertidaksamaan Linear|Sistem Persamaan dan Pertidaksamaan Linear]]
-* [[Kaidah Pencacahan/00 - Peta Konsep Kaidah Pencacahan|Kaidah Pencacahan]]
 
 ---
 ### Kelas XI
@@ -21,6 +20,7 @@ Halo! Saya adalah seorang pengajar Matematika. Di sini saya mendokumentasikan be
 
 ---
 ### Kelas XII
+* [[Kombinatorika dan Teori Peluang Lanjutan/00 - Peta Konsep Kombinatorika dan Teori Peluang Lanjutan|Kombinatorika dan Teori Peluang Lanjutan]]
 * [[Limit/00 - Peta Konsep Limit|Limit]]
 
 ---
