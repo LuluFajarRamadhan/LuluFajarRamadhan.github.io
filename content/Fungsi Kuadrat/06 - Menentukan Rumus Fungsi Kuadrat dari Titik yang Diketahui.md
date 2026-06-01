@@ -1,5 +1,5 @@
 ---
-title: Menentukan Rumus Fungsi Kuadrat dari Titik yang Diketahui
+title:
 ---
 # Menentukan Rumus Fungsi Kuadrat dari Titik yang Diketahui
 

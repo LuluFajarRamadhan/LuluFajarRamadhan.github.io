@@ -1,5 +1,5 @@
 ---
-title: Pemodelan Masalah Nilai Maksimum dan Minimum
+title:
 ---
 # Pemodelan Masalah Nilai Maksimum dan Minimum
 

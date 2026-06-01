@@ -1,5 +1,5 @@
 ---
-title: Hubungan Nilai Diskriminan dengan Grafik Fungsi
+title:
 ---
 # Hubungan Nilai Diskriminan dengan Grafik Fungsi
 

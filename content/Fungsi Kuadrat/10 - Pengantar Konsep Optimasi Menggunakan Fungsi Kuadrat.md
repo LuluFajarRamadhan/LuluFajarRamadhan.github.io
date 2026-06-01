@@ -1,5 +1,5 @@
 ---
-title: Pengantar Konsep Optimasi Menggunakan Fungsi Kuadrat
+title:
 ---
 # Pengantar Konsep Optimasi Menggunakan Fungsi Kuadrat
 

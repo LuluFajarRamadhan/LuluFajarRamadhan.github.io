@@ -1,5 +1,5 @@
 ---
-title: Aplikasi Fungsi Kuadrat pada Kasus Fisika dan Ekonomi
+title:
 ---
 # Aplikasi Fungsi Kuadrat pada Kasus Fisika dan Ekonomi
 

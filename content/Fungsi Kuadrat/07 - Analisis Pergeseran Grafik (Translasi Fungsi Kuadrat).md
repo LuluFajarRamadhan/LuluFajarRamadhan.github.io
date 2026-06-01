@@ -1,5 +1,5 @@
 ---
-title: Analisis Pergeseran Grafik (Translasi Fungsi Kuadrat)
+title:
 ---
 # Analisis Pergeseran Grafik (Translasi Fungsi Kuadrat)
 

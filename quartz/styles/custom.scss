@@ -11,19 +11,15 @@
   overflow-x: auto; /* Tetap izinkan scroll jika rumus sangat panjang */
 }
 
+mark .katex-html,
+mark .katex-html * {
+  color: #000 !important;
+}
+
 /* Menangani kasus khusus jika rumus berada di dalam list/bullet */
 li .katex-display {
   margin-left: 0; /* Menghapus offset dari bullet point */
   text-align: center !important;
-}
-
-/*kotak rumus penting penggati latex \bbox*/
-.rumus-penting {
-  border: 2px solid teal !important;
-  padding: 10px;
-  display: inline-block;
-  background-color: transparent !important;
-  border-radius: 4px;
 }
 
 

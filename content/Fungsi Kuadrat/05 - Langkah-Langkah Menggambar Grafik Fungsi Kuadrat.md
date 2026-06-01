@@ -1,5 +1,5 @@
 ---
-title: Langkah-Langkah Menggambar Grafik Fungsi Kuadrat
+title:
 ---
 # Langkah-Langkah Menggambar Grafik Fungsi Kuadrat
 
