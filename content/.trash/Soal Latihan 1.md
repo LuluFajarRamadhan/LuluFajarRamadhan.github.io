@@ -1,7 +1,3 @@
----
-title:
----
-# Soal Latihan 1: Kaidah Pencacahan
 
 1. Sebuah band indie lokal diminta untuk mengisi pada kegiatan CDM. Banyak cara panitia memilih 2 buah lagu dari 5 lagu yang ditawarkan band tersebut adalah ....
 
