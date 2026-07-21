@@ -32,7 +32,6 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > 
 > Jadi, terdapat **10 urutan** yang menghasilkan tepat 3 gol.
 
----
 
 2. Sebuah koin dilempar sebanyak 6 kali. Berapa banyak urutan pelemparan yang menghasilkan **tepat 2 kali muncul gambar**?
 
@@ -50,7 +49,6 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > 
 > Jadi, terdapat **15 urutan** yang menghasilkan tepat 2 kali gambar.
 
----
 
 3. Sebuah tes Benar–Salah terdiri atas 8 soal. Berapa banyak pola jawaban yang menghasilkan **tepat 5 jawaban benar**?
 
@@ -68,7 +66,6 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > 
 > Jadi, terdapat **56 pola jawaban** yang memiliki tepat 5 jawaban benar.
 
----
 
 4. Sebuah keluarga memiliki 8 orang anak. Anggap setiap anak hanya memiliki dua kemungkinan jenis kelamin, yaitu **laki-laki (L)** atau **perempuan (P)**. Berapa banyak urutan jenis kelamin yang menghasilkan **tepat 3 anak perempuan**?
 
@@ -86,8 +83,6 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > 
 > Jadi, terdapat **56 urutan jenis kelamin** yang menghasilkan tepat 3 anak perempuan.
 
-
----
 
 5. Jabarkan bentuk aljabar berikut:  
     $$  
@@ -113,7 +108,6 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > a^3+3a^2b+3ab^2+b^3.  
 > $$
 
----
 
 6. Jabarkan bentuk aljabar berikut:  
     $$  
