@@ -16,86 +16,76 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 ---
 ## Contoh Soal
 
-1. Seorang pemain sepak bola melakukan tendangan penalti sebanyak 5 kali. Setiap tendangan hanya memiliki dua kemungkinan hasil, yaitu **gol (G)** atau **tidak gol (T)**.
-    
-
-Tentukan banyaknya kemungkinan urutan hasil tendangan yang dapat terjadi.
+1. Seorang pemain sepak bola melakukan tendangan penalti sebanyak 5 kali. Setiap tendangan hanya memiliki dua kemungkinan hasil, yaitu **gol (G)** atau **tidak gol (T)**. Berapa banyak urutan hasil yang menghasilkan **tepat 3 gol**?
 
 > [!success]- Klik untuk Lihat Jawaban  
-> Setiap tendangan memiliki 2 kemungkinan hasil.
-> 
-> Karena terdapat 5 tendangan yang saling bebas, maka banyak kemungkinan urutan hasil adalah:
+> Karena yang dipilih adalah posisi terjadinya 3 gol dari 5 tendangan, maka digunakan kombinasi:
 > 
 > $$  
 > \begin{aligned}  
-> n &= 2^5 \  
-> &= 32  
+> {}_5C_3 &= \frac{5!}{3!(5-3)!} \  
+> &= \frac{5!}{3!\times2!} \  
+> &= \frac{5\times4\times\cancel{3!}}{\cancel{3!}\times2} \  
+> &= 10  
 > \end{aligned}  
 > $$
 > 
-> Jadi, terdapat **32 kemungkinan urutan hasil** yang dapat terjadi.
+> Jadi, terdapat **10 urutan** yang menghasilkan tepat 3 gol.
 
 ---
 
-2. Sebuah koin dilempar sebanyak 6 kali. Setiap pelemparan hanya menghasilkan **angka (A)** atau **gambar (G)**.
-    
-
-Tentukan banyaknya kemungkinan urutan hasil pelemparan tersebut.
+2. Sebuah koin dilempar sebanyak 6 kali. Berapa banyak urutan pelemparan yang menghasilkan **tepat 2 kali muncul gambar**?
 
 > [!success]- Klik untuk Lihat Jawaban  
-> Setiap pelemparan memiliki 2 kemungkinan hasil.
-> 
-> Maka:
+> Posisi munculnya gambar dipilih sebanyak 2 dari 6 pelemparan.
 > 
 > $$  
 > \begin{aligned}  
-> n &= 2^6 \  
-> &= 64  
+> {}_6C_2 &= \frac{6!}{2!(6-2)!} \  
+> &= \frac{6!}{2!\times4!} \  
+> &= \frac{6\times5\times\cancel{4!}}{2\times\cancel{4!}} \  
+> &= 15  
 > \end{aligned}  
 > $$
 > 
-> Jadi, terdapat **64 kemungkinan urutan hasil** pelemparan koin.
+> Jadi, terdapat **15 urutan** yang menghasilkan tepat 2 kali gambar.
 
 ---
 
-3. Sebuah tes pilihan Benar–Salah terdiri atas 8 soal. Untuk setiap soal hanya ada dua kemungkinan jawaban, yaitu **Benar (B)** atau **Salah (S)**.
-    
-
-Tentukan banyaknya kemungkinan pola jawaban yang dapat dibuat.
+3. Sebuah tes Benar–Salah terdiri atas 8 soal. Berapa banyak pola jawaban yang menghasilkan **tepat 5 jawaban benar**?
 
 > [!success]- Klik untuk Lihat Jawaban  
-> Setiap soal memiliki dua kemungkinan jawaban.
-> 
-> Maka:
+> Posisi jawaban benar dipilih sebanyak 5 dari 8 soal.
 > 
 > $$  
 > \begin{aligned}  
-> n &= 2^8 \  
-> &= 256  
+> {}_8C_5 &= \frac{8!}{5!(8-5)!} \  
+> &= \frac{8!}{5!\times3!} \  
+> &= \frac{8\times7\times6\times\cancel{5!}}{\cancel{3!}\times\cancel{5!}} \  
+> &= 56  
 > \end{aligned}  
 > $$
 > 
-> Jadi, terdapat **256 kemungkinan pola jawaban**.
+> Jadi, terdapat **56 pola jawaban** yang memiliki tepat 5 jawaban benar.
 
 ---
 
-
-4. Sebuah keluarga memiliki 7 orang anak. Jika setiap anak hanya memiliki dua kemungkinan jenis kelamin, yaitu **laki-laki (L)** atau **perempuan (P)**, tentukan banyaknya kemungkinan urutan jenis kelamin anak-anak tersebut.
-    
+4. Sebuah keluarga memiliki 8 orang anak. Anggap setiap anak hanya memiliki dua kemungkinan jenis kelamin, yaitu **laki-laki (L)** atau **perempuan (P)**. Berapa banyak urutan jenis kelamin yang menghasilkan **tepat 3 anak perempuan**?
 
 > [!success]- Klik untuk Lihat Jawaban  
-> Setiap anak memiliki dua kemungkinan jenis kelamin.
-> 
-> Maka:
+> Posisi anak perempuan dipilih sebanyak 3 dari 8 anak.
 > 
 > $$  
 > \begin{aligned}  
-> n &= 2^7 \  
-> &= 128  
+> {}_8C_3 &= \frac{8!}{3!(8-3)!} \  
+> &= \frac{8!}{3!\times5!} \  
+> &= \frac{8\times7\times6\times\cancel{5!}}{\cancel{3!}\times\cancel{5!}} \  
+> &= 56  
 > \end{aligned}  
 > $$
 > 
-> Jadi, terdapat **128 kemungkinan urutan jenis kelamin** yang dapat terjadi.
+> Jadi, terdapat **56 urutan jenis kelamin** yang menghasilkan tepat 3 anak perempuan.
+
 
 ---
 
@@ -103,7 +93,6 @@ Tentukan banyaknya kemungkinan pola jawaban yang dapat dibuat.
     $$  
     (a+b)^3  
     $$
-    
 
 > [!success]- Klik untuk Lihat Jawaban  
 > Berdasarkan pola Segitiga Pascal atau Teorema Binomial Newton, koefisien untuk pangkat 3 adalah **1, 3, 3, 1**.
@@ -130,7 +119,6 @@ Tentukan banyaknya kemungkinan pola jawaban yang dapat dibuat.
     $$  
     (x-2)^4  
     $$
-    
 
 > [!success]- Klik untuk Lihat Jawaban  
 > Koefisien untuk pangkat 4 adalah **1, 4, 6, 4, 1**.
