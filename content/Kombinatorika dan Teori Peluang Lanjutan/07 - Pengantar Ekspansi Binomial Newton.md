@@ -16,75 +16,7 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 ---
 ## Contoh Soal
 
-1. Seorang pemain sepak bola melakukan tendangan penalti sebanyak 5 kali. Setiap tendangan hanya memiliki dua kemungkinan hasil, yaitu **gol (G)** atau **tidak gol (T)**. Berapa banyak urutan hasil yang menghasilkan **tepat 3 gol**?
-
-> [!success]- Klik untuk Lihat Jawaban  
-> Karena yang dipilih adalah posisi terjadinya 3 gol dari 5 tendangan, maka digunakan kombinasi:
-> 
-> $$  
-> \begin{aligned}  
-> {}_5C_3 &= \frac{5!}{3!(5-3)!} \\  
-> &= \frac{5!}{3!\times2!} \\  
-> &= \frac{5\times4\times\cancel{3!}}{\cancel{3!}\times2} \\  
-> &= 10  
-> \end{aligned}  
-> $$
-> 
-> Jadi, terdapat **10 urutan** yang menghasilkan tepat 3 gol.
-
-
-2. Sebuah koin dilempar sebanyak 6 kali. Berapa banyak urutan pelemparan yang menghasilkan **tepat 2 kali muncul gambar**?
-
-> [!success]- Klik untuk Lihat Jawaban  
-> Posisi munculnya gambar dipilih sebanyak 2 dari 6 pelemparan.
-> 
-> $$  
-> \begin{aligned}  
-> {}_6C_2 &= \frac{6!}{2!(6-2)!} \\  
-> &= \frac{6!}{2!\times4!} \\  
-> &= \frac{6\times5\times\cancel{4!}}{2\times\cancel{4!}} \\  
-> &= 15  
-> \end{aligned}  
-> $$
-> 
-> Jadi, terdapat **15 urutan** yang menghasilkan tepat 2 kali gambar.
-
-
-3. Sebuah tes Benar–Salah terdiri atas 8 soal. Berapa banyak pola jawaban yang menghasilkan **tepat 5 jawaban benar**?
-
-> [!success]- Klik untuk Lihat Jawaban  
-> Posisi jawaban benar dipilih sebanyak 5 dari 8 soal.
-> 
-> $$  
-> \begin{aligned}  
-> {}_8C_5 &= \frac{8!}{5!(8-5)!} \\  
-> &= \frac{8!}{5!\times3!} \\  
-> &= \frac{8\times7\times6\times\cancel{5!}}{\cancel{3!}\times\cancel{5!}} \\  
-> &= 56  
-> \end{aligned}  
-> $$
-> 
-> Jadi, terdapat **56 pola jawaban** yang memiliki tepat 5 jawaban benar.
-
-
-4. Sebuah keluarga memiliki 8 orang anak. Anggap setiap anak hanya memiliki dua kemungkinan jenis kelamin, yaitu **laki-laki (L)** atau **perempuan (P)**. Berapa banyak urutan jenis kelamin yang menghasilkan **tepat 3 anak perempuan**?
-
-> [!success]- Klik untuk Lihat Jawaban  
-> Posisi anak perempuan dipilih sebanyak 3 dari 8 anak.
-> 
-> $$  
-> \begin{aligned}  
-> {}_8C_3 &= \frac{8!}{3!(8-3)!} \\  
-> &= \frac{8!}{3!\times5!} \\  
-> &= \frac{8\times7\times6\times\cancel{5!}}{\cancel{3!}\times\cancel{5!}} \\  
-> &= 56  
-> \end{aligned}  
-> $$
-> 
-> Jadi, terdapat **56 urutan jenis kelamin** yang menghasilkan tepat 3 anak perempuan.
-
-
-5. Jabarkan bentuk aljabar berikut:  
+1. Jabarkan bentuk aljabar berikut:  
     $$  
     (a+b)^3  
     $$
@@ -109,7 +41,7 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > $$
 
 
-6. Jabarkan bentuk aljabar berikut:  
+2. Jabarkan bentuk aljabar berikut:  
     $$  
     (x-2)^4  
     $$
@@ -132,6 +64,22 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > $$  
 > x^4-8x^3+24x^2-32x+16.  
 > $$
+
+3. Tentukan koefisien suku yang memuat $x^6$ dari penjabaran $(2+x)^8$ !
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Untuk koefisien $x^6$ dari $(2+x)^8$ terbentuk dari $(2)^{8-6}(x)^6$, sehingga untuk menentukan koefisien $x^6$ melalui substitusi nilai $n=8$ dan $r=6$:
+> $$
+> \begin{aligned}
+> (a + b)^n &= \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k \\
+> (2 + x)^8 &= \sum_{k=6}^{8} \binom{6}{8} 2^{8-6} x^6 \\
+> &= \frac{8!}{6!(8-6)!} \times 2^2 \times x^6 \\
+> &= \frac{8 \times 7 \times \cancel{6!}}{\cancel{6!} \times 2!} \times 2^2 \times x^6 \\
+> &= \frac{56}{2}\times 4 \times x^6 \\
+> &= 112x^6 \\
+> \end{aligned}
+> $$
+> Dengan demikian, koefisien dari $x^6$ adalah 112.
 
 
 ---
