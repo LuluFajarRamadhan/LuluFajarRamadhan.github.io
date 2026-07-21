@@ -23,9 +23,9 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > 
 > $$  
 > \begin{aligned}  
-> {}_5C_3 &= \frac{5!}{3!(5-3)!} \  
-> &= \frac{5!}{3!\times2!} \  
-> &= \frac{5\times4\times\cancel{3!}}{\cancel{3!}\times2} \  
+> {}_5C_3 &= \frac{5!}{3!(5-3)!} \\  
+> &= \frac{5!}{3!\times2!} \\  
+> &= \frac{5\times4\times\cancel{3!}}{\cancel{3!}\times2} \\  
 > &= 10  
 > \end{aligned}  
 > $$
@@ -40,9 +40,9 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > 
 > $$  
 > \begin{aligned}  
-> {}_6C_2 &= \frac{6!}{2!(6-2)!} \  
-> &= \frac{6!}{2!\times4!} \  
-> &= \frac{6\times5\times\cancel{4!}}{2\times\cancel{4!}} \  
+> {}_6C_2 &= \frac{6!}{2!(6-2)!} \\  
+> &= \frac{6!}{2!\times4!} \\  
+> &= \frac{6\times5\times\cancel{4!}}{2\times\cancel{4!}} \\  
 > &= 15  
 > \end{aligned}  
 > $$
@@ -57,9 +57,9 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > 
 > $$  
 > \begin{aligned}  
-> {}_8C_5 &= \frac{8!}{5!(8-5)!} \  
-> &= \frac{8!}{5!\times3!} \  
-> &= \frac{8\times7\times6\times\cancel{5!}}{\cancel{3!}\times\cancel{5!}} \  
+> {}_8C_5 &= \frac{8!}{5!(8-5)!} \\  
+> &= \frac{8!}{5!\times3!} \\  
+> &= \frac{8\times7\times6\times\cancel{5!}}{\cancel{3!}\times\cancel{5!}} \\  
 > &= 56  
 > \end{aligned}  
 > $$
@@ -74,9 +74,9 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > 
 > $$  
 > \begin{aligned}  
-> {}_8C_3 &= \frac{8!}{3!(8-3)!} \  
-> &= \frac{8!}{3!\times5!} \  
-> &= \frac{8\times7\times6\times\cancel{5!}}{\cancel{3!}\times\cancel{5!}} \  
+> {}_8C_3 &= \frac{8!}{3!(8-3)!} \\  
+> &= \frac{8!}{3!\times5!} \\  
+> &= \frac{8\times7\times6\times\cancel{5!}}{\cancel{3!}\times\cancel{5!}} \\  
 > &= 56  
 > \end{aligned}  
 > $$
@@ -97,7 +97,7 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > $$  
 > \begin{aligned}  
 > (a+b)^3  
-> &= 1a^3+3a^2b+3ab^2+1b^3 \  
+> &= 1a^3+3a^2b+3ab^2+1b^3 \\  
 > &= a^3+3a^2b+3ab^2+b^3  
 > \end{aligned}  
 > $$
@@ -122,7 +122,7 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > $$  
 > \begin{aligned}  
 > (x-2)^4  
-> &= x^4+4x^3(-2)+6x^2(-2)^2+4x(-2)^3+(-2)^4 \  
+> &= x^4+4x^3(-2)+6x^2(-2)^2+4x(-2)^3+(-2)^4 \\  
 > &= x^4-8x^3+24x^2-32x+16  
 > \end{aligned}  
 > $$
