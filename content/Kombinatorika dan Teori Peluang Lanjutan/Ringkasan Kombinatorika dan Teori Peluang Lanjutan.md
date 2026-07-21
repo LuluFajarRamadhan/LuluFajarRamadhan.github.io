@@ -58,4 +58,4 @@ Dalam sebuah seleksi wawancara kerja, peluang seorang kandidat lulus tes kompete
 
 - [[Kombinatorika dan Teori Peluang Lanjutan/00 - Peta Konsep Kombinatorika dan Teori Peluang Lanjutan]]
 - [[Kombinatorika dan Teori Peluang Lanjutan/04 - Teori Kombinasi dan Ekspansi Binomial Newton]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/12 - Peluang Bersyarat dan Pengantar Teorema Bayes]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/11 - Peluang Bersyarat dan Pengantar Teorema Bayes]]

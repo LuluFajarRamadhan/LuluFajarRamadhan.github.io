@@ -47,5 +47,5 @@ Di dalam sebuah kotak terdapat 6 bola kuning dan 4 bola hijau. Seseorang mengamb
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/10 - Peluang Kejadian Majemuk Saling Lepas dan Tidak Saling Lepas]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/12 - Peluang Bersyarat dan Pengantar Teorema Bayes]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/09 - Peluang Kejadian Majemuk Saling Lepas dan Tidak Saling Lepas]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/11 - Peluang Bersyarat dan Pengantar Teorema Bayes]]

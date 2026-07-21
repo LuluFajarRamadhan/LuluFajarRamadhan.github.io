@@ -46,4 +46,4 @@ Dalam sebuah koper terdapat 12 kemeja, yang terdiri dari 7 kemeja putih dan 5 ke
 ## Konsep Terkait
 
 - [[Kombinatorika dan Teori Peluang Lanjutan/07 - Aplikasi Kombinasi dalam Pemilihan Objek dan Soal Cerita]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/10 - Peluang Kejadian Majemuk Saling Lepas dan Tidak Saling Lepas]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/09 - Peluang Kejadian Majemuk Saling Lepas dan Tidak Saling Lepas]]

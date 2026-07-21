@@ -45,5 +45,5 @@ Berdasarkan data kelulusan sebuah bimbingan belajar, peluang seorang siswa lulus
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/11 - Peluang Kejadian Majemuk Saling Bebas dan Tidak Saling Bebas]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/10 - Peluang Kejadian Majemuk Saling Bebas dan Tidak Saling Bebas]]
 - [[Kombinatorika dan Teori Peluang Lanjutan/Ringkasan Kombinatorika dan Teori Peluang Lanjutan]]

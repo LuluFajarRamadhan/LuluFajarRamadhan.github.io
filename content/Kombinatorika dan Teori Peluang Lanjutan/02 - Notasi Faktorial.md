@@ -22,23 +22,96 @@ $$
 
 ---
 ## Contoh Soal
-Hitunglah nilai operasi hitung pecahan faktorial berikut ini:
-$$
-\frac{6! \times 3!}{4! \times 0!}
-$$
 
-> [!success]- Klik untuk Lihat Jawaban
-> Lakukan penjabaran secara taktis dengan melihat angka terbesar pada bagian penyebut ($4!$) dan ingat sifat $0! = 1$:
+1. Hitunglah nilai dari $4!$.
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Berdasarkan definisi faktorial, diperoleh:
 > 
+> $$  
+> \begin{aligned}  
+> 4! &= 4 \times 3 \times 2 \times 1 \\  
+> &= 24  
+> \end{aligned}  
 > $$
-> \begin{aligned}
-> \frac{6! \times 3!}{4! \times 0!} &= \frac{(6 \times 5 \times \cancel{4!}) \times (3 \times 2 \times 1)}{\cancel{4!} \times 1} \\
-> &= \frac{(6 \times 5) \times 6}{1} \\
-> &= 30 \times 6 \\
-> &= 180
-> \end{aligned}
+> 
+> Jadi, hasil dari $4!$ adalah 24.
+
+2. Hitunglah nilai dari $\frac{6!}{4!}$.
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Lakukan penyederhanaan dengan menghentikan penjabaran $6!$ pada $4!$:
+> 
+> $$  
+> \begin{aligned}  
+> \frac{6!}{4!} &= \frac{6 \times 5 \times \cancel{4!}}{\cancel{4!}} \\  
+> &= 6 \times 5 \\  
+> &= 30  
+> \end{aligned}  
 > $$
-> Jadi, hasil akhir dari operasi hitung faktorial tersebut adalah 180.
+> 
+> Jadi, hasil dari $\frac{6!}{4!}$ adalah 30.
+
+3. Hitunglah nilai dari $\frac{5! \times 2!}{3!}$.
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Lakukan penjabaran secara taktis dengan melihat faktorial terbesar pada bagian penyebut ($3!$):
+> 
+> $$  
+> \begin{aligned}  
+> \frac{5! \times 2!}{3!} &= \frac{(5 \times 4 \times \cancel{3!}) \times (2 \times 1)}{\cancel{3!}} \\  
+> &= 5 \times 4 \times 2 \\  
+> &= 40  
+> \end{aligned}  
+> $$
+> 
+> Jadi, hasil akhir dari operasi hitung faktorial tersebut adalah 40.
+
+4. Sederhanakan bentuk faktorial berikut ini:  $$\frac{(n+2)!}{n!}$$
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Berdasarkan definisi faktorial, diperoleh:
+> 
+> $$  
+> \begin{aligned}  
+> \frac{(n+2)!}{n!} &= \frac{(n+2)(n+1)n!}{n!} \\  
+> &= (n+2)(n+1)  
+> \end{aligned}  
+> $$
+> 
+> Jadi, bentuk sederhana dari $\frac{(n+2)!}{n!}$ adalah $(n+2)(n+1)$.
+
+5. Jika $\frac{(n+1)!}{(n-1)!}=20$, tentukan nilai $n$.
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Sederhanakan terlebih dahulu bentuk faktorialnya:
+> 
+> $$  
+> \begin{aligned}  
+> \frac{(n+1)!}{(n-1)!} &= \frac{(n+1)n(n-1)!}{(n-1)!} \\  
+> &= n(n+1)  
+> \end{aligned}  
+> $$
+> 
+> Karena diketahui:
+> 
+> $$  
+> n(n+1)=20  
+> $$
+> 
+> Maka:
+> 
+> $$  
+> \begin{aligned}  
+> n^2+n-20 &= 0 \\  
+> (n+5)(n-4) &= 0  
+> \end{aligned}  
+> $$
+> 
+> Karena $n$ merupakan bilangan bulat positif, maka $n=4$.
+> 
+> Jadi, nilai $n$ adalah 4.
+
 
 ---
 

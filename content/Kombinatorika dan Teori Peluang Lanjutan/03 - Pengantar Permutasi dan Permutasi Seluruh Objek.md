@@ -20,23 +20,105 @@ $$
 
 ---
 ## Contoh Soal
-Dalam sebuah sanggar tari, terdapat 4 orang penari yang akan berbaris secara berbanjar (lurus ke belakang) untuk melakukan gerakan pembuka. Berapa banyak susunan urutan barisan yang dapat dibentuk dari keempat penari tersebut?
 
-> [!success]- Klik untuk Lihat Jawaban
-> **Langkah 1: Identifikasi Masalah.**
-> Karena posisi barisan menentukan urutan (penari di depan berbeda peran dengan penari di belakang), maka kasus ini diselesaikan dengan permutasi. Karena **semua** penari ($n = 4$) ikut berbaris, kita gunakan rumus permutasi seluruh objek.
+1. Berapa banyak susunan berbeda yang dapat dibuat dari 4 buku berbeda yang disusun berjajar di atas meja?
+    
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Karena seluruh objek disusun dan setiap buku berbeda, gunakan rumus permutasi seluruh objek:
 > 
-> **Langkah 2: Perhitungan Aljabar.**
+> $$  
+> P_n = n!  
 > $$
-> \begin{aligned}
-> P &= n! \\
-> P &= 4! \\
-> P &= 4 \times 3 \times 2 \times 1 \\
-> P &= 24
-> \end{aligned}
+> 
+> Dengan $n=4$, diperoleh:
+> 
+> $$  
+> \begin{aligned}  
+> P_4 &= 4! \\  
+> &= 4 \times 3 \times 2 \times 1 \\  
+> &= 24  
+> \end{aligned}  
 > $$
-> Jadi, banyak susunan urutan barisan penari yang dapat dibentuk adalah **24 cara**.
+> 
+> Jadi, banyak susunan buku yang dapat dibuat adalah 24 susunan.
 
+2. Lima orang akan duduk berjajar pada sebuah bangku. Berapa banyak susunan tempat duduk yang mungkin?
+    
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Karena seluruh orang akan disusun dalam satu barisan dan setiap orang berbeda, maka:
+> 
+> $$  
+> \begin{aligned}  
+> P_5 &= 5! \\  
+> &= 5 \times 4 \times 3 \times 2 \times 1 \\  
+> &= 120  
+> \end{aligned}  
+> $$
+> 
+> Jadi, banyak susunan tempat duduk yang mungkin adalah 120 susunan.
+
+3. Berapa banyak bilangan yang dapat dibentuk dari semua angka 1, 2, 3, 4, dan 5 jika setiap angka hanya digunakan satu kali?
+    
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Karena seluruh angka digunakan tepat satu kali, maka banyak susunan yang mungkin adalah permutasi seluruh objek:
+> 
+> $$  
+> \begin{aligned}  
+> P_5 &= 5! \\  
+> &= 120  
+> \end{aligned}  
+> $$
+> 
+> Jadi, banyak bilangan yang dapat dibentuk adalah 120 bilangan.
+
+4. Enam siswa berbeda akan berbaris untuk mengikuti upacara. Jika Andi harus berada di posisi paling depan, berapa banyak susunan barisan yang mungkin?
+    
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Karena posisi paling depan sudah ditempati oleh Andi, maka tersisa 5 siswa yang dapat disusun.
+> 
+> Dengan demikian, banyak susunan yang mungkin adalah:
+> 
+> $$  
+> \begin{aligned}  
+> P_5 &= 5! \\  
+> &= 120  
+> \end{aligned}  
+> $$
+> 
+> Jadi, banyak susunan barisan yang mungkin adalah 120 susunan.
+
+5. Tujuh buku berbeda akan disusun berjajar pada sebuah rak. Jika buku Matematika dan buku Fisika harus selalu berdampingan, berapa banyak susunan buku yang mungkin?
+    
+
+> [!success]- Klik untuk Lihat Jawaban  
+> Anggap buku Matematika dan buku Fisika sebagai satu kesatuan atau satu blok.
+> 
+> Dengan demikian, terdapat 6 objek yang akan disusun, sehingga:
+> 
+> $$  
+> 6!  
+> $$
+> 
+> Namun, buku Matematika dan Fisika dapat bertukar posisi di dalam blok tersebut sebanyak:
+> 
+> $$  
+> 2!  
+> $$
+> 
+> Maka, banyak susunan yang mungkin adalah:
+> 
+> $$  
+> \begin{aligned}  
+> 6! \times 2! &= 720 \times 2 \\  
+> &= 1440  
+> \end{aligned}  
+> $$
+> 
+> Jadi, banyak susunan buku yang mungkin adalah 1440 susunan.
 ---
 
 ## Konsep Terkait

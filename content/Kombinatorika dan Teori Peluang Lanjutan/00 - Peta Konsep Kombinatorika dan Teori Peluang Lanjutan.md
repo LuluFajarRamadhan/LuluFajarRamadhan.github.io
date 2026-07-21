@@ -56,14 +56,14 @@ Hal ini melatih penalaran taktis untuk memilih satu keputusan terbaik dari ruang
 ### Teori Kombinasi (Tidak Memperhatikan Urutan)
 - [[Kombinatorika dan Teori Peluang Lanjutan/06 - Konsep Kombinasi dan Perbedaannya dengan Permutasi]]
 - [[Kombinatorika dan Teori Peluang Lanjutan/07 - Aplikasi Kombinasi dalam Pemilihan Objek dan Soal Cerita]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/08 - Pengantar Ekspansi Binomial Newton]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/07 - Pengantar Ekspansi Binomial Newton]]
 
 ## Bagian 2: Teori Peluang Lanjutan (Probabilitas Majemuk)
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/09 - Ruang Sampel Raksasa dan Peluang Kejadian Tunggal]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/10 - Peluang Kejadian Majemuk Saling Lepas dan Tidak Saling Lepas]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/11 - Peluang Kejadian Majemuk Saling Bebas dan Tidak Saling Bebas]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/12 - Peluang Bersyarat dan Pengantar Teorema Bayes]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/08 - Ruang Sampel Raksasa dan Peluang Kejadian Tunggal]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/09 - Peluang Kejadian Majemuk Saling Lepas dan Tidak Saling Lepas]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/10 - Peluang Kejadian Majemuk Saling Bebas dan Tidak Saling Bebas]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/11 - Peluang Bersyarat dan Pengantar Teorema Bayes]]
 
 ---
 

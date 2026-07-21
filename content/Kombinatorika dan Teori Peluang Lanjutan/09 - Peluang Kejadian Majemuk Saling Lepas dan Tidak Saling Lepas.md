@@ -45,5 +45,5 @@ Sebuah kartu diambil secara acak dari satu set kartu remi standar (Bridge) yang 
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/09 - Ruang Sampel Raksasa dan Peluang Kejadian Tunggal]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/11 - Peluang Kejadian Majemuk Saling Bebas dan Tidak Saling Bebas]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/08 - Ruang Sampel Raksasa dan Peluang Kejadian Tunggal]]
+- [[Kombinatorika dan Teori Peluang Lanjutan/10 - Peluang Kejadian Majemuk Saling Bebas dan Tidak Saling Bebas]]

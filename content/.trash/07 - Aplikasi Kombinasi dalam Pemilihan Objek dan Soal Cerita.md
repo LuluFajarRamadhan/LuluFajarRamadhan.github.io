@@ -3,7 +3,7 @@ title:
 ---
 # Aplikasi Kombinasi dalam Pemilihan Objek dan Soal Cerita
 
-Di dalam soal cerita matematika tingkat lanjut, fungsi kombinasi sering kali dikombinasikan dengan aturan pencacahan dasar (seperti aturan perkalian). Kondisi ini umumnya terjadi ketika kita diminta untuk ==**memilih beberapa objek dari kelompok atau kategori yang berbeda secara sekaligus.**==
+Di dalam soal cerita matematika tingkat lanjut, permasalahan kaidah pencacahan sering kali dikombinasikan dengan aturan pencacahan dasar (seperti aturan perkalian). Kondisi ini umumnya terjadi ketika kita diminta untuk ==**memilih beberapa objek dari kelompok atau kategori yang berbeda secara sekaligus.**==
 
 Prinsip utamanya adalah menyelesaikan perhitungan kombinasi untuk masing-masing kategori secara terpisah, lalu mengalikan hasil-hasil kombinasi tersebut untuk mendapatkan total kemungkinan secara keseluruhan.
 
