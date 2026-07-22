@@ -23,7 +23,8 @@ $$
 ---
 ## Contoh Soal Permutasi Khusus Beberapa Unsur Sama
 
-1. Tentukan banyak susunan huruf yang dapat dibentuk dari semua huruf pada kata **MAMA**.
+### Soal 1
+Tentukan banyak susunan huruf yang dapat dibentuk dari semua huruf pada kata **MAMA**.
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -47,7 +48,8 @@ $$
 > 
 > Jadi, banyak susunan huruf yang dapat dibentuk adalah 6 susunan.
 
-2. Berapa banyak susunan berbeda yang dapat dibentuk dari semua huruf pada kata **STATISTIK**?
+### Soal 2
+Berapa banyak susunan berbeda yang dapat dibentuk dari semua huruf pada kata **STATISTIK**?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -72,7 +74,8 @@ $$
 > 
 > Jadi, banyak susunan huruf yang dapat dibentuk adalah 7560 susunan.
 
-3. Tentukan banyak susunan berbeda yang dapat dibentuk dari semua huruf pada kata **MATEMATIKA**.
+### Soal 3
+Tentukan banyak susunan berbeda yang dapat dibentuk dari semua huruf pada kata **MATEMATIKA**.
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -97,7 +100,8 @@ $$
 > 
 > Jadi, banyak susunan huruf yang dapat dibentuk adalah 151200 susunan.
 
-4. Berapa banyak susunan berbeda yang dapat dibentuk dari semua huruf pada kata **MATEMATIKA** jika huruf A harus selalu berada di posisi pertama?
+### Soal 4
+Berapa banyak susunan berbeda yang dapat dibentuk dari semua huruf pada kata **MATEMATIKA** jika huruf A harus selalu berada di posisi pertama?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -125,7 +129,8 @@ $$
 ---
 ## Contoh Soal Permutasi Siklis
 
-1. Enam orang siswa akan duduk mengelilingi sebuah meja bundar. Berapa banyak susunan tempat duduk yang mungkin?
+### Soal 1
+Enam orang siswa akan duduk mengelilingi sebuah meja bundar. Berapa banyak susunan tempat duduk yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -147,7 +152,8 @@ $$
 > 
 > Jadi, banyak susunan tempat duduk yang mungkin adalah 120 susunan.
 
-2. Enam orang siswa akan duduk mengelilingi sebuah meja bundar. Jika Andi dan Budi harus duduk bersebelahan, berapa banyak susunan tempat duduk yang mungkin?
+### Soal 2
+Enam orang siswa akan duduk mengelilingi sebuah meja bundar. Jika Andi dan Budi harus duduk bersebelahan, berapa banyak susunan tempat duduk yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -168,7 +174,8 @@ $$
 > 
 > Jadi, banyak susunan tempat duduk yang mungkin adalah 48 susunan.
 
-3. Enam orang siswa akan duduk mengelilingi sebuah meja bundar. Jika Andi dan Budi tidak boleh duduk bersebelahan, berapa banyak susunan tempat duduk yang mungkin?
+### Soal 3
+Enam orang siswa akan duduk mengelilingi sebuah meja bundar. Jika Andi dan Budi tidak boleh duduk bersebelahan, berapa banyak susunan tempat duduk yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -204,7 +211,8 @@ $$
 > 
 > Jadi, banyak susunan tempat duduk yang mungkin adalah 72 susunan.
 
-4. Delapan orang akan duduk mengelilingi sebuah meja bundar. Jika Ani dan Budi tidak boleh duduk bersebelahan, tentukan banyak susunan tempat duduk yang mungkin.
+### Soal 4
+Delapan orang akan duduk mengelilingi sebuah meja bundar. Jika Ani dan Budi tidak boleh duduk bersebelahan, tentukan banyak susunan tempat duduk yang mungkin.
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -245,5 +253,5 @@ $$
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/04 - Permutasi Sebagian Objek dari Unsur Berbeda]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/06 - Konsep Kombinasi dan Perbedaannya dengan Permutasi]]
+- [[Kaidah Pencacahan dan Peluang/04 - Permutasi Sebagian Objek dari Unsur Berbeda]]
+- [[Kaidah Pencacahan dan Peluang/06 - Konsep Kombinasi dan Perbedaannya dengan Permutasi]]

@@ -23,7 +23,8 @@ $$
 ---
 ## Contoh Soal
 
-1. Hitunglah nilai dari $4!$.
+### Soal 1
+Hitunglah nilai dari $4!$.
 
 > [!success]- Klik untuk Lihat Jawaban  
 > Berdasarkan definisi faktorial, diperoleh:
@@ -37,7 +38,8 @@ $$
 > 
 > Jadi, hasil dari $4!$ adalah 24.
 
-2. Hitunglah nilai dari $\frac{6!}{4!}$.
+### Soal 2
+Hitunglah nilai dari $\frac{6!}{4!}$.
 
 > [!success]- Klik untuk Lihat Jawaban  
 > Lakukan penyederhanaan dengan menghentikan penjabaran $6!$ pada $4!$:
@@ -52,7 +54,8 @@ $$
 > 
 > Jadi, hasil dari $\frac{6!}{4!}$ adalah 30.
 
-3. Hitunglah nilai dari $\frac{5! \times 2!}{3!}$.
+### Soal 3
+Hitunglah nilai dari $\frac{5! \times 2!}{3!}$.
 
 > [!success]- Klik untuk Lihat Jawaban  
 > Lakukan penjabaran secara taktis dengan melihat faktorial terbesar pada bagian penyebut ($3!$):
@@ -67,8 +70,8 @@ $$
 > 
 > Jadi, hasil akhir dari operasi hitung faktorial tersebut adalah 40.
 
-4. Sederhanakan bentuk faktorial berikut ini:  $$\frac{(n+2)!}{n!}$$
-
+### Soal 4
+Sederhanakan bentuk faktorial berikut ini:  $$\frac{(n+2)!}{n!}$$
 > [!success]- Klik untuk Lihat Jawaban  
 > Berdasarkan definisi faktorial, diperoleh:
 > 
@@ -81,7 +84,8 @@ $$
 > 
 > Jadi, bentuk sederhana dari $\frac{(n+2)!}{n!}$ adalah $(n+2)(n+1)$.
 
-5. Jika $\frac{(n+1)!}{(n-1)!}=20$, tentukan nilai $n$.
+### Soal 5
+Jika $\frac{(n+1)!}{(n-1)!}=20$, tentukan nilai $n$.
 
 > [!success]- Klik untuk Lihat Jawaban  
 > Sederhanakan terlebih dahulu bentuk faktorialnya:
@@ -117,5 +121,5 @@ $$
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/01 - Aturan Penjumlahan dan Aturan Perkalian]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/03 - Pengantar Permutasi dan Permutasi Seluruh Objek]]
+- [[Kaidah Pencacahan dan Peluang/01 - Aturan Penjumlahan dan Aturan Perkalian]]
+- [[Kaidah Pencacahan dan Peluang/03 - Pengantar Permutasi dan Permutasi Seluruh Objek]]

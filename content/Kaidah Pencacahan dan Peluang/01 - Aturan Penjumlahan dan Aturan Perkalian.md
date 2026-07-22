@@ -42,5 +42,5 @@ Seorang siswa kelas 12 memiliki 3 buah jaket tebal dan 4 buah rompi rajut untuk 
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/00 - Peta Konsep Kombinatorika dan Teori Peluang Lanjutan]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/02 - Notasi Faktorial]]
+- [[Kaidah Pencacahan dan Peluang/00 - Peta Konsep Kombinatorika dan Teori Peluang Lanjutan]]
+- [[Kaidah Pencacahan dan Peluang/02 - Notasi Faktorial]]

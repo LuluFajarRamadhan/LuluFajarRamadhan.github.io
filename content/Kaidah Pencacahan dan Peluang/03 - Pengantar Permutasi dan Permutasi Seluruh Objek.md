@@ -21,7 +21,8 @@ $$
 ---
 ## Contoh Soal
 
-1. Berapa banyak susunan berbeda yang dapat dibuat dari 4 buku berbeda yang disusun berjajar di atas meja?
+### Soal 1
+Berapa banyak susunan berbeda yang dapat dibuat dari 4 buku berbeda yang disusun berjajar di atas meja?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -43,7 +44,8 @@ $$
 > 
 > Jadi, banyak susunan buku yang dapat dibuat adalah 24 susunan.
 
-2. Lima orang akan duduk berjajar pada sebuah bangku. Berapa banyak susunan tempat duduk yang mungkin?
+### Soal 2
+Lima orang akan duduk berjajar pada sebuah bangku. Berapa banyak susunan tempat duduk yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -59,7 +61,8 @@ $$
 > 
 > Jadi, banyak susunan tempat duduk yang mungkin adalah 120 susunan.
 
-3. Berapa banyak bilangan yang dapat dibentuk dari semua angka 1, 2, 3, 4, dan 5 jika setiap angka hanya digunakan satu kali?
+### Soal 3
+Berapa banyak bilangan yang dapat dibentuk dari semua angka 1, 2, 3, 4, dan 5 jika setiap angka hanya digunakan satu kali?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -74,7 +77,8 @@ $$
 > 
 > Jadi, banyak bilangan yang dapat dibentuk adalah 120 bilangan.
 
-4. Enam siswa berbeda akan berbaris untuk mengikuti upacara. Jika Andi harus berada di posisi paling depan, berapa banyak susunan barisan yang mungkin?
+### Soal 4
+Enam siswa berbeda akan berbaris untuk mengikuti upacara. Jika Andi harus berada di posisi paling depan, berapa banyak susunan barisan yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -91,7 +95,8 @@ $$
 > 
 > Jadi, banyak susunan barisan yang mungkin adalah 120 susunan.
 
-5. Tujuh buku berbeda akan disusun berjajar pada sebuah rak. Jika buku Matematika dan buku Fisika harus selalu berdampingan, berapa banyak susunan buku yang mungkin?
+### Soal 5
+Tujuh buku berbeda akan disusun berjajar pada sebuah rak. Jika buku Matematika dan buku Fisika harus selalu berdampingan, berapa banyak susunan buku yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -119,9 +124,11 @@ $$
 > $$
 > 
 > Jadi, banyak susunan buku yang mungkin adalah 1440 susunan.
+
+
 ---
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/02 - Notasi Faktorial]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/04 - Permutasi Sebagian Objek dari Unsur Berbeda]]
+- [[Kaidah Pencacahan dan Peluang/02 - Notasi Faktorial]]
+- [[Kaidah Pencacahan dan Peluang/04 - Permutasi Sebagian Objek dari Unsur Berbeda]]

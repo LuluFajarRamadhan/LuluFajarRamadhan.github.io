@@ -16,7 +16,8 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 ---
 ## Contoh Soal
 
-1. Jabarkan bentuk aljabar berikut:  
+### Soal 1
+Jabarkan bentuk aljabar berikut:  
     $$  
     (a+b)^3  
     $$
@@ -41,7 +42,8 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > $$
 
 
-2. Jabarkan bentuk aljabar berikut:  
+### Soal 2
+Jabarkan bentuk aljabar berikut:  
     $$  
     (x-2)^4  
     $$
@@ -65,7 +67,8 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 > x^4-8x^3+24x^2-32x+16.  
 > $$
 
-3. Tentukan koefisien suku yang memuat $x^6$ dari penjabaran $(2+x)^8$ !
+### Soal 3
+Tentukan koefisien suku yang memuat $x^6$ dari penjabaran $(2+x)^8$ !
 
 > [!success]- Klik untuk Lihat Jawaban  
 > Untuk koefisien $x^6$ dari $(2+x)^8$ terbentuk dari $(2)^{8-6}(x)^6$, sehingga untuk menentukan koefisien $x^6$ melalui substitusi nilai $n=8$ dan $r=6$:
@@ -86,6 +89,7 @@ Di mana $\binom{n}{k}$ atau $_nC_k$ bertindak sebagai koefisien binomial suku ke
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/02 - Notasi Faktorial]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/06 - Konsep Kombinasi dan Perbedaannya dengan Permutasi]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/08 - Ruang Sampel Raksasa dan Peluang Kejadian Tunggal]]
+- [[Kaidah Pencacahan dan Peluang/02 - Notasi Faktorial]]
+- [[Kaidah Pencacahan dan Peluang/06 - Konsep Kombinasi dan Perbedaannya dengan Permutasi]]
+- [[Kaidah Pencacahan dan Peluang/08 - Ruang Sampel dan Peluang Kejadian Tunggal]]
+- [[Kaidah Pencacahan dan Peluang/12 - Aplikasi Teorema Binomial Newton pada Peluang]]

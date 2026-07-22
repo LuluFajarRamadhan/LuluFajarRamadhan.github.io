@@ -45,28 +45,28 @@ Hal ini melatih penalaran taktis untuk memilih satu keputusan terbaik dari ruang
 ## Bagian 1: Kombinatorika (Alat Pencacahan)
 
 ### Aturan Dasar Pencacahan
-- [[Kombinatorika dan Teori Peluang Lanjutan/01 - Aturan Penjumlahan dan Aturan Perkalian]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/02 - Notasi Faktorial]]
+- [[Kaidah Pencacahan dan Peluang/01 - Aturan Penjumlahan dan Aturan Perkalian]]
+- [[Kaidah Pencacahan dan Peluang/02 - Notasi Faktorial]]
 
 ### Teori Permutasi (Memperhatikan Urutan)
-- [[Kombinatorika dan Teori Peluang Lanjutan/03 - Pengantar Permutasi dan Permutasi Seluruh Objek]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/04 - Permutasi Sebagian Objek dari Unsur Berbeda]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/05 - Permutasi Khusus Beberapa Unsur Sama dan Siklis]]
+- [[Kaidah Pencacahan dan Peluang/03 - Pengantar Permutasi dan Permutasi Seluruh Objek]]
+- [[Kaidah Pencacahan dan Peluang/04 - Permutasi Sebagian Objek dari Unsur Berbeda]]
+- [[Kaidah Pencacahan dan Peluang/05 - Permutasi Khusus Beberapa Unsur Sama dan Siklis]]
 
 ### Teori Kombinasi (Tidak Memperhatikan Urutan)
-- [[Kombinatorika dan Teori Peluang Lanjutan/06 - Konsep Kombinasi dan Perbedaannya dengan Permutasi]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/07 - Aplikasi Kombinasi dalam Pemilihan Objek dan Soal Cerita]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/07 - Pengantar Ekspansi Binomial Newton]]
+- [[Kaidah Pencacahan dan Peluang/06 - Konsep Kombinasi dan Perbedaannya dengan Permutasi]]
+- [[Kaidah Pencacahan dan Peluang/07 - Pengantar Ekspansi Binomial Newton]]
 
 ## Bagian 2: Teori Peluang Lanjutan (Probabilitas Majemuk)
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/08 - Ruang Sampel Raksasa dan Peluang Kejadian Tunggal]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/09 - Peluang Kejadian Majemuk Saling Lepas dan Tidak Saling Lepas]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/10 - Peluang Kejadian Majemuk Saling Bebas dan Tidak Saling Bebas]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/11 - Peluang Bersyarat dan Pengantar Teorema Bayes]]
+- [[Kaidah Pencacahan dan Peluang/08 - Ruang Sampel dan Peluang Kejadian Tunggal]]
+- [[Kaidah Pencacahan dan Peluang/09 - Peluang Kejadian Majemuk Saling Lepas dan Tidak Saling Lepas]]
+- [[Kaidah Pencacahan dan Peluang/10 - Peluang Kejadian Majemuk Saling Bebas dan Tidak Saling Bebas]]
+- [[Kaidah Pencacahan dan Peluang/11 - Peluang Bersyarat dan Pengantar Teorema Bayes]]
+- [[Kaidah Pencacahan dan Peluang/12 - Aplikasi Teorema Binomial Newton pada Peluang]]
 
 ---
 
 # Ringkasan
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/Ringkasan Kombinatorika dan Teori Peluang Lanjutan]]
+- [[Kaidah Pencacahan dan Peluang/Ringkasan Kombinatorika dan Teori Peluang Lanjutan]]

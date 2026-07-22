@@ -14,7 +14,8 @@ $$
 ---
 ## Contoh Soal
 
-1. Di sebuah kelas yang terdiri dari 7 orang siswa, akan dipilih 3 orang untuk menduduki jabatan sebagai Ketua Kelas, Sekretaris, dan Bendahara. Tentukan banyaknya variasi susunan pengurus kelas yang dapat terbentuk!
+### Soal 1
+Di sebuah kelas yang terdiri dari 7 orang siswa, akan dipilih 3 orang untuk menduduki jabatan sebagai Ketua Kelas, Sekretaris, dan Bendahara. Tentukan banyaknya variasi susunan pengurus kelas yang dapat terbentuk!
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -37,7 +38,8 @@ $$
 > 
 > Jadi, banyaknya variasi susunan pengurus kelas yang dapat terbentuk adalah 210 susunan.
 
-2. Dari angka 1, 2, 3, 4, dan 5 akan dibentuk bilangan dua angka tanpa pengulangan angka. Berapa banyak bilangan yang dapat dibentuk?
+### Soal 2
+Dari angka 1, 2, 3, 4, dan 5 akan dibentuk bilangan dua angka tanpa pengulangan angka. Berapa banyak bilangan yang dapat dibentuk?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -54,7 +56,8 @@ $$
 > 
 > Jadi, banyak bilangan yang dapat dibentuk adalah 20 bilangan.
 
-3. Sebuah sekolah memiliki 7 calon siswa berbeda untuk mengikuti lomba. Jika hanya 3 siswa yang akan dipilih untuk menempati posisi juara 1, juara 2, dan juara 3, berapa banyak kemungkinan susunan pemenangnya?
+### Soal 3
+Sebuah sekolah memiliki 7 calon siswa berbeda untuk mengikuti lomba. Jika hanya 3 siswa yang akan dipilih untuk menempati posisi juara 1, juara 2, dan juara 3, berapa banyak kemungkinan susunan pemenangnya?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -71,7 +74,8 @@ $$
 > 
 > Jadi, banyak kemungkinan susunan pemenangnya adalah 210 susunan.
 
-4. Dari 8 buku berbeda, akan disusun 4 buku berjajar pada sebuah rak. Berapa banyak susunan buku yang mungkin?
+### Soal 4
+Dari 8 buku berbeda, akan disusun 4 buku berjajar pada sebuah rak. Berapa banyak susunan buku yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -88,7 +92,8 @@ $$
 > 
 > Jadi, banyak susunan buku yang mungkin adalah 1680 susunan.
 
-5. Dari 10 orang berbeda akan dipilih 4 orang untuk mengisi posisi Ketua, Wakil Ketua, Sekretaris, dan Bendahara. Jika Budi harus selalu menjadi Ketua, berapa banyak susunan kepengurusan yang mungkin?
+### Soal 5
+Dari 10 orang berbeda akan dipilih 4 orang untuk mengisi posisi Ketua, Wakil Ketua, Sekretaris, dan Bendahara. Jika Budi harus selalu menjadi Ketua, berapa banyak susunan kepengurusan yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -110,5 +115,5 @@ $$
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/03 - Pengantar Permutasi dan Permutasi Seluruh Objek]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/05 - Permutasi Khusus Beberapa Unsur Sama dan Siklis]]
+- [[Kaidah Pencacahan dan Peluang/03 - Pengantar Permutasi dan Permutasi Seluruh Objek]]
+- [[Kaidah Pencacahan dan Peluang/05 - Permutasi Khusus Beberapa Unsur Sama dan Siklis]]

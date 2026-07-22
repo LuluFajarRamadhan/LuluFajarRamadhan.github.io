@@ -25,7 +25,8 @@ $$
 
 ## Contoh Soal
 
-1. Hitunglah nilai dari ${}_5C_2$.
+### Soal 1
+Hitunglah nilai dari ${}_5C_2$.
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -48,7 +49,8 @@ $$
 > 
 > Jadi, nilai dari ${}_5C_2$ adalah 10.
 
-2. Dari 6 siswa akan dipilih 3 siswa untuk mengikuti kegiatan lomba. Berapa banyak cara pemilihan yang mungkin?
+### Soal 2
+Dari 6 siswa akan dipilih 3 siswa untuk mengikuti kegiatan lomba. Berapa banyak cara pemilihan yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -66,7 +68,8 @@ $$
 > 
 > Jadi, banyak cara pemilihan siswa yang mungkin adalah 20 cara.
 
-3. Sebuah kantong berisi 8 bola dengan warna berbeda. Jika 2 bola diambil sekaligus, berapa banyak pasangan bola yang dapat dipilih?
+### Soal 3
+Sebuah kantong berisi 8 bola dengan warna berbeda. Jika 2 bola diambil sekaligus, berapa banyak pasangan bola yang dapat dipilih?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -83,7 +86,8 @@ $$
 > 
 > Jadi, banyak pasangan bola yang dapat dipilih adalah 28 pasangan.
 
-4. Dari 10 orang siswa akan dipilih 4 orang untuk menjadi anggota sebuah tim. Berapa banyak tim berbeda yang dapat dibentuk?
+### Soal 4
+Dari 10 orang siswa akan dipilih 4 orang untuk menjadi anggota sebuah tim. Berapa banyak tim berbeda yang dapat dibentuk?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -101,7 +105,8 @@ $$
 > 
 > Jadi, banyak tim berbeda yang dapat dibentuk adalah 210 tim.
 
-5. Dalam sebuah kelas terdapat 12 siswa. Akan dipilih 5 siswa untuk mengikuti kegiatan studi wisata. Jika Andi harus ikut dalam kegiatan tersebut, berapa banyak pilihan kelompok yang mungkin?
+### Soal 5
+Dalam sebuah kelas terdapat 12 siswa. Akan dipilih 5 siswa untuk mengikuti kegiatan studi wisata. Jika Andi harus ikut dalam kegiatan tersebut, berapa banyak pilihan kelompok yang mungkin?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -121,7 +126,9 @@ $$
 > 
 > Jadi, banyak pilihan kelompok yang mungkin adalah 330 kelompok.
 
-6. Dari 10 orang siswa akan dipilih 4 orang untuk mengikuti lomba. Jika Budi dan Citra tidak boleh terpilih secara bersamaan, berapa banyak kelompok yang dapat dibentuk?
+
+### Soal 6
+Dari 10 orang siswa akan dipilih 4 orang untuk mengikuti lomba. Jika Budi dan Citra tidak boleh terpilih secara bersamaan, berapa banyak kelompok yang dapat dibentuk?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -154,7 +161,8 @@ $$
 > 
 > Jadi, banyak kelompok yang dapat dibentuk adalah 182 kelompok.
 
-7. Dari 12 siswa akan dipilih 5 siswa untuk mengikuti seleksi olimpiade. Jika Andi harus terpilih dan Budi tidak boleh terpilih, berapa banyak kelompok siswa yang dapat dibentuk?
+### Soal 7
+Dari 12 siswa akan dipilih 5 siswa untuk mengikuti seleksi olimpiade. Jika Andi harus terpilih dan Budi tidak boleh terpilih, berapa banyak kelompok siswa yang dapat dibentuk?
     
 
 > [!success]- Klik untuk Lihat Jawaban  
@@ -178,5 +186,5 @@ $$
 
 ## Konsep Terkait
 
-- [[Kombinatorika dan Teori Peluang Lanjutan/04 - Permutasi Sebagian Objek dari Unsur Berbeda]]
-- [[Kombinatorika dan Teori Peluang Lanjutan/07 - Pengantar Ekspansi Binomial Newton|07 - Pengantar Ekspansi Binomial Newton]]
+- [[Kaidah Pencacahan dan Peluang/04 - Permutasi Sebagian Objek dari Unsur Berbeda]]
+- [[Kaidah Pencacahan dan Peluang/07 - Pengantar Ekspansi Binomial Newton|07 - Pengantar Ekspansi Binomial Newton]]
