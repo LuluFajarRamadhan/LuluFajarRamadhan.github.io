@@ -40,7 +40,7 @@ Hal ini melatih penalaran taktis untuk memilih satu keputusan terbaik dari ruang
 
 ---
 
-# Peta Konsep Kombinatorika dan Teori Peluang Lanjutan
+# Peta Konsep Kaidah Pencacahan dan Teori Peluang Lanjutan
 
 ## Bagian 1: Kombinatorika (Alat Pencacahan)
 
