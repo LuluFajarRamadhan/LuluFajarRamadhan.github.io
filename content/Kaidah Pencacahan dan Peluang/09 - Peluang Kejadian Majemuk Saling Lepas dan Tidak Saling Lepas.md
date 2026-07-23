@@ -75,26 +75,26 @@ Sebuah kotak berisi 5 bola merah, 4 bola biru, dan 3 bola hijau. Diambil 1 bola 
 
 
 ### Soal 3
-Dari satu set kartu remi (52 kartu), diambil 1 kartu secara acak. Tentukan peluang kartu yang terambil merupakan **As atau Raja**.
+Dari satu set kartu remi (52 kartu), diambil 1 kartu secara acak. Tentukan peluang kartu yang terambil merupakan **As atau King**.
 
 > [!success]- Klik untuk Lihat Jawaban
-> Sebuah kartu tidak mungkin sekaligus merupakan As dan Raja, sehingga kedua kejadian **saling lepas**.
+> Sebuah kartu tidak mungkin sekaligus merupakan As dan King, sehingga kedua kejadian **saling lepas**.
 >
 > Diketahui:
 > $$
 > P(\text{As})=\frac4{52},\qquad
-> P(\text{Raja})=\frac4{52}
+> P(\text{King})=\frac4{52}
 > $$
 >
 > Maka:
 > $$
-> P(\text{As}\cup\text{Raja})
+> P(\text{As}\cup\text{King})
 > =\frac4{52}+\frac4{52}
 > =\frac8{52}
 > =\frac2{13}
 > $$
 >
-> Jadi, peluang terambilnya kartu **As atau Raja** adalah **$\frac2{13}$**.
+> Jadi, peluang terambilnya kartu **As atau King** adalah **$\frac2{13}$**.
 
 
 ---
