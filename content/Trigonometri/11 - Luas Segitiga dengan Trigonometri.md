@@ -180,11 +180,13 @@ $$
 
 Pemilihan rumus bergantung pada dua sisi dan sudut apit yang diketahui.
 
-| Dua sisi yang diketahui | Sudut apit | Rumus luas |
-|---|---|---|
-| $b$ dan $c$ | $A$ | $L=\frac{1}{2}bc\sin A$ |
-| $c$ dan $a$ | $B$ | $L=\frac{1}{2}ca\sin B$ |
-| $a$ dan $b$ | $C$ | $L=\frac{1}{2}ab\sin C$ |
+| Dua sisi yang diketahui | Sudut apit | Rumus luas              |
+| ----------------------- | ---------- | ----------------------- |
+| $b$ dan $c$             | $A$        | $L=\frac{1}{2}bc\sin A$ |
+| $c$ dan $a$             | $B$        | $L=\frac{1}{2}ca\sin B$ |
+| $a$ dan $b$             | $C$        | $L=\frac{1}{2}ab\sin C$ |
+
+
 ![[Trigonometri/Gambar/luas segitiga aturan sinus.png]]
 
 
