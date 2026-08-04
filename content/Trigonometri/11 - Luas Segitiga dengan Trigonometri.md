@@ -977,15 +977,7 @@ $$
 > - Membulatkan nilai sinus, cosinus, atau panjang sisi terlalu awal.
 > - Menuliskan satuan panjang, bukan satuan luas.
 
-Satuan luas harus berbentuk satuan kuadrat, misalnya:
 
-$$
-\text{cm}^2,
-\qquad
-\text{m}^2,
-\qquad
-\text{km}^2
-$$
 
 ---
 
