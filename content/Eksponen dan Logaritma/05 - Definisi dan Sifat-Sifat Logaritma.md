@@ -6,22 +6,22 @@ title:
 ---
 # Definisi dan Sifat-Sifat Logaritma
 
-Logaritma adalah operasi matematika yang merupakan ==**invers (kebalikan) dari operasi eksponen.**==[cite: 1] Secara sederhana, logaritma mencari pangkat yang tepat untuk suatu bilangan pokok (basis) agar menghasilkan nilai tertentu[cite: 1]. Jika $a^c = b$, maka bentuk logaritmanya adalah[cite: 1]:
+Logaritma adalah operasi matematika yang merupakan ==**invers (kebalikan) dari operasi eksponen.**== Secara sederhana, logaritma mencari pangkat yang tepat untuk suatu bilangan pokok (basis) agar menghasilkan nilai tertentu. Jika $a^c = b$, maka bentuk logaritmanya adalah:
 $$
 ^a\log b = c
 $$
-Dengan syarat: bilangan pokok (basis) $a > 0$ dan $a \neq 1$, serta numerus $b > 0$[cite: 1].
+Dengan syarat: bilangan pokok (basis) $a > 0$ dan $a \neq 1$, serta numerus $b > 0$.
 
-Untuk menyederhanakan perhitungan, berikut adalah sifat-sifat utama logaritma yang sering digunakan[cite: 1]:
-* $^a\log 1 = 0$[cite: 1]
-* $^a\log a = 1$[cite: 1]
-* $^a\log (b \times c) = ^a\log b + ^a\log c$[cite: 1]
-* $^a\log \left(\frac{b}{c}\right) = ^a\log b - ^a\log c$[cite: 1]
-* $^a\log b^n = n \times ^a\log b$[cite: 1]
-* $^{a^m}\log b^n = \frac{n}{m} \times ^a\log b$[cite: 1]
-* $^a\log b = \frac{^c\log b}{^c\log a} = \frac{1}{^b\log a}$[cite: 1]
-* $^a\log b \times ^b\log c = ^a\log c$[cite: 1]
-* $a^{^a\log b} = b$[cite: 1]
+Untuk menyederhanakan perhitungan, berikut adalah sifat-sifat utama logaritma yang sering digunakan:
+* $^a\log 1 = 0$
+* $^a\log a = 1$
+* $^a\log (b \times c) = ^a\log b + ^a\log c$
+* $^a\log \left(\frac{b}{c}\right) = ^a\log b - ^a\log c$
+* $^a\log b^n = n \times ^a\log b$
+* $^{a^m}\log b^n = \frac{n}{m} \times ^a\log b$
+* $^a\log b = \frac{^c\log b}{^c\log a} = \frac{1}{^b\log a}$
+* $^a\log b \times ^b\log c = ^a\log c$
+* $a^{^a\log b} = b$
 
 ---
 ## Latihan Soal
