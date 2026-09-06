@@ -1157,16 +1157,392 @@ $$
 
 # Contoh Soal
 
-## Contoh Soal 1
+## Soal 1
 
-Tentukan invers matriks:
+Tentukan apakah matriks berikut mempunyai invers:
 
 $$
 A=
 \begin{bmatrix}
-1 & 1 & 0\\
-0 & 1 & 1\\
-1 & 0 & 1
+1 & 0 & 0\\
+0 & 2 & 0\\
+0 & 0 & 3
+\end{bmatrix}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Matriks mempunyai invers jika:
+>
+> $$
+> \det(A)\ne0
+> $$
+>
+> Karena $A$ merupakan matriks diagonal:
+>
+> $$
+> \begin{aligned}
+> \det(A)
+> &=(1)(2)(3)\\
+> &=6
+> \end{aligned}
+> $$
+>
+> Karena:
+>
+> $$
+> 6\ne0
+> $$
+>
+> maka matriks $A$ mempunyai invers.
+>
+> $$
+> \boxed{A^{-1}\text{ ada}}
+> $$
+
+---
+
+## Soal 2
+
+Tentukan apakah matriks berikut mempunyai invers:
+
+$$
+B=
+\begin{bmatrix}
+1 & 2 & 3\\
+2 & 4 & 6\\
+1 & 0 & 2
+\end{bmatrix}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Perhatikan bahwa baris kedua merupakan dua kali baris pertama:
+>
+> $$
+> B_2=2B_1
+> $$
+>
+> Akibatnya:
+>
+> $$
+> \det(B)=0
+> $$
+>
+> Karena:
+>
+> $$
+> \det(B)=0
+> $$
+>
+> matriks $B$ merupakan matriks singular.
+>
+> Jadi:
+>
+> $$
+> \boxed{B^{-1}\text{ tidak ada}}
+> $$
+
+---
+
+## Soal 3
+
+Diketahui:
+
+$$
+A=
+\begin{bmatrix}
+2 & 1 & 3\\
+0 & -1 & 2\\
+4 & 2 & 1
+\end{bmatrix}
+$$
+
+Tentukan:
+
+1. $M_{11}$
+2. $M_{12}$
+3. $M_{31}$
+
+> [!success]- Klik untuk Lihat Jawaban
+>
+> ### 1. Menentukan $M_{11}$
+>
+> Hapus baris pertama dan kolom pertama:
+>
+> $$
+> M_{11}
+> =
+> \begin{vmatrix}
+> -1 & 2\\
+> 2 & 1
+> \end{vmatrix}
+> $$
+>
+> $$
+> \begin{aligned}
+> M_{11}
+> &=(-1)(1)-(2)(2)\\
+> &=-1-4\\
+> &=-5
+> \end{aligned}
+> $$
+>
+> ### 2. Menentukan $M_{12}$
+>
+> Hapus baris pertama dan kolom kedua:
+>
+> $$
+> M_{12}
+> =
+> \begin{vmatrix}
+> 0 & 2\\
+> 4 & 1
+> \end{vmatrix}
+> $$
+>
+> $$
+> \begin{aligned}
+> M_{12}
+> &=(0)(1)-(2)(4)\\
+> &=-8
+> \end{aligned}
+> $$
+>
+> ### 3. Menentukan $M_{31}$
+>
+> Hapus baris ketiga dan kolom pertama:
+>
+> $$
+> M_{31}
+> =
+> \begin{vmatrix}
+> 1 & 3\\
+> -1 & 2
+> \end{vmatrix}
+> $$
+>
+> $$
+> \begin{aligned}
+> M_{31}
+> &=(1)(2)-(3)(-1)\\
+> &=2+3\\
+> &=5
+> \end{aligned}
+> $$
+>
+> Jadi:
+>
+> $$
+> \boxed{
+> M_{11}=-5,\qquad
+> M_{12}=-8,\qquad
+> M_{31}=5
+> }
+> $$
+
+---
+
+## Soal 4
+
+Untuk matriks:
+
+$$
+A=
+\begin{bmatrix}
+2 & 1 & 3\\
+0 & -1 & 2\\
+4 & 2 & 1
+\end{bmatrix}
+$$
+
+tentukan:
+
+1. $C_{12}$
+2. $C_{21}$
+3. $C_{32}$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Gunakan:
+>
+> $$
+> C_{ij}=(-1)^{i+j}M_{ij}
+> $$
+>
+> dengan pola tanda:
+>
+> $$
+> \begin{bmatrix}
+> + & - & +\\
+> - & + & -\\
+> + & - & +
+> \end{bmatrix}
+> $$
+>
+> ### 1. Menentukan $C_{12}$
+>
+> $$
+> M_{12}
+> =
+> \begin{vmatrix}
+> 0 & 2\\
+> 4 & 1
+> \end{vmatrix}
+> =-8
+> $$
+>
+> Karena posisi $(1,2)$ bertanda negatif:
+>
+> $$
+> \begin{aligned}
+> C_{12}
+> &=-M_{12}\\
+> &=-(-8)\\
+> &=8
+> \end{aligned}
+> $$
+>
+> ### 2. Menentukan $C_{21}$
+>
+> $$
+> M_{21}
+> =
+> \begin{vmatrix}
+> 1 & 3\\
+> 2 & 1
+> \end{vmatrix}
+> $$
+>
+> $$
+> \begin{aligned}
+> M_{21}
+> &=(1)(1)-(3)(2)\\
+> &=1-6\\
+> &=-5
+> \end{aligned}
+> $$
+>
+> Karena posisi $(2,1)$ bertanda negatif:
+>
+> $$
+> C_{21}=-(-5)=5
+> $$
+>
+> ### 3. Menentukan $C_{32}$
+>
+> $$
+> M_{32}
+> =
+> \begin{vmatrix}
+> 2 & 3\\
+> 0 & 2
+> \end{vmatrix}
+> $$
+>
+> $$
+> \begin{aligned}
+> M_{32}
+> &=(2)(2)-(3)(0)\\
+> &=4
+> \end{aligned}
+> $$
+>
+> Karena posisi $(3,2)$ bertanda negatif:
+>
+> $$
+> C_{32}=-4
+> $$
+>
+> Jadi:
+>
+> $$
+> \boxed{
+> C_{12}=8,\qquad
+> C_{21}=5,\qquad
+> C_{32}=-4
+> }
+> $$
+
+---
+
+## Soal 5
+
+Diketahui:
+
+$$
+A=
+\begin{bmatrix}
+1 & 2 & 0\\
+3 & 1 & 1\\
+2 & 0 & 1
+\end{bmatrix}
+$$
+
+Tentukan matriks kofaktor dan $\operatorname{adj}(A)$.
+
+> [!success]- Klik untuk Lihat Jawaban
+> Minor-minor matriks $A$ adalah:
+>
+> $$
+> M=
+> \begin{bmatrix}
+> 1 & 1 & -2\\
+> 2 & 1 & -4\\
+> 2 & 1 & -5
+> \end{bmatrix}
+> $$
+>
+> Gunakan pola tanda:
+>
+> $$
+> \begin{bmatrix}
+> + & - & +\\
+> - & + & -\\
+> + & - & +
+> \end{bmatrix}
+> $$
+>
+> sehingga diperoleh matriks kofaktor:
+>
+> $$
+> C=
+> \begin{bmatrix}
+> 1 & -1 & -2\\
+> -2 & 1 & 4\\
+> 2 & -1 & -5
+> \end{bmatrix}
+> $$
+>
+> Adjoin merupakan transpose matriks kofaktor:
+>
+> $$
+> \operatorname{adj}(A)=C^T
+> $$
+>
+> Maka:
+>
+> $$
+> \boxed{
+> \operatorname{adj}(A)
+> =
+> \begin{bmatrix}
+> 1 & -2 & 2\\
+> -1 & 1 & -1\\
+> -2 & 4 & -5
+> \end{bmatrix}
+> }
+> $$
+
+---
+
+## Soal 6
+
+Tentukan invers dari:
+
+$$
+A=
+\begin{bmatrix}
+1 & 0 & 1\\
+0 & 1 & 0\\
+1 & 0 & 2
 \end{bmatrix}
 $$
 
@@ -1179,192 +1555,36 @@ $$
 > &=
 > 1
 > \begin{vmatrix}
-> 1&1\\
-> 0&1
+> 1 & 0\\
+> 0 & 2
 > \end{vmatrix}
-> -
+> +
 > 1
 > \begin{vmatrix}
-> 0&1\\
-> 1&1
-> \end{vmatrix}
-> \\
-> &=1(1)-1(-1)
-> \\
-> &=2
+> 0 & 1\\
+> 1 & 0
+> \end{vmatrix}\\
+> &=2-1\\
+> &=1
 > \end{aligned}
-> $$
->
-> Karena $\det(A)\ne0$, matriks mempunyai invers.
->
-> Minor-minornya:
->
-> $$
-> M=
-> \begin{bmatrix}
-> 1 & -1 & -1\\
-> 1 & 1 & -1\\
-> 1 & 1 & 1
-> \end{bmatrix}
-> $$
->
-> Dengan pola tanda kofaktor diperoleh:
->
-> $$
-> C=
-> \begin{bmatrix}
-> 1 & 1 & -1\\
-> -1 & 1 & 1\\
-> 1 & -1 & 1
-> \end{bmatrix}
-> $$
->
-> Maka:
->
-> $$
-> \operatorname{adj}(A)
-> =
-> C^T
-> =
-> \begin{bmatrix}
-> 1 & -1 & 1\\
-> 1 & 1 & -1\\
-> -1 & 1 & 1
-> \end{bmatrix}
-> $$
->
-> Dengan demikian:
->
-> $$
-> A^{-1}
-> =
-> \frac12
-> \begin{bmatrix}
-> 1 & -1 & 1\\
-> 1 & 1 & -1\\
-> -1 & 1 & 1
-> \end{bmatrix}
-> $$
->
-> Jadi:
->
-> $$
-> \boxed{
-> A^{-1}
-> =
-> \frac12
-> \begin{bmatrix}
-> 1 & -1 & 1\\
-> 1 & 1 & -1\\
-> -1 & 1 & 1
-> \end{bmatrix}
-> }
-> $$
-
----
-
-## Contoh Soal 2
-
-Tentukan apakah matriks berikut mempunyai invers:
-
-$$
-B=
-\begin{bmatrix}
-1&2&3\\
-2&4&6\\
-3&6&9
-\end{bmatrix}
-$$
-
-> [!success]- Klik untuk Lihat Jawaban
-> Perhatikan bahwa:
->
-> $$
-> B_2=2B_1
-> $$
->
-> dan:
->
-> $$
-> B_3=3B_1
-> $$
->
-> Artinya, baris-baris matriks saling bergantung.
->
-> Determinannya:
->
-> $$
-> \det(B)=0
 > $$
 >
 > Karena:
 >
 > $$
-> \det(B)=0
+> \det(A)=1\ne0
 > $$
 >
-> maka matriks $B$ merupakan matriks singular.
->
-> Jadi:
->
-> $$
-> \boxed{
-> B^{-1}\text{ tidak ada}
-> }
-> $$
-
----
-
-## Contoh Soal 3
-
-Diketahui:
-
-$$
-A=
-\begin{bmatrix}
-2&1&0\\
-1&2&1\\
-0&1&2
-\end{bmatrix}
-$$
-
-Tentukan $A^{-1}$.
-
-> [!success]- Klik untuk Lihat Jawaban
-> Hitung determinan:
->
-> $$
-> \begin{aligned}
-> \det(A)
-> &=
-> 2
-> \begin{vmatrix}
-> 2&1\\
-> 1&2
-> \end{vmatrix}
-> -
-> 1
-> \begin{vmatrix}
-> 1&1\\
-> 0&2
-> \end{vmatrix}
-> \\
-> &=2(4-1)-(2-0)
-> \\
-> &=6-2
-> \\
-> &=4
-> \end{aligned}
-> $$
+> maka matriks $A$ mempunyai invers.
 >
 > Matriks kofaktornya:
 >
 > $$
 > C=
 > \begin{bmatrix}
-> 3&-2&1\\
-> -2&4&-2\\
-> 1&-2&3
+> 2 & 0 & -1\\
+> 0 & 1 & 0\\
+> -1 & 0 & 1
 > \end{bmatrix}
 > $$
 >
@@ -1374,9 +1594,102 @@ Tentukan $A^{-1}$.
 > \operatorname{adj}(A)
 > =
 > \begin{bmatrix}
-> 3&-2&1\\
-> -2&4&-2\\
-> 1&-2&3
+> 2 & 0 & -1\\
+> 0 & 1 & 0\\
+> -1 & 0 & 1
+> \end{bmatrix}
+> $$
+>
+> Gunakan:
+>
+> $$
+> A^{-1}
+> =
+> \frac{1}{\det(A)}
+> \operatorname{adj}(A)
+> $$
+>
+> sehingga:
+>
+> $$
+> \boxed{
+> A^{-1}
+> =
+> \begin{bmatrix}
+> 2 & 0 & -1\\
+> 0 & 1 & 0\\
+> -1 & 0 & 1
+> \end{bmatrix}
+> }
+> $$
+
+---
+
+## Soal 7
+
+Tentukan invers dari:
+
+$$
+A=
+\begin{bmatrix}
+2 & 1 & 0\\
+1 & 2 & 1\\
+0 & 1 & 2
+\end{bmatrix}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Hitung determinannya:
+>
+> $$
+> \begin{aligned}
+> \det(A)
+> &=
+> 2
+> \begin{vmatrix}
+> 2 & 1\\
+> 1 & 2
+> \end{vmatrix}
+> -
+> 1
+> \begin{vmatrix}
+> 1 & 1\\
+> 0 & 2
+> \end{vmatrix}\\
+> &=2(4-1)-(2-0)\\
+> &=6-2\\
+> &=4
+> \end{aligned}
+> $$
+>
+> Karena:
+>
+> $$
+> \det(A)=4\ne0
+> $$
+>
+> matriks mempunyai invers.
+>
+> Matriks kofaktornya:
+>
+> $$
+> C=
+> \begin{bmatrix}
+> 3 & -2 & 1\\
+> -2 & 4 & -2\\
+> 1 & -2 & 3
+> \end{bmatrix}
+> $$
+>
+> Karena matriks kofaktor tersebut simetris:
+>
+> $$
+> \operatorname{adj}(A)
+> =
+> \begin{bmatrix}
+> 3 & -2 & 1\\
+> -2 & 4 & -2\\
+> 1 & -2 & 3
 > \end{bmatrix}
 > $$
 >
@@ -1387,9 +1700,9 @@ Tentukan $A^{-1}$.
 > =
 > \frac14
 > \begin{bmatrix}
-> 3&-2&1\\
-> -2&4&-2\\
-> 1&-2&3
+> 3 & -2 & 1\\
+> -2 & 4 & -2\\
+> 1 & -2 & 3
 > \end{bmatrix}
 > $$
 >
@@ -1400,85 +1713,314 @@ Tentukan $A^{-1}$.
 > A^{-1}
 > =
 > \begin{bmatrix}
-> \frac34&-\frac12&\frac14\\
-> -\frac12&1&-\frac12\\
-> \frac14&-\frac12&\frac34
+> \frac34 & -\frac12 & \frac14\\
+> -\frac12 & 1 & -\frac12\\
+> \frac14 & -\frac12 & \frac34
 > \end{bmatrix}
 > }
 > $$
 
 ---
 
-# Ringkasan
+## Soal 8
 
-Untuk menentukan invers matriks $3 \times 3$:
-
-$$
-\boxed{
-A^{-1}
-=
-\frac{1}{\det(A)}
-\operatorname{adj}(A)
-}
-$$
-
-dengan:
+Diketahui:
 
 $$
-\det(A)\ne0
-$$
-
-Adjoin diperoleh dari:
-
-$$
-\boxed{
-\operatorname{adj}(A)
-=
-C^T
-}
-$$
-
-dengan $C$ merupakan matriks kofaktor.
-
-Kofaktor diperoleh dari:
-
-$$
-\boxed{
-C_{ij}=(-1)^{i+j}M_{ij}
-}
-$$
-
-Pola tanda kofaktor:
-
-$$
-\boxed{
+A=
 \begin{bmatrix}
-+&-&+\\
--&+&-\\
-+&-&+
+x & 1 & 0\\
+-2 & x-3 & 0\\
+0 & 0 & 1
 \end{bmatrix}
-}
 $$
 
-Urutan lengkap:
+Tentukan nilai $x$ agar matriks $A$ mempunyai invers.
+
+> [!success]- Klik untuk Lihat Jawaban
+> Matriks mempunyai invers jika:
+>
+> $$
+> \det(A)\ne0
+> $$
+>
+> Hitung determinannya:
+>
+> $$
+> \begin{aligned}
+> \det(A)
+> &=
+> \begin{vmatrix}
+> x & 1\\
+> -2 & x-3
+> \end{vmatrix}(1)\\
+> &=x(x-3)-(1)(-2)\\
+> &=x^2-3x+2\\
+> &=(x-1)(x-2)
+> \end{aligned}
+> $$
+>
+> Agar mempunyai invers:
+>
+> $$
+> (x-1)(x-2)\ne0
+> $$
+>
+> sehingga:
+>
+> $$
+> x\ne1
+> $$
+>
+> dan:
+>
+> $$
+> x\ne2
+> $$
+>
+> Jadi:
+>
+> $$
+> \boxed{x\ne1\text{ dan }x\ne2}
+> $$
+
+---
+
+## Soal 9
+
+Diketahui:
 
 $$
-\boxed{
-\det(A)
-\rightarrow
-M_{ij}
-\rightarrow
-C_{ij}
-\rightarrow
-C
-\rightarrow
-C^T
-\rightarrow
-\operatorname{adj}(A)
-\rightarrow
-A^{-1}
-}
+A=
+\begin{bmatrix}
+1 & 2 & 0\\
+3 & 1 & 1\\
+2 & 0 & 1
+\end{bmatrix}
 $$
+
+dan:
+
+$$
+B=
+\begin{bmatrix}
+1 & 2 & 0\\
+5 & 2 & 5\\
+4 & 1 & 4
+\end{bmatrix}
+$$
+
+Jika:
+
+$$
+AX=B
+$$
+
+tentukan matriks $X$.
+
+> [!success]- Klik untuk Lihat Jawaban
+> Dari:
+>
+> $$
+> AX=B
+> $$
+>
+> kalikan kedua ruas dari sebelah kiri dengan $A^{-1}$:
+>
+> $$
+> X=A^{-1}B
+> $$
+>
+> Determinan matriks $A$:
+>
+> $$
+> \det(A)=-1
+> $$
+>
+> Adjoin matriks $A$:
+>
+> $$
+> \operatorname{adj}(A)
+> =
+> \begin{bmatrix}
+> 1 & -2 & 2\\
+> -1 & 1 & -1\\
+> -2 & 4 & -5
+> \end{bmatrix}
+> $$
+>
+> Sehingga:
+>
+> $$
+> A^{-1}
+> =
+> \frac{1}{-1}
+> \begin{bmatrix}
+> 1 & -2 & 2\\
+> -1 & 1 & -1\\
+> -2 & 4 & -5
+> \end{bmatrix}
+> $$
+>
+> Maka:
+>
+> $$
+> A^{-1}
+> =
+> \begin{bmatrix}
+> -1 & 2 & -2\\
+> 1 & -1 & 1\\
+> 2 & -4 & 5
+> \end{bmatrix}
+> $$
+>
+> Selanjutnya:
+>
+> $$
+> \begin{aligned}
+> X
+> &=A^{-1}B\\
+> &=
+> \begin{bmatrix}
+> -1 & 2 & -2\\
+> 1 & -1 & 1\\
+> 2 & -4 & 5
+> \end{bmatrix}
+> \begin{bmatrix}
+> 1 & 2 & 0\\
+> 5 & 2 & 5\\
+> 4 & 1 & 4
+> \end{bmatrix}
+> \end{aligned}
+> $$
+>
+> Hasilnya:
+>
+> $$
+> \boxed{
+> X=
+> \begin{bmatrix}
+> 1 & 0 & 2\\
+> 0 & 1 & -1\\
+> 2 & 1 & 0
+> \end{bmatrix}
+> }
+> $$
+
+---
+
+## Soal 10
+
+Diketahui:
+
+$$
+A=
+\begin{bmatrix}
+2 & 1 & 0\\
+1 & 2 & 1\\
+0 & 1 & 2
+\end{bmatrix}
+$$
+
+dan:
+
+$$
+B=
+\begin{bmatrix}
+4 & 5 & 2\\
+1 & 3 & 3\\
+4 & 3 & 2
+\end{bmatrix}
+$$
+
+Jika:
+
+$$
+XA=B
+$$
+
+tentukan matriks $X$.
+
+> [!success]- Klik untuk Lihat Jawaban
+> Perhatikan bahwa matriks $A$ berada di sebelah kanan $X$.
+>
+> Dari:
+>
+> $$
+> XA=B
+> $$
+>
+> kalikan kedua ruas dari sebelah kanan dengan $A^{-1}$:
+>
+> $$
+> \begin{aligned}
+> XAA^{-1}
+> &=BA^{-1}\\
+> XI
+> &=BA^{-1}\\
+> X
+> &=BA^{-1}
+> \end{aligned}
+> $$
+>
+> Invers matriks $A$ adalah:
+>
+> $$
+> A^{-1}
+> =
+> \frac14
+> \begin{bmatrix}
+> 3 & -2 & 1\\
+> -2 & 4 & -2\\
+> 1 & -2 & 3
+> \end{bmatrix}
+> $$
+>
+> Maka:
+>
+> $$
+> X
+> =
+> \begin{bmatrix}
+> 4 & 5 & 2\\
+> 1 & 3 & 3\\
+> 4 & 3 & 2
+> \end{bmatrix}
+> \left(
+> \frac14
+> \begin{bmatrix}
+> 3 & -2 & 1\\
+> -2 & 4 & -2\\
+> 1 & -2 & 3
+> \end{bmatrix}
+> \right)
+> $$
+>
+> Sehingga:
+>
+> $$
+> X
+> =
+> \frac14
+> \begin{bmatrix}
+> 4 & 8 & 0\\
+> 0 & 4 & 4\\
+> 8 & 0 & 4
+> \end{bmatrix}
+> $$
+>
+> Jadi:
+>
+> $$
+> \boxed{
+> X=
+> \begin{bmatrix}
+> 1 & 2 & 0\\
+> 0 & 1 & 1\\
+> 2 & 0 & 1
+> \end{bmatrix}
+> }
+> $$
 
 ---
 
