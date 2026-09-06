@@ -1159,41 +1159,67 @@ $$
 
 ## Soal 1
 
-Tentukan apakah matriks berikut mempunyai invers:
+Diketahui matriks:
 
 $$
 A=
 \begin{bmatrix}
-1 & 0 & 0\\
-0 & 2 & 0\\
-0 & 0 & 3
+1 & 2 & 0\\
+2 & 1 & 1\\
+0 & 1 & 2
 \end{bmatrix}
 $$
 
+Tentukan:
+
+1. $\det(A)$
+2. Apakah matriks $A$ mempunyai invers? Jelaskan alasanmu.
+
 > [!success]- Klik untuk Lihat Jawaban
-> Matriks mempunyai invers jika:
->
-> $$
-> \det(A)\ne0
-> $$
->
-> Karena $A$ merupakan matriks diagonal:
+> Hitung determinan matriks $A$ dengan ekspansi pada baris pertama:
 >
 > $$
 > \begin{aligned}
 > \det(A)
-> &=(1)(2)(3)\\
-> &=6
+> &=
+> 1
+> \begin{vmatrix}
+> 1&1\\
+> 1&2
+> \end{vmatrix}
+> -
+> 2
+> \begin{vmatrix}
+> 2&1\\
+> 0&2
+> \end{vmatrix}
+> +
+> 0
+> \begin{vmatrix}
+> 2&1\\
+> 0&1
+> \end{vmatrix}\\
+> &=1[(1)(2)-(1)(1)]
+> -2[(2)(2)-(1)(0)]\\
+> &=1(1)-2(4)\\
+> &=1-8\\
+> &=-7
 > \end{aligned}
+> $$
+>
+> Jadi:
+>
+> $$
+> \boxed{\det(A)=-7}
 > $$
 >
 > Karena:
 >
 > $$
-> 6\ne0
+> \det(A)\ne0
 > $$
 >
-> maka matriks $A$ mempunyai invers.
+> maka matriks $A$ merupakan matriks nonsingular dan mempunyai invers.
 >
 > $$
 > \boxed{A^{-1}\text{ ada}}
@@ -1203,42 +1229,85 @@ $$
 
 ## Soal 2
 
-Tentukan apakah matriks berikut mempunyai invers:
+Diketahui:
 
 $$
-B=
+A=
 \begin{bmatrix}
-1 & 2 & 3\\
-2 & 4 & 6\\
-1 & 0 & 2
+x&1&1\\
+1&x&1\\
+1&1&x
 \end{bmatrix}
 $$
 
+Tentukan nilai $x$ agar matriks $A$ merupakan matriks singular.
+
 > [!success]- Klik untuk Lihat Jawaban
-> Perhatikan bahwa baris kedua merupakan dua kali baris pertama:
+> Matriks singular memenuhi:
 >
 > $$
-> B_2=2B_1
+> \det(A)=0
 > $$
 >
-> Akibatnya:
+> Hitung determinannya:
 >
 > $$
-> \det(B)=0
+> \begin{aligned}
+> \det(A)
+> &=
+> x
+> \begin{vmatrix}
+> x&1\\
+> 1&x
+> \end{vmatrix}
+> -
+> 1
+> \begin{vmatrix}
+> 1&1\\
+> 1&x
+> \end{vmatrix}
+> +
+> 1
+> \begin{vmatrix}
+> 1&x\\
+> 1&1
+> \end{vmatrix}\\
+> &=x(x^2-1)-(x-1)+(1-x)\\
+> &=x^3-x-x+1+1-x\\
+> &=x^3-3x+2
+> \end{aligned}
 > $$
 >
-> Karena:
+> Faktorkan:
 >
 > $$
-> \det(B)=0
+> x^3-3x+2
+> =
+> (x-1)^2(x+2)
 > $$
 >
-> matriks $B$ merupakan matriks singular.
+> Karena matriks singular:
+>
+> $$
+> (x-1)^2(x+2)=0
+> $$
+>
+> Maka:
+>
+> $$
+> x=1
+> $$
+>
+> atau:
+>
+> $$
+> x=-2
+> $$
 >
 > Jadi:
 >
 > $$
-> \boxed{B^{-1}\text{ tidak ada}}
+> \boxed{x=1\text{ atau }x=-2}
 > $$
 
 ---
@@ -1248,216 +1317,135 @@ $$
 Diketahui:
 
 $$
-A=
+B=
 \begin{bmatrix}
-2 & 1 & 3\\
-0 & -1 & 2\\
-4 & 2 & 1
+2&0&1\\
+3&-1&2\\
+0&4&1
 \end{bmatrix}
 $$
 
-Tentukan:
-
-1. $M_{11}$
-2. $M_{12}$
-3. $M_{31}$
+Hitung $\det(B)$ dan tentukan apakah $B$ merupakan matriks singular atau nonsingular.
 
 > [!success]- Klik untuk Lihat Jawaban
->
-> ### 1. Menentukan $M_{11}$
->
-> Hapus baris pertama dan kolom pertama:
->
-> $$
-> M_{11}
-> =
-> \begin{vmatrix}
-> -1 & 2\\
-> 2 & 1
-> \end{vmatrix}
-> $$
+> Gunakan ekspansi pada baris pertama:
 >
 > $$
 > \begin{aligned}
-> M_{11}
-> &=(-1)(1)-(2)(2)\\
-> &=-1-4\\
-> &=-5
-> \end{aligned}
-> $$
->
-> ### 2. Menentukan $M_{12}$
->
-> Hapus baris pertama dan kolom kedua:
->
-> $$
-> M_{12}
-> =
+> \det(B)
+> &=
+> 2
 > \begin{vmatrix}
-> 0 & 2\\
-> 4 & 1
+> -1&2\\
+> 4&1
 > \end{vmatrix}
-> $$
->
-> $$
-> \begin{aligned}
-> M_{12}
-> &=(0)(1)-(2)(4)\\
-> &=-8
-> \end{aligned}
-> $$
->
-> ### 3. Menentukan $M_{31}$
->
-> Hapus baris ketiga dan kolom pertama:
->
-> $$
-> M_{31}
-> =
+> +
+> 1
 > \begin{vmatrix}
-> 1 & 3\\
-> -1 & 2
-> \end{vmatrix}
-> $$
->
-> $$
-> \begin{aligned}
-> M_{31}
-> &=(1)(2)-(3)(-1)\\
-> &=2+3\\
-> &=5
+> 3&-1\\
+> 0&4
+> \end{vmatrix}\\
+> &=2[(-1)(1)-(2)(4)]
+> +[(3)(4)-(-1)(0)]\\
+> &=2(-1-8)+12\\
+> &=-18+12\\
+> &=-6
 > \end{aligned}
 > $$
 >
 > Jadi:
 >
 > $$
-> \boxed{
-> M_{11}=-5,\qquad
-> M_{12}=-8,\qquad
-> M_{31}=5
-> }
+> \boxed{\det(B)=-6}
 > $$
+>
+> Karena:
+>
+> $$
+> \det(B)\ne0
+> $$
+>
+> maka matriks $B$ merupakan matriks nonsingular.
+>
+> Dengan demikian, $B$ mempunyai invers.
 
 ---
 
 ## Soal 4
 
-Untuk matriks:
+Diketahui matriks $A$ berordo $3\times3$ dan:
 
 $$
-A=
-\begin{bmatrix}
-2 & 1 & 3\\
-0 & -1 & 2\\
-4 & 2 & 1
-\end{bmatrix}
+\det(A)=-4
 $$
 
-tentukan:
+Tentukan:
 
-1. $C_{12}$
-2. $C_{21}$
-3. $C_{32}$
+1. $\det(A^{-1})$
+2. $\det(2A)$
+3. $\det((2A)^{-1})$
 
 > [!success]- Klik untuk Lihat Jawaban
-> Gunakan:
+> ### 1. Menentukan $\det(A^{-1})$
+>
+> Gunakan sifat:
 >
 > $$
-> C_{ij}=(-1)^{i+j}M_{ij}
-> $$
->
-> dengan pola tanda:
->
-> $$
-> \begin{bmatrix}
-> + & - & +\\
-> - & + & -\\
-> + & - & +
-> \end{bmatrix}
-> $$
->
-> ### 1. Menentukan $C_{12}$
->
-> $$
-> M_{12}
+> \det(A^{-1})
 > =
-> \begin{vmatrix}
-> 0 & 2\\
-> 4 & 1
-> \end{vmatrix}
-> =-8
+> \frac{1}{\det(A)}
 > $$
 >
-> Karena posisi $(1,2)$ bertanda negatif:
+> Maka:
+>
+> $$
+> \boxed{
+> \det(A^{-1})=-\frac14
+> }
+> $$
+>
+> ### 2. Menentukan $\det(2A)$
+>
+> Karena $A$ berordo $3\times3$:
+>
+> $$
+> \det(kA)=k^3\det(A)
+> $$
+>
+> Sehingga:
 >
 > $$
 > \begin{aligned}
-> C_{12}
-> &=-M_{12}\\
-> &=-(-8)\\
-> &=8
+> \det(2A)
+> &=2^3\det(A)\\
+> &=8(-4)\\
+> &=-32
 > \end{aligned}
-> $$
->
-> ### 2. Menentukan $C_{21}$
->
-> $$
-> M_{21}
-> =
-> \begin{vmatrix}
-> 1 & 3\\
-> 2 & 1
-> \end{vmatrix}
-> $$
->
-> $$
-> \begin{aligned}
-> M_{21}
-> &=(1)(1)-(3)(2)\\
-> &=1-6\\
-> &=-5
-> \end{aligned}
-> $$
->
-> Karena posisi $(2,1)$ bertanda negatif:
->
-> $$
-> C_{21}=-(-5)=5
-> $$
->
-> ### 3. Menentukan $C_{32}$
->
-> $$
-> M_{32}
-> =
-> \begin{vmatrix}
-> 2 & 3\\
-> 0 & 2
-> \end{vmatrix}
-> $$
->
-> $$
-> \begin{aligned}
-> M_{32}
-> &=(2)(2)-(3)(0)\\
-> &=4
-> \end{aligned}
-> $$
->
-> Karena posisi $(3,2)$ bertanda negatif:
->
-> $$
-> C_{32}=-4
 > $$
 >
 > Jadi:
 >
 > $$
+> \boxed{\det(2A)=-32}
+> $$
+>
+> ### 3. Menentukan $\det((2A)^{-1})$
+>
+> Gunakan:
+>
+> $$
+> \det((2A)^{-1})
+> =
+> \frac{1}{\det(2A)}
+> $$
+>
+> Maka:
+>
+> $$
 > \boxed{
-> C_{12}=8,\qquad
-> C_{21}=5,\qquad
-> C_{32}=-4
+> \det((2A)^{-1})
+> =
+> -\frac{1}{32}
 > }
 > $$
 
@@ -1465,89 +1453,19 @@ tentukan:
 
 ## Soal 5
 
-Diketahui:
+Tentukan invers dari matriks:
 
 $$
 A=
 \begin{bmatrix}
-1 & 2 & 0\\
-3 & 1 & 1\\
-2 & 0 & 1
-\end{bmatrix}
-$$
-
-Tentukan matriks kofaktor dan $\operatorname{adj}(A)$.
-
-> [!success]- Klik untuk Lihat Jawaban
-> Minor-minor matriks $A$ adalah:
->
-> $$
-> M=
-> \begin{bmatrix}
-> 1 & 1 & -2\\
-> 2 & 1 & -4\\
-> 2 & 1 & -5
-> \end{bmatrix}
-> $$
->
-> Gunakan pola tanda:
->
-> $$
-> \begin{bmatrix}
-> + & - & +\\
-> - & + & -\\
-> + & - & +
-> \end{bmatrix}
-> $$
->
-> sehingga diperoleh matriks kofaktor:
->
-> $$
-> C=
-> \begin{bmatrix}
-> 1 & -1 & -2\\
-> -2 & 1 & 4\\
-> 2 & -1 & -5
-> \end{bmatrix}
-> $$
->
-> Adjoin merupakan transpose matriks kofaktor:
->
-> $$
-> \operatorname{adj}(A)=C^T
-> $$
->
-> Maka:
->
-> $$
-> \boxed{
-> \operatorname{adj}(A)
-> =
-> \begin{bmatrix}
-> 1 & -2 & 2\\
-> -1 & 1 & -1\\
-> -2 & 4 & -5
-> \end{bmatrix}
-> }
-> $$
-
----
-
-## Soal 6
-
-Tentukan invers dari:
-
-$$
-A=
-\begin{bmatrix}
-1 & 0 & 1\\
-0 & 1 & 0\\
-1 & 0 & 2
+1&1&0\\
+0&1&1\\
+1&0&1
 \end{bmatrix}
 $$
 
 > [!success]- Klik untuk Lihat Jawaban
-> Hitung determinannya:
+> Hitung determinan:
 >
 > $$
 > \begin{aligned}
@@ -1555,24 +1473,24 @@ $$
 > &=
 > 1
 > \begin{vmatrix}
-> 1 & 0\\
-> 0 & 2
+> 1&1\\
+> 0&1
 > \end{vmatrix}
-> +
+> -
 > 1
 > \begin{vmatrix}
-> 0 & 1\\
-> 1 & 0
+> 0&1\\
+> 1&1
 > \end{vmatrix}\\
-> &=2-1\\
-> &=1
+> &=1(1)-1(-1)\\
+> &=2
 > \end{aligned}
 > $$
 >
 > Karena:
 >
 > $$
-> \det(A)=1\ne0
+> \det(A)=2\ne0
 > $$
 >
 > maka matriks $A$ mempunyai invers.
@@ -1582,21 +1500,23 @@ $$
 > $$
 > C=
 > \begin{bmatrix}
-> 2 & 0 & -1\\
-> 0 & 1 & 0\\
-> -1 & 0 & 1
+> 1&1&-1\\
+> -1&1&1\\
+> 1&-1&1
 > \end{bmatrix}
 > $$
 >
-> Karena matriks kofaktor tersebut simetris:
+> Adjoin matriks:
 >
 > $$
 > \operatorname{adj}(A)
 > =
+> C^T
+> =
 > \begin{bmatrix}
-> 2 & 0 & -1\\
-> 0 & 1 & 0\\
-> -1 & 0 & 1
+> 1&-1&1\\
+> 1&1&-1\\
+> -1&1&1
 > \end{bmatrix}
 > $$
 >
@@ -1609,37 +1529,38 @@ $$
 > \operatorname{adj}(A)
 > $$
 >
-> sehingga:
+> Maka:
 >
 > $$
 > \boxed{
 > A^{-1}
 > =
+> \frac12
 > \begin{bmatrix}
-> 2 & 0 & -1\\
-> 0 & 1 & 0\\
-> -1 & 0 & 1
+> 1&-1&1\\
+> 1&1&-1\\
+> -1&1&1
 > \end{bmatrix}
 > }
 > $$
 
 ---
 
-## Soal 7
+## Soal 6
 
-Tentukan invers dari:
+Tentukan invers dari matriks:
 
 $$
 A=
 \begin{bmatrix}
-2 & 1 & 0\\
-1 & 2 & 1\\
-0 & 1 & 2
+2&-1&1\\
+1&0&2\\
+3&1&1
 \end{bmatrix}
 $$
 
 > [!success]- Klik untuk Lihat Jawaban
-> Hitung determinannya:
+> Hitung determinan:
 >
 > $$
 > \begin{aligned}
@@ -1647,62 +1568,60 @@ $$
 > &=
 > 2
 > \begin{vmatrix}
-> 2 & 1\\
-> 1 & 2
+> 0&2\\
+> 1&1
 > \end{vmatrix}
-> -
+> +
 > 1
 > \begin{vmatrix}
-> 1 & 1\\
-> 0 & 2
+> 1&2\\
+> 3&1
+> \end{vmatrix}
+> +
+> 1
+> \begin{vmatrix}
+> 1&0\\
+> 3&1
 > \end{vmatrix}\\
-> &=2(4-1)-(2-0)\\
-> &=6-2\\
-> &=4
+> &=2(0-2)+(1-6)+(1-0)\\
+> &=-4-5+1\\
+> &=-8
 > \end{aligned}
 > $$
->
-> Karena:
->
-> $$
-> \det(A)=4\ne0
-> $$
->
-> matriks mempunyai invers.
 >
 > Matriks kofaktornya:
 >
 > $$
 > C=
 > \begin{bmatrix}
-> 3 & -2 & 1\\
-> -2 & 4 & -2\\
-> 1 & -2 & 3
-> \end{bmatrix}
-> $$
->
-> Karena matriks kofaktor tersebut simetris:
->
-> $$
-> \operatorname{adj}(A)
-> =
-> \begin{bmatrix}
-> 3 & -2 & 1\\
-> -2 & 4 & -2\\
-> 1 & -2 & 3
+> -2&5&1\\
+> 2&-1&-5\\
+> -2&-3&1
 > \end{bmatrix}
 > $$
 >
 > Maka:
 >
 > $$
+> \operatorname{adj}(A)
+> =
+> \begin{bmatrix}
+> -2&2&-2\\
+> 5&-1&-3\\
+> 1&-5&1
+> \end{bmatrix}
+> $$
+>
+> Sehingga:
+>
+> $$
 > A^{-1}
 > =
-> \frac14
+> -\frac18
 > \begin{bmatrix}
-> 3 & -2 & 1\\
-> -2 & 4 & -2\\
-> 1 & -2 & 3
+> -2&2&-2\\
+> 5&-1&-3\\
+> 1&-5&1
 > \end{bmatrix}
 > $$
 >
@@ -1713,9 +1632,89 @@ $$
 > A^{-1}
 > =
 > \begin{bmatrix}
-> \frac34 & -\frac12 & \frac14\\
-> -\frac12 & 1 & -\frac12\\
-> \frac14 & -\frac12 & \frac34
+> \frac14&-\frac14&\frac14\\
+> -\frac58&\frac18&\frac38\\
+> -\frac18&\frac58&-\frac18
+> \end{bmatrix}
+> }
+> $$
+
+---
+
+## Soal 7
+
+Diketahui:
+
+$$
+A^{-1}
+=
+\begin{bmatrix}
+1&1&0\\
+0&1&1\\
+0&0&1
+\end{bmatrix}
+$$
+
+dan:
+
+$$
+B^{-1}
+=
+\begin{bmatrix}
+1&0&1\\
+0&1&0\\
+0&0&1
+\end{bmatrix}
+$$
+
+Tentukan $(AB)^{-1}$.
+
+> [!success]- Klik untuk Lihat Jawaban
+> Gunakan sifat:
+>
+> $$
+> (AB)^{-1}
+> =
+> B^{-1}A^{-1}
+> $$
+>
+> Perhatikan bahwa urutan perkalian dibalik.
+>
+> Maka:
+>
+> $$
+> \begin{aligned}
+> (AB)^{-1}
+> &=
+> \begin{bmatrix}
+> 1&0&1\\
+> 0&1&0\\
+> 0&0&1
+> \end{bmatrix}
+> \begin{bmatrix}
+> 1&1&0\\
+> 0&1&1\\
+> 0&0&1
+> \end{bmatrix}\\
+> &=
+> \begin{bmatrix}
+> 1&1&1\\
+> 0&1&1\\
+> 0&0&1
+> \end{bmatrix}
+> \end{aligned}
+> $$
+>
+> Jadi:
+>
+> $$
+> \boxed{
+> (AB)^{-1}
+> =
+> \begin{bmatrix}
+> 1&1&1\\
+> 0&1&1\\
+> 0&0&1
 > \end{bmatrix}
 > }
 > $$
@@ -1727,61 +1726,122 @@ $$
 Diketahui:
 
 $$
-A=
+AB=C
+$$
+
+dengan:
+
+$$
+B=
 \begin{bmatrix}
-x & 1 & 0\\
--2 & x-3 & 0\\
-0 & 0 & 1
+1&1&0\\
+0&1&1\\
+1&0&1
 \end{bmatrix}
 $$
 
-Tentukan nilai $x$ agar matriks $A$ mempunyai invers.
+dan:
+
+$$
+C=
+\begin{bmatrix}
+3&1&0\\
+3&1&2\\
+1&1&2
+\end{bmatrix}
+$$
+
+Tentukan matriks $A$.
 
 > [!success]- Klik untuk Lihat Jawaban
-> Matriks mempunyai invers jika:
+> Diketahui:
 >
 > $$
-> \det(A)\ne0
+> AB=C
 > $$
 >
-> Hitung determinannya:
+> Karena $B$ berada di sebelah kanan $A$, kalikan kedua ruas dari sebelah kanan dengan $B^{-1}$:
+>
+> $$
+> ABB^{-1}=CB^{-1}
+> $$
+>
+> Sehingga:
+>
+> $$
+> A=CB^{-1}
+> $$
+>
+> Matriks $B$ adalah:
+>
+> $$
+> B=
+> \begin{bmatrix}
+> 1&1&0\\
+> 0&1&1\\
+> 1&0&1
+> \end{bmatrix}
+> $$
+>
+> dengan:
+>
+> $$
+> \det(B)=2
+> $$
+>
+> Inversnya:
+>
+> $$
+> B^{-1}
+> =
+> \frac12
+> \begin{bmatrix}
+> 1&-1&1\\
+> 1&1&-1\\
+> -1&1&1
+> \end{bmatrix}
+> $$
+>
+> Maka:
 >
 > $$
 > \begin{aligned}
-> \det(A)
+> A
+> &=CB^{-1}\\
 > &=
-> \begin{vmatrix}
-> x & 1\\
-> -2 & x-3
-> \end{vmatrix}(1)\\
-> &=x(x-3)-(1)(-2)\\
-> &=x^2-3x+2\\
-> &=(x-1)(x-2)
+> \begin{bmatrix}
+> 3&1&0\\
+> 3&1&2\\
+> 1&1&2
+> \end{bmatrix}
+> \left(
+> \frac12
+> \begin{bmatrix}
+> 1&-1&1\\
+> 1&1&-1\\
+> -1&1&1
+> \end{bmatrix}
+> \right)
 > \end{aligned}
 > $$
 >
-> Agar mempunyai invers:
+> Diperoleh:
 >
 > $$
-> (x-1)(x-2)\ne0
+> \boxed{
+> A=
+> \begin{bmatrix}
+> 2&-1&1\\
+> 1&0&2\\
+> 0&1&1
+> \end{bmatrix}
+> }
 > $$
 >
-> sehingga:
+> Hasil dapat diperiksa kembali dengan menghitung:
 >
 > $$
-> x\ne1
-> $$
->
-> dan:
->
-> $$
-> x\ne2
-> $$
->
-> Jadi:
->
-> $$
-> \boxed{x\ne1\text{ dan }x\ne2}
+> AB=C
 > $$
 
 ---
@@ -1791,221 +1851,40 @@ Tentukan nilai $x$ agar matriks $A$ mempunyai invers.
 Diketahui:
 
 $$
-A=
+A^{-1}
+=
 \begin{bmatrix}
-1 & 2 & 0\\
-3 & 1 & 1\\
-2 & 0 & 1
+2&-1&0\\
+1&1&1\\
+0&2&1
 \end{bmatrix}
 $$
 
-dan:
+Tentukan:
 
-$$
-B=
-\begin{bmatrix}
-1 & 2 & 0\\
-5 & 2 & 5\\
-4 & 1 & 4
-\end{bmatrix}
-$$
-
-Jika:
-
-$$
-AX=B
-$$
-
-tentukan matriks $X$.
+1. $(A^T)^{-1}$
+2. $(2A)^{-1}$
 
 > [!success]- Klik untuk Lihat Jawaban
-> Dari:
+> ### 1. Menentukan $(A^T)^{-1}$
+>
+> Gunakan sifat:
 >
 > $$
-> AX=B
-> $$
->
-> kalikan kedua ruas dari sebelah kiri dengan $A^{-1}$:
->
-> $$
-> X=A^{-1}B
-> $$
->
-> Determinan matriks $A$:
->
-> $$
-> \det(A)=-1
-> $$
->
-> Adjoin matriks $A$:
->
-> $$
-> \operatorname{adj}(A)
+> (A^T)^{-1}
 > =
-> \begin{bmatrix}
-> 1 & -2 & 2\\
-> -1 & 1 & -1\\
-> -2 & 4 & -5
-> \end{bmatrix}
-> $$
->
-> Sehingga:
->
-> $$
-> A^{-1}
-> =
-> \frac{1}{-1}
-> \begin{bmatrix}
-> 1 & -2 & 2\\
-> -1 & 1 & -1\\
-> -2 & 4 & -5
-> \end{bmatrix}
+> (A^{-1})^T
 > $$
 >
 > Maka:
 >
 > $$
-> A^{-1}
+> (A^T)^{-1}
 > =
 > \begin{bmatrix}
-> -1 & 2 & -2\\
-> 1 & -1 & 1\\
-> 2 & -4 & 5
-> \end{bmatrix}
-> $$
->
-> Selanjutnya:
->
-> $$
-> \begin{aligned}
-> X
-> &=A^{-1}B\\
-> &=
-> \begin{bmatrix}
-> -1 & 2 & -2\\
-> 1 & -1 & 1\\
-> 2 & -4 & 5
-> \end{bmatrix}
-> \begin{bmatrix}
-> 1 & 2 & 0\\
-> 5 & 2 & 5\\
-> 4 & 1 & 4
-> \end{bmatrix}
-> \end{aligned}
-> $$
->
-> Hasilnya:
->
-> $$
-> \boxed{
-> X=
-> \begin{bmatrix}
-> 1 & 0 & 2\\
-> 0 & 1 & -1\\
-> 2 & 1 & 0
-> \end{bmatrix}
-> }
-> $$
-
----
-
-## Soal 10
-
-Diketahui:
-
-$$
-A=
-\begin{bmatrix}
-2 & 1 & 0\\
-1 & 2 & 1\\
-0 & 1 & 2
-\end{bmatrix}
-$$
-
-dan:
-
-$$
-B=
-\begin{bmatrix}
-4 & 5 & 2\\
-1 & 3 & 3\\
-4 & 3 & 2
-\end{bmatrix}
-$$
-
-Jika:
-
-$$
-XA=B
-$$
-
-tentukan matriks $X$.
-
-> [!success]- Klik untuk Lihat Jawaban
-> Perhatikan bahwa matriks $A$ berada di sebelah kanan $X$.
->
-> Dari:
->
-> $$
-> XA=B
-> $$
->
-> kalikan kedua ruas dari sebelah kanan dengan $A^{-1}$:
->
-> $$
-> \begin{aligned}
-> XAA^{-1}
-> &=BA^{-1}\\
-> XI
-> &=BA^{-1}\\
-> X
-> &=BA^{-1}
-> \end{aligned}
-> $$
->
-> Invers matriks $A$ adalah:
->
-> $$
-> A^{-1}
-> =
-> \frac14
-> \begin{bmatrix}
-> 3 & -2 & 1\\
-> -2 & 4 & -2\\
-> 1 & -2 & 3
-> \end{bmatrix}
-> $$
->
-> Maka:
->
-> $$
-> X
-> =
-> \begin{bmatrix}
-> 4 & 5 & 2\\
-> 1 & 3 & 3\\
-> 4 & 3 & 2
-> \end{bmatrix}
-> \left(
-> \frac14
-> \begin{bmatrix}
-> 3 & -2 & 1\\
-> -2 & 4 & -2\\
-> 1 & -2 & 3
-> \end{bmatrix}
-> \right)
-> $$
->
-> Sehingga:
->
-> $$
-> X
-> =
-> \frac14
-> \begin{bmatrix}
-> 4 & 8 & 0\\
-> 0 & 4 & 4\\
-> 8 & 0 & 4
+> 2&1&0\\
+> -1&1&2\\
+> 0&1&1
 > \end{bmatrix}
 > $$
 >
@@ -2013,11 +1892,49 @@ tentukan matriks $X$.
 >
 > $$
 > \boxed{
-> X=
+> (A^T)^{-1}
+> =
 > \begin{bmatrix}
-> 1 & 2 & 0\\
-> 0 & 1 & 1\\
-> 2 & 0 & 1
+> 2&1&0\\
+> -1&1&2\\
+> 0&1&1
+> \end{bmatrix}
+> }
+> $$
+>
+> ### 2. Menentukan $(2A)^{-1}$
+>
+> Gunakan sifat:
+>
+> $$
+> (kA)^{-1}
+> =
+> \frac1kA^{-1}
+> $$
+>
+> Maka:
+>
+> $$
+> (2A)^{-1}
+> =
+> \frac12
+> \begin{bmatrix}
+> 2&-1&0\\
+> 1&1&1\\
+> 0&2&1
+> \end{bmatrix}
+> $$
+>
+> Jadi:
+>
+> $$
+> \boxed{
+> (2A)^{-1}
+> =
+> \begin{bmatrix}
+> 1&-\frac12&0\\
+> \frac12&\frac12&\frac12\\
+> 0&1&\frac12
 > \end{bmatrix}
 > }
 > $$
