@@ -1,11 +1,6 @@
 ---
 title:
 ---
-
----
-title:
----
-
 # Aturan Cosinus
 
 Aturan Sinus sangat efektif ketika terdapat pasangan sisi dan sudut yang saling berhadapan.

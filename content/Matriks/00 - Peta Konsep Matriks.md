@@ -57,8 +57,8 @@ Konsep ini memandu para eksekutif dan ekonom dalam mengambil kebijakan strategis
 - [[Matriks/05 - Determinan Matriks Ordo 2x2 dan 3x3]]
 - [[Matriks/06 - Matriks Singular dan Sifat-Sifat Determinan]]
 - [[Matriks/07 - Invers Matriks Ordo 2x2 dan Sifat-Sifat Invers]]
-- [[Matriks/08 - Menyelesaikan Sistem Persamaan Linear Dua Variabel (SPLDV) dengan Matriks]]
-- [[Matriks/09 - Menyelesaikan Sistem Persamaan Linear Tiga Variabel (SPLTV) dengan Metode Cramer]]
+- [[Matriks/09 - Menyelesaikan Sistem Persamaan Linear Dua Variabel (SPLDV) dengan Matriks]]
+- [[Matriks/10 - Menyelesaikan Sistem Persamaan Linear Tiga Variabel (SPLTV) dengan Metode Cramer]]
 
 ---
 

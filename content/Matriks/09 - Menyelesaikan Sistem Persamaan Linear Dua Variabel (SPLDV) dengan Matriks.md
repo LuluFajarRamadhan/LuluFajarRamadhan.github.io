@@ -1817,5 +1817,5 @@ Tentukan harga satu tiket dewasa dan satu tiket anak-anak menggunakan metode mat
 
 - [[Matriks/04 - Operasi Perkalian Skalar dan Perkalian Antarmatriks]]
 - [[Matriks/07 - Invers Matriks Ordo 2x2 dan Sifat-Sifat Invers]]
-- [[Matriks/09 - Menyelesaikan Sistem Persamaan Linear Tiga Variabel (SPLTV) dengan Metode Cramer]]
+- [[Matriks/10 - Menyelesaikan Sistem Persamaan Linear Tiga Variabel (SPLTV) dengan Metode Cramer]]
 ```

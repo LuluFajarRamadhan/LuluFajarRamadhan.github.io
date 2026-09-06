@@ -1548,5 +1548,6 @@ tentukan matriks $X$!
 ## Konsep Terkait
 
 - [[Matriks/06 - Matriks Singular dan Sifat-Sifat Determinan]]
-- [[Matriks/08 - Menyelesaikan Sistem Persamaan Linear Dua Variabel (SPLDV) dengan Matriks]]
+- [[Matriks/08 - Invers Matriks Ordo 3x3 dan Sifat-Sifat Invers|08 - Invers Matriks Ordo 3x3 dan Sifat-Sifat Invers]]
+- [[Matriks/09 - Menyelesaikan Sistem Persamaan Linear Dua Variabel (SPLDV) dengan Matriks]]
 ```

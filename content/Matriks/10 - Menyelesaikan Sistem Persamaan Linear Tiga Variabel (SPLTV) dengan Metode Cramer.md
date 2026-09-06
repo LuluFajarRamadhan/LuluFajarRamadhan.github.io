@@ -1603,5 +1603,5 @@ Tentukan harga masing-masing barang menggunakan Metode Cramer!
 ## Konsep Terkait
 
 - [[Matriks/05 - Determinan Matriks Ordo 2x2 dan 3x3]]
-- [[Matriks/08 - Menyelesaikan Sistem Persamaan Linear Dua Variabel (SPLDV) dengan Matriks]]
+- [[Matriks/09 - Menyelesaikan Sistem Persamaan Linear Dua Variabel (SPLDV) dengan Matriks]]
 ```
