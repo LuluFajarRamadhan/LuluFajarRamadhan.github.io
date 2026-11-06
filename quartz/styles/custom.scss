@@ -44,3 +44,80 @@ li .katex-display {
     margin-bottom: 0rem; /* Menghilangkan margin bawah tambahan */
   }
 }
+
+
+
+/* ==========================================
+   RESPONSIVE READER MODE - QUARTZ
+   ========================================== */
+
+/* Hanya aktif ketika Reader Mode dinyalakan */
+:root[reader-mode="on"] {
+
+  #quartz-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) !important;
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-footer" !important;
+
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #quartz-body .center {
+    grid-area: grid-center;
+    width: min(100%, 1100px);
+    max-width: 100%;
+    min-width: 0;
+
+    margin-inline: auto !important;
+    padding-inline: clamp(16px, 3vw, 36px);
+    box-sizing: border-box;
+  }
+
+  #quartz-body .center article {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    overflow-wrap: break-word;
+  }
+
+  #quartz-body .page-header {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Mencegah tabel meluaskan halaman */
+  article table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Gambar mengikuti lebar artikel */
+  article img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet dan HP */
+@media (max-width: 800px) {
+  :root[reader-mode="on"] {
+
+    #quartz-body .center {
+      width: 100%;
+      padding-inline: 16px;
+    }
+
+    #quartz-body .center article {
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+  }
+}
+
