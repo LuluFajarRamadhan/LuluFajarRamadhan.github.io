@@ -48,75 +48,134 @@ li .katex-display {
 
 
 /* ==========================================
-   RESPONSIVE READER MODE - QUARTZ
+   QUARTZ RESPONSIVE READER MODE
+   Full Width + Centered + Mobile Friendly
    ========================================== */
 
-/* Hanya aktif ketika Reader Mode dinyalakan */
-:root[reader-mode="on"] {
+html[reader-mode="on"] {
 
-  #quartz-body {
-    display: grid;
+  /* Hilangkan pembatas lebar halaman */
+  body,
+  .page {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin-inline: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Ubah layout menjadi satu kolom */
+  .page > #quartz-body {
+    display: grid !important;
+
     grid-template-columns: minmax(0, 1fr) !important;
+
     grid-template-areas:
       "grid-header"
       "grid-center"
       "grid-footer" !important;
 
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+    column-gap: 0 !important;
   }
 
-  #quartz-body .center {
-    grid-area: grid-center;
-    width: min(100%, 1100px);
-    max-width: 100%;
-    min-width: 0;
+  /* Sembunyikan kedua sidebar */
+  #quartz-body > .sidebar.left,
+  #quartz-body > .sidebar.right {
+    display: none !important;
+  }
+
+  /* Posisikan artikel di tengah layar */
+  #quartz-body > .center {
+    grid-area: grid-center !important;
+
+    width: 100% !important;
+    max-width: 1100px !important;
+    min-width: 0 !important;
 
     margin-inline: auto !important;
-    padding-inline: clamp(16px, 3vw, 36px);
+    padding-inline: clamp(16px, 3vw, 40px) !important;
+
+    box-sizing: border-box !important;
+    justify-self: center !important;
+  }
+
+  /* Isi artikel mengikuti kolom utama */
+  #quartz-body > .center > article {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    overflow-wrap: break-word;
+    line-height: 1.75;
+  }
+
+  /* Header mengikuti lebar artikel */
+  #quartz-body .page-header {
+    width: 100%;
+    max-width: 1100px;
+    min-width: 0;
+    margin-inline: auto !important;
     box-sizing: border-box;
   }
 
-  #quartz-body .center article {
+  /* Footer */
+  #quartz-body footer {
+    grid-area: grid-footer !important;
     width: 100%;
-    max-width: 100%;
+    max-width: 1100px;
     min-width: 0;
-
-    overflow-wrap: break-word;
+    margin-inline: auto !important;
+    box-sizing: border-box;
   }
 
-  #quartz-body .page-header {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  /* Mencegah tabel meluaskan halaman */
+  /* Tabel tidak memaksa halaman melebar */
   article table {
     display: block;
     max-width: 100%;
     overflow-x: auto;
   }
 
-  /* Gambar mengikuti lebar artikel */
-  article img {
+  article img,
+  article svg {
     max-width: 100%;
     height: auto;
   }
+
+  /* Rumus panjang dapat digeser horizontal */
+  article .katex-display {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
 }
 
-/* Tablet dan HP */
-@media (max-width: 800px) {
-  :root[reader-mode="on"] {
+/* ==========================================
+   SMARTPHONE DAN TABLET KECIL
+   ========================================== */
 
-    #quartz-body .center {
-      width: 100%;
-      padding-inline: 16px;
+@media (max-width: 800px) {
+
+  html[reader-mode="on"] {
+
+    #quartz-body > .center {
+      max-width: 100% !important;
+      padding-inline: 16px !important;
     }
 
-    #quartz-body .center article {
+    #quartz-body > .center > article {
       font-size: 1rem;
-      line-height: 1.75;
+      line-height: 1.7;
+    }
+
+    #quartz-body .page-header,
+    #quartz-body footer {
+      padding-inline: 16px;
     }
   }
 }
