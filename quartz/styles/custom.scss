@@ -47,136 +47,130 @@ li .katex-display {
 
 
 
-/* ==========================================
-   QUARTZ RESPONSIVE READER MODE
-   Full Width + Centered + Mobile Friendly
-   ========================================== */
 
-html[reader-mode="on"] {
+/* ============================================
+   QUARTZ - RESPONSIVE READER MODE
+   Menghindari konflik CSS Grid
+   ============================================ */
 
-  /* Hilangkan pembatas lebar halaman */
-  body,
+:root[reader-mode="on"] {
+
+  /* 1. Halaman menggunakan lebar viewport */
   .page {
     width: 100% !important;
-    max-width: none !important;
+    max-width: 100% !important;
     min-width: 0 !important;
-    margin-inline: auto !important;
+    margin: 0 auto !important;
     box-sizing: border-box !important;
   }
 
-  /* Ubah layout menjadi satu kolom */
+  /* 2. Ganti Grid menjadi Flexbox */
   .page > #quartz-body {
-    display: grid !important;
-
-    grid-template-columns: minmax(0, 1fr) !important;
-
-    grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-footer" !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
 
     width: 100% !important;
-    max-width: none !important;
+    max-width: 100% !important;
     min-width: 0 !important;
 
     margin: 0 auto !important;
     padding: 0 !important;
-    column-gap: 0 !important;
+
+    /* Nonaktifkan tata letak Grid sebelumnya */
+    grid-template-columns: none !important;
+    grid-template-rows: none !important;
+    grid-template-areas: none !important;
   }
 
-  /* Sembunyikan kedua sidebar */
+  /* 3. Sidebar disembunyikan */
   #quartz-body > .sidebar.left,
   #quartz-body > .sidebar.right {
     display: none !important;
   }
 
-  /* Posisikan artikel di tengah layar */
-  #quartz-body > .center {
-    grid-area: grid-center !important;
+  /* 4. Header, artikel, dan footer responsif */
+  #quartz-body > .page-header,
+  #quartz-body > .center,
+  #quartz-body > footer {
+    display: block;
+    flex: 0 0 auto;
 
-    width: 100% !important;
+    width: min(100%, 1100px) !important;
     max-width: 1100px !important;
     min-width: 0 !important;
 
-    margin-inline: auto !important;
-    padding-inline: clamp(16px, 3vw, 40px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    padding-left: clamp(16px, 3vw, 32px) !important;
+    padding-right: clamp(16px, 3vw, 32px) !important;
 
     box-sizing: border-box !important;
-    justify-self: center !important;
   }
 
-  /* Isi artikel mengikuti kolom utama */
+  /* 5. Artikel mengisi seluruh area yang tersedia */
   #quartz-body > .center > article {
+    display: block !important;
+
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
+
+    grid-area: auto !important;
 
     overflow-wrap: break-word;
     line-height: 1.75;
   }
 
-  /* Header mengikuti lebar artikel */
-  #quartz-body .page-header {
-    width: 100%;
-    max-width: 1100px;
-    min-width: 0;
-    margin-inline: auto !important;
-    box-sizing: border-box;
+  /* 6. Judul dan teks tidak terkunci kolom sempit */
+  #quartz-body h1,
+  #quartz-body h2,
+  #quartz-body h3,
+  #quartz-body p,
+  #quartz-body ul,
+  #quartz-body ol {
+    max-width: 100%;
   }
 
-  /* Footer */
-  #quartz-body footer {
-    grid-area: grid-footer !important;
+  /* 7. Tabel responsif */
+  #quartz-body .table-container {
     width: 100%;
-    max-width: 1100px;
-    min-width: 0;
-    margin-inline: auto !important;
-    box-sizing: border-box;
-  }
-
-  /* Tabel tidak memaksa halaman melebar */
-  article table {
-    display: block;
     max-width: 100%;
     overflow-x: auto;
   }
 
-  article img,
-  article svg {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Rumus panjang dapat digeser horizontal */
-  article .katex-display {
+  /* 8. Persamaan matematika panjang */
+  #quartz-body .katex-display {
     max-width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
   }
+
+  /* 9. Gambar responsif */
+  #quartz-body article img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
-/* ==========================================
-   SMARTPHONE DAN TABLET KECIL
-   ========================================== */
+/* Tampilan HP dan zoom tinggi */
+@media screen and (max-width: 800px) {
 
-@media (max-width: 800px) {
+  :root[reader-mode="on"] {
 
-  html[reader-mode="on"] {
-
-    #quartz-body > .center {
+    #quartz-body > .page-header,
+    #quartz-body > .center,
+    #quartz-body > footer {
+      width: 100% !important;
       max-width: 100% !important;
-      padding-inline: 16px !important;
+      padding-left: 16px !important;
+      padding-right: 16px !important;
     }
 
     #quartz-body > .center > article {
       font-size: 1rem;
       line-height: 1.7;
     }
-
-    #quartz-body .page-header,
-    #quartz-body footer {
-      padding-inline: 16px;
-    }
   }
 }
-
