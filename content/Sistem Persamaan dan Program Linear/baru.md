@@ -1,0 +1,1708 @@
+
+Dalam kehidupan sehari-hari, kita sering menghadapi masalah yang melibatkan dua besaran yang belum diketahui, seperti menentukan harga dua jenis barang atau menghitung jumlah tiket yang terjual.
+
+Permasalahan tersebut dapat diselesaikan menggunakan **Sistem Persamaan Linear Dua Variabel (SPLDV)**.
+
+==**SPLDV adalah sistem yang terdiri atas dua persamaan linear dengan dua variabel yang harus dipenuhi secara bersamaan.**==
+
+---
+
+### 1. Bentuk Umum SPLDV
+
+Bentuk umum SPLDV adalah:
+
+$$
+\begin{aligned}
+a_1x+b_1y &= c_1 \\
+a_2x+b_2y &= c_2
+\end{aligned}
+$$
+
+dengan:
+- $x,y$ = variabel,
+- $a_1,a_2,b_1,b_2$ = koefisien,
+- $c_1,c_2$ = konstanta.
+
+Penyelesaian SPLDV merupakan pasangan $(x,y)$ yang memenuhi kedua persamaan.
+
+Contohnya:
+
+$$
+\begin{aligned}
+x+y &= 7 \\
+x-y &= 3
+\end{aligned}
+$$
+
+Pasangan $(5,2)$ merupakan penyelesaian karena:
+
+$$
+\begin{aligned}
+5+2 &= 7 \\
+5-2 &= 3
+\end{aligned}
+$$
+
+---
+
+### 2. Metode Penyelesaian SPLDV
+
+Terdapat tiga metode utama untuk menyelesaikan SPLDV.
+
+#### A. Metode Grafik
+
+Setiap persamaan linear dua variabel membentuk garis lurus pada bidang koordinat.
+
+==**Penyelesaian SPLDV secara grafik merupakan titik potong kedua garis.**==
+
+Langkah penyelesaian:
+1. Tentukan dua titik pada setiap garis.
+2. Gambar kedua garis pada bidang koordinat.
+3. Tentukan koordinat titik potongnya.
+
+#### B. Metode Substitusi
+
+Metode substitusi dilakukan dengan mengganti salah satu variabel menggunakan bentuk variabel lainnya.
+
+Misalnya:
+
+$$
+\begin{aligned}
+x+y &= 7 \\
+x-y &= 3
+\end{aligned}
+$$
+
+Dari persamaan pertama:
+
+$$
+x=7-y
+$$
+
+Substitusikan ke persamaan kedua:
+
+$$
+\begin{aligned}
+(7-y)-y &= 3 \\
+7-2y &= 3 \\
+y &= 2
+\end{aligned}
+$$
+
+Maka:
+
+$$
+x=7-2=5
+$$
+
+Jadi, penyelesaiannya adalah $\boxed{(5,2)}$.
+
+#### C. Metode Eliminasi
+
+Metode eliminasi dilakukan dengan menghilangkan salah satu variabel melalui penjumlahan atau pengurangan persamaan.
+
+Misalnya:
+
+$$
+\begin{aligned}
+x+y &= 7 \\
+x-y &= 3
+\end{aligned}
+$$
+
+Jumlahkan kedua persamaan:
+
+$$
+\begin{aligned}
+2x &= 10 \\
+x &= 5
+\end{aligned}
+$$
+
+Substitusikan:
+
+$$
+5+y=7 \implies y=2
+$$
+
+Jadi, penyelesaiannya adalah $\boxed{(5,2)}$.
+
+> [!note] Tips Memilih Metode
+> - **Grafik:** Memahami hubungan dua garis.
+> - **Substitusi:** Salah satu variabel mudah dinyatakan dalam variabel lain.
+> - **Eliminasi:** Koefisien variabel mudah disamakan.
+>
+> Metode campuran menggabungkan eliminasi dan substitusi.
+
+---
+
+### 3. Jenis Penyelesaian SPLDV
+
+| Jenis | Karakteristik Grafik | Banyak Solusi |
+| :--- | :--- | :--- |
+| Solusi tunggal | Dua garis berpotongan | Satu |
+| Tidak ada solusi | Dua garis sejajar dan berbeda | Tidak ada |
+| Solusi tak hingga | Dua garis berimpit | Tak hingga |
+
+> [!important] Konsep Penting
+> Tidak semua SPLDV memiliki tepat satu solusi. Banyaknya solusi bergantung pada hubungan kedua persamaan.
+
+---
+
+### 4. Pemodelan Masalah Kontekstual
+
+Langkah menyelesaikan soal cerita SPLDV:
+
+1. Tentukan dua variabel yang belum diketahui.
+2. Susun dua persamaan berdasarkan informasi soal.
+3. Selesaikan menggunakan metode yang sesuai.
+4. Periksa dan tafsirkan hasilnya.
+
+> [!warning] Kesalahan yang Sering Terjadi
+> - Salah menentukan variabel.
+> - Salah mengubah informasi menjadi persamaan.
+> - Salah tanda saat eliminasi atau substitusi.
+> - Tidak memeriksa solusi pada kedua persamaan.
+
+---
+
+# Latihan Soal SPLDV
+
+## Bagian A: Pemahaman Dasar
+
+### Contoh Soal 1
+
+Tentukan apakah pasangan $(3,2)$ merupakan penyelesaian sistem berikut!
+
+$$
+\begin{aligned}
+2x+y &= 8 \\
+x+2y &= 7
+\end{aligned}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Substitusikan $x=3$ dan $y=2$.
+>
+> Persamaan pertama:
+>
+> $$
+> 2(3)+2=8
+> $$
+>
+> Persamaan kedua:
+>
+> $$
+> 3+2(2)=7
+> $$
+>
+> Kedua persamaan terpenuhi.
+>
+> Jadi, $\boxed{(3,2)}$ merupakan penyelesaian SPLDV tersebut.
+
+### Contoh Soal 2
+
+Tentukan nilai $x$ dan $y$!
+
+$$
+\begin{aligned}
+x+y &= 13 \\
+x-y &= 5
+\end{aligned}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Jumlahkan kedua persamaan:
+>
+> $$
+> \begin{aligned}
+> 2x &= 18 \\
+> x &= 9
+> \end{aligned}
+> $$
+>
+> Substitusikan:
+>
+> $$
+> 9+y=13 \implies y=4
+> $$
+>
+> Jadi, $\boxed{x=9,\ y=4}$.
+
+### Contoh Soal 3
+
+Diketahui:
+
+$$
+\begin{aligned}
+x &= 3y \\
+x+y &= 20
+\end{aligned}
+$$
+
+Tentukan nilai $x-y$!
+
+> [!success]- Klik untuk Lihat Jawaban
+> Substitusikan $x=3y$:
+>
+> $$
+> \begin{aligned}
+> 3y+y &= 20 \\
+> 4y &= 20 \\
+> y &= 5
+> \end{aligned}
+> $$
+>
+> Maka:
+>
+> $$
+> x=3(5)=15
+> $$
+>
+> Sehingga:
+>
+> $$
+> x-y=15-5=\boxed{10}
+> $$
+
+### Contoh Soal 4
+
+Selesaikan SPLDV berikut!
+
+$$
+\begin{aligned}
+2x+y &= 17 \\
+x+y &= 11
+\end{aligned}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Kurangkan persamaan pertama dengan kedua:
+>
+> $$
+> x=17-11=6
+> $$
+>
+> Substitusikan:
+>
+> $$
+> 6+y=11 \implies y=5
+> $$
+>
+> Jadi, penyelesaiannya adalah $\boxed{(6,5)}$.
+
+### Contoh Soal 5
+
+Tentukan nilai $x$ dan $y$!
+
+$$
+\begin{aligned}
+3x+2y &= 25 \\
+x+2y &= 11
+\end{aligned}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Eliminasi $y$:
+>
+> $$
+> \begin{aligned}
+> 2x &= 14 \\
+> x &= 7
+> \end{aligned}
+> $$
+>
+> Substitusikan:
+>
+> $$
+> \begin{aligned}
+> 7+2y &= 11 \\
+> 2y &= 4 \\
+> y &= 2
+> \end{aligned}
+> $$
+>
+> Jadi, $\boxed{x=7,\ y=2}$.
+
+---
+
+## Bagian B: Penerapan Metode
+
+### Contoh Soal 6
+
+Selesaikan SPLDV berikut menggunakan metode eliminasi!
+
+$$
+\begin{aligned}
+2x+3y &= 24 \\
+3x+2y &= 26
+\end{aligned}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Eliminasi $x$:
+>
+> $$
+> \begin{aligned}
+> 6x+9y &= 72 \\
+> 6x+4y &= 52 \\
+> \hline
+> 5y &= 20 \\
+> y &= 4
+> \end{aligned}
+> $$
+>
+> Substitusikan:
+>
+> $$
+> \begin{aligned}
+> 2x+3(4) &= 24 \\
+> 2x &= 12 \\
+> x &= 6
+> \end{aligned}
+> $$
+>
+> Jadi, $\boxed{(x,y)=(6,4)}$.
+
+### Contoh Soal 7
+
+Tentukan penyelesaian sistem persamaan berikut!
+
+$$
+\begin{aligned}
+4x-3y &= 11 \\
+2x+y &= 13
+\end{aligned}
+$$
+
+> [!success]- Klik untuk Lihat Jawaban
+> Dari persamaan kedua:
+>
+> $$
+> y=13-2x
+> $$
+>
+> Substitusikan:
+>
+> $$
+> \begin{aligned}
+> 4x-3(13-2x) &= 11 \\
+> 4x-39+6x &= 11 \\
+> 10x &= 50 \\
+> x &= 5
+> \end{aligned}
+> $$
+>
+> Maka:
+>
+> $$
+> y=13-2(5)=3
+> $$
+>
+> Jadi, $\boxed{(5,3)}$.
+
+### Contoh Soal 8
+
+Diketahui:
+
+$$
+\begin{aligned}
+3x+2y &= 28 \\
+2x-y &= 7
+\end{aligned}
+$$
+
+Tentukan nilai $x+2y$!
+
+> [!success]- Klik untuk Lihat Jawaban
+> Dari persamaan kedua:
+>
+> $$
+> y=2x-7
+> $$
+>
+> Substitusikan:
+>
+> $$
+> \begin{aligned}
+> 3x+2(2x-7) &= 28 \\
+> 7x-14 &= 28 \\
+> 7x &= 42 \\
+> x &= 6
+> \end{aligned}
+> $$
+>
+> Maka:
+>
+> $$
+> y=2(6)-7=5
+> $$
+>
+> Sehingga:
+>
+> $$
+> x+2y=6+2(5)=\boxed{16}
+> $$
+
+### Contoh Soal 9
+
+Jumlah dua bilangan adalah $42$, sedangkan selisih kedua bilangan tersebut adalah $12$.
+
+Tentukan hasil kali kedua bilangan tersebut!
+
+> [!success]- Klik untuk Lihat Jawaban
+> Misalkan $x$ bilangan yang lebih besar dan $y$ bilangan yang lebih kecil.
+>
+> $$
+> \begin{aligned}
+> x+y &= 42 \\
+> x-y &= 12
+> \end{aligned}
+> $$
+>
+> Jumlahkan:
+>
+> $$
+> 2x=54 \implies x=27
+> $$
+>
+> Maka:
+>
+> $$
+> y=42-27=15
+> $$
+>
+> Hasil kali:
+>
+> $$
+> xy=27(15)=\boxed{405}
+> $$
+
+### Contoh Soal 10
+
+Sebuah toko alat tulis menjual buku dan pulpen.
+
+Harga $2$ buku dan $3$ pulpen adalah $\text{Rp}25.000,00$, sedangkan harga $3$ buku dan $2$ pulpen adalah $\text{Rp}30.000,00$.
+
+Tentukan harga sebuah buku dan sebuah pulpen!
+
+> [!success]- Klik untuk Lihat Jawaban
+> Misalkan:
+> - $x$ = harga buku,
+> - $y$ = harga pulpen.
+>
+> Model matematika:
+>
+> $$
+> \begin{aligned}
+> 2x+3y &= 25.000 \\
+> 3x+2y &= 30.000
+> \end{aligned}
+> $$
+>
+> Eliminasi $x$:
+>
+> $$
+> \begin{aligned}
+> 6x+9y &= 75.000 \\
+> 6x+4y &= 60.000 \\
+> \hline
+> 5y &= 15.000 \\
+> y &= 3.000
+> \end{aligned}
+> $$
+>
+> Substitusikan:
+>
+> $$
+> \begin{aligned}
+> 2x+3(3.000) &= 25.000 \\
+> 2x &= 16.000 \\
+> x &= 8.000
+> \end{aligned}
+> $$
+>
+> Jadi, harga buku adalah $\boxed{\text{Rp}8.000,00}$ dan pulpen $\boxed{\text{Rp}3.000,00}$.
+
+---
+
+## Bagian C: Analisis dan Penalaran
+
+### Contoh Soal 11
+
+Diketahui sistem persamaan:
+
+$$
+\begin{aligned}
+3x+2y &= 32 \\
+2x+3y &= 28
+\end{aligned}
+$$
+
+Tentukan nilai $2x-y$!
+
+> [!success]- Klik untuk Lihat Jawaban
+> Eliminasi $y$:
+>
+> $$
+> \begin{aligned}
+> 9x+6y &= 96 \\
+> 4x+6y &= 56 \\
+> \hline
+> 5x &= 40 \\
+> x &= 8
+> \end{aligned}
+> $$
+>
+> Substitusikan:
+>
+> $$
+> 3(8)+2y=32
+> $$
+>
+> Diperoleh $y=4$.
+>
+> Maka:
+>
+> $$
+> 2x-y=2(8)-4=\boxed{12}
+> $$
+
+### Contoh Soal 12
+
+Perhatikan SPLDV berikut!
+
+$$
+\begin{aligned}
+x+y &= 12 \\
+2x+2y &= 25
+\end{aligned}
+$$
+
+Tentukan banyak penyelesaian sistem tersebut dan jelaskan alasannya!
+
+> [!success]- Klik untuk Lihat Jawaban
+> Kalikan persamaan pertama dengan $2$:
+>
+> $$
+> 2x+2y=24
+> $$
+>
+> Namun, persamaan kedua menyatakan:
+>
+> $$
+> 2x+2y=25
+> $$
+>
+> Kedua kondisi saling bertentangan.
+>
+> Jadi, $\boxed{\text{SPLDV tidak memiliki penyelesaian}}$.
+>
+> Secara grafik, kedua garis sejajar dan berbeda.
+
+### Contoh Soal 13
+
+Diketahui sistem persamaan:
+
+$$
+\begin{aligned}
+x+2y &= 8 \\
+2x+ky &= 16
+\end{aligned}
+$$
+
+Tentukan nilai $k$ agar SPLDV mempunyai tak hingga banyak penyelesaian!
+
+> [!success]- Klik untuk Lihat Jawaban
+> Agar memiliki tak hingga banyak solusi, kedua persamaan harus menyatakan garis yang sama.
+>
+> Kalikan persamaan pertama dengan $2$:
+>
+> $$
+> 2x+4y=16
+> $$
+>
+> Bandingkan dengan:
+>
+> $$
+> 2x+ky=16
+> $$
+>
+> Maka:
+>
+> $$
+> \boxed{k=4}
+> $$
+
+### Contoh Soal 14
+
+Sebuah kedai menyediakan dua jenis biji kopi, A dan B.
+
+Campuran pertama menggunakan $2$ kg kopi A dan $3$ kg kopi B dengan harga $\text{Rp}370.000,00$.
+
+Campuran kedua menggunakan $3$ kg kopi A dan $2$ kg kopi B dengan harga $\text{Rp}380.000,00$.
+
+Jika harga per kilogram setiap jenis kopi tetap, tentukan harga campuran yang terdiri atas $4$ kg kopi A dan $1$ kg kopi B!
+
+> [!success]- Klik untuk Lihat Jawaban
+> Misalkan:
+> - $x$ = harga kopi A per kg,
+> - $y$ = harga kopi B per kg.
+>
+> $$
+> \begin{aligned}
+> 2x+3y &= 370.000 \\
+> 3x+2y &= 380.000
+> \end{aligned}
+> $$
+>
+> Eliminasi $x$:
+>
+> $$
+> \begin{aligned}
+> 6x+9y &= 1.110.000 \\
+> 6x+4y &= 760.000 \\
+> \hline
+> 5y &= 350.000 \\
+> y &= 70.000
+> \end{aligned}
+> $$
+>
+> Substitusikan:
+>
+> $$
+> 2x+3(70.000)=370.000
+> $$
+>
+> Diperoleh:
+>
+> $$
+> x=80.000
+> $$
+>
+> Harga campuran baru:
+>
+> $$
+> \begin{aligned}
+> 4x+y &= 4(80.000)+70.000 \\
+> &= 390.000
+> \end{aligned}
+> $$
+>
+> Jadi, harganya adalah $\boxed{\text{Rp}390.000,00}$.
+
+---
+
+
+## Bagian D: Latihan Setipe TKA
+
+Soal berikut menekankan kemampuan memahami informasi, menyusun model matematika, menganalisis hubungan dua variabel, serta mengevaluasi kesimpulan berdasarkan data.
+
+### Contoh Soal 15 — Pilihan Ganda Tunggal
+
+**Analisis Data Pengamatan Astronomi**
+
+Sebuah klub astronomi sekolah menggunakan dua jenis teleskop digital, yaitu teleskop A dan teleskop B.
+
+Setiap sesi pengamatan menggunakan teleskop A menghasilkan data sebesar $3$ GB, sedangkan teleskop B menghasilkan $7$ GB.
+
+Selama kegiatan pengamatan, klub melaksanakan $22$ sesi dengan total data yang terkumpul sebesar $106$ GB.
+
+Seluruh sesi hanya menggunakan salah satu jenis teleskop dan tidak ada data yang hilang.
+
+Berdasarkan informasi tersebut, banyak sesi pengamatan menggunakan teleskop B adalah ....
+
+A. $8$ sesi
+
+B. $9$ sesi
+
+C. $10$ sesi
+
+D. $11$ sesi
+
+E. $12$ sesi
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: C**
+>
+> Misalkan:
+> - $x$ = sesi menggunakan teleskop A,
+> - $y$ = sesi menggunakan teleskop B.
+>
+> Model matematika:
+>
+> $$
+> \begin{aligned}
+> x+y &= 22 \\
+> 3x+7y &= 106
+> \end{aligned}
+> $$
+>
+> Kalikan persamaan pertama dengan $3$:
+>
+> $$
+> 3x+3y=66
+> $$
+>
+> Kurangkan:
+>
+> $$
+> \begin{aligned}
+> 4y &= 40 \\
+> y &= 10
+> \end{aligned}
+> $$
+>
+> Jadi, banyak sesi menggunakan teleskop B adalah $\boxed{10\text{ sesi}}$.
+
+### Contoh Soal 16 — Pilihan Ganda Kompleks (Multi-answer)
+
+**Evaluasi Pengelolaan Sampah Daur Ulang**
+
+Sebuah bank sampah menerima dua jenis material daur ulang, yaitu plastik PET dan aluminium.
+
+Harga pembelian kedua material berbeda, tetapi tetap untuk setiap kilogram.
+
+Data dua kali penyetoran ditunjukkan pada tabel berikut.
+
+| Penyetoran | Plastik PET | Aluminium | Uang Diterima |
+| :---: | :---: | :---: | :---: |
+| I | $3$ kg | $2$ kg | Rp41.000 |
+| II | $2$ kg | $4$ kg | Rp62.000 |
+
+Pengelola bank sampah ingin memastikan bahwa perhitungan nilai material untuk penyetoran berikutnya menggunakan harga satuan yang benar.
+
+**Pilihlah semua pernyataan yang benar! Jawaban benar lebih dari satu.**
+
+- [ ] **A.** Harga plastik PET adalah Rp5.000,00 per kilogram.
+- [ ] **B.** Harga aluminium adalah Rp12.000,00 per kilogram.
+- [ ] **C.** Nilai 4 kg plastik PET dan 1 kg aluminium adalah Rp33.000,00.
+- [ ] **D.** Nilai 2 kg plastik PET dan 1 kg aluminium adalah Rp25.000,00.
+- [ ] **E.** Selisih harga aluminium dan plastik PET adalah Rp8.000,00 per kilogram.
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: A, C, E**
+>
+> Misalkan:
+> - $x$ = harga plastik PET per kg,
+> - $y$ = harga aluminium per kg.
+>
+> Model matematika:
+>
+> $$
+> \begin{aligned}
+> 3x+2y &= 41.000 \\
+> 2x+4y &= 62.000
+> \end{aligned}
+> $$
+>
+> Kalikan persamaan pertama dengan $2$:
+>
+> $$
+> 6x+4y=82.000
+> $$
+>
+> Kurangkan dengan persamaan kedua:
+>
+> $$
+> \begin{aligned}
+> 4x &= 20.000 \\
+> x &= 5.000
+> \end{aligned}
+> $$
+>
+> Substitusikan:
+>
+> $$
+> \begin{aligned}
+> 3(5.000)+2y &= 41.000 \\
+> 2y &= 26.000 \\
+> y &= 13.000
+> \end{aligned}
+> $$
+>
+> Evaluasi pernyataan:
+>
+> - **A benar:** Harga plastik PET Rp5.000,00 per kg.
+> - **B salah:** Harga aluminium Rp13.000,00 per kg.
+> - **C benar:** $4(5.000)+13.000=33.000$.
+> - **D salah:** $2(5.000)+13.000=23.000$.
+> - **E benar:** $13.000-5.000=8.000$.
+>
+> Jadi, jawaban yang benar adalah $\boxed{A,\ C,\ E}$.
+
+### Contoh Soal 17 — Pilihan Ganda Kompleks (Benar–Salah)
+
+**Evaluasi Sistem Penilaian Kompetisi Sains**
+
+Dalam suatu kompetisi sains, peserta mengerjakan $24$ soal. Panitia menggunakan dua kategori penilaian untuk soal yang mendapatkan poin:
+
+- Jawaban lengkap dan benar memperoleh $5$ poin.
+- Jawaban sebagian benar memperoleh $2$ poin.
+
+Seorang peserta menyelesaikan seluruh soal dan memperoleh total $87$ poin. Tidak ada jawaban yang memperoleh nol poin.
+
+Panitia kemudian mengevaluasi komposisi jawaban dan pengaruh perubahan kategori penilaian terhadap skor peserta.
+
+**Tentukan Benar atau Salah untuk setiap pernyataan berikut!**
+
+| Pernyataan | Benar | Salah |
+| :--- | :---: | :---: |
+| A. Peserta memperoleh nilai penuh pada 13 soal. | ☐ | ☐ |
+| B. Banyak soal yang memperoleh nilai sebagian adalah 10 soal. | ☐ | ☐ |
+| C. Jika dua jawaban yang semula memperoleh nilai sebagian diperbaiki menjadi jawaban lengkap, skor peserta meningkat 6 poin. | ☐ | ☐ |
+| D. Selisih skor untuk satu jawaban lengkap dan satu jawaban sebagian benar adalah 3 poin. | ☐ | ☐ |
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: Benar – Salah – Benar – Benar**
+>
+> Misalkan:
+> - $x$ = banyak jawaban lengkap,
+> - $y$ = banyak jawaban sebagian benar.
+>
+> Model matematika:
+>
+> $$
+> \begin{aligned}
+> x+y &= 24 \\
+> 5x+2y &= 87
+> \end{aligned}
+> $$
+>
+> Kalikan persamaan pertama dengan $2$:
+>
+> $$
+> 2x+2y=48
+> $$
+>
+> Kurangkan:
+>
+> $$
+> \begin{aligned}
+> 3x &= 39 \\
+> x &= 13
+> \end{aligned}
+> $$
+>
+> Maka:
+>
+> $$
+> y=24-13=11
+> $$
+>
+> Evaluasi:
+>
+> - **A benar:** Terdapat 13 jawaban lengkap.
+> - **B salah:** Jawaban sebagian benar berjumlah 11 soal.
+> - **C benar:** Kenaikan skor $2(5-2)=6$ poin.
+> - **D benar:** Selisih nilai $5-2=3$ poin.
+>
+> Jadi, komposisi jawaban peserta adalah $\boxed{13\text{ lengkap dan }11\text{ sebagian benar}}$.
+
+### Contoh Soal 18 — Pilihan Ganda Tunggal
+
+**Perencanaan Ukuran Taman Sekolah**
+
+Sekolah berencana membangun taman berbentuk persegi panjang.
+
+Untuk menentukan ukuran taman, tim perancang menetapkan dua ketentuan:
+
+- Keliling taman adalah $64$ meter.
+- Panjang taman $8$ meter lebih besar daripada lebarnya.
+
+Seorang anggota tim menyatakan bahwa kedua informasi tersebut cukup untuk menentukan luas taman tanpa melakukan pengukuran tambahan.
+
+Berdasarkan informasi tersebut, luas taman yang direncanakan adalah ....
+
+A. $192\text{ m}^2$
+
+B. $216\text{ m}^2$
+
+C. $224\text{ m}^2$
+
+D. $240\text{ m}^2$
+
+E. $256\text{ m}^2$
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: D**
+>
+> Misalkan:
+> - $p$ = panjang taman,
+> - $l$ = lebar taman.
+>
+> Dari keliling:
+>
+> $$
+> \begin{aligned}
+> 2(p+l) &= 64 \\
+> p+l &= 32
+> \end{aligned}
+> $$
+>
+> Selisih panjang dan lebar:
+>
+> $$
+> p-l=8
+> $$
+>
+> Jumlahkan kedua persamaan:
+>
+> $$
+> \begin{aligned}
+> 2p &= 40 \\
+> p &= 20
+> \end{aligned}
+> $$
+>
+> Maka:
+>
+> $$
+> l=32-20=12
+> $$
+>
+> Luas taman:
+>
+> $$
+> \begin{aligned}
+> L &= p\times l \\
+> &=20\times12\\
+> &=240
+> \end{aligned}
+> $$
+>
+> Jadi, luas taman adalah $\boxed{240\text{ m}^2}$.
+
+### Contoh Soal 19 — Pilihan Ganda Kompleks (Multi-answer)
+
+**Pengujian Kapasitas Dua Filter Air**
+
+Sebuah laboratorium lingkungan menggunakan dua jenis filter air, yaitu filter A dan filter B.
+
+Kedua filter mempunyai laju penyaringan yang berbeda dan dianggap konstan selama pengujian.
+
+Hasil dua percobaan ditunjukkan pada tabel berikut.
+
+| Percobaan | Waktu Filter A | Waktu Filter B | Total Air Tersaring |
+| :---: | :---: | :---: | :---: |
+| I | $3$ jam | $2$ jam | $52$ liter |
+| II | $2$ jam | $4$ jam | $64$ liter |
+
+Waktu pada tabel menyatakan lama operasi masing-masing filter, dan total air tersaring merupakan jumlah hasil kedua filter.
+
+Laboratorium akan menyusun jadwal penggunaan filter berdasarkan kapasitas penyaringan per jam.
+
+**Pilihlah semua pernyataan yang benar! Jawaban benar lebih dari satu.**
+
+- [ ] **A.** Filter A mampu menyaring 10 liter air per jam.
+- [ ] **B.** Filter B mampu menyaring 12 liter air per jam.
+- [ ] **C.** Jika kedua filter bekerja masing-masing selama 1 jam, total air yang tersaring adalah 21 liter.
+- [ ] **D.** Penggunaan filter A selama 4 jam dan filter B selama 1 jam menghasilkan 51 liter air tersaring.
+- [ ] **E.** Filter A memiliki kapasitas penyaringan lebih besar daripada filter B.
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: A, C, D**
+>
+> Misalkan:
+> - $x$ = kapasitas filter A per jam,
+> - $y$ = kapasitas filter B per jam.
+>
+> Model matematika:
+>
+> $$
+> \begin{aligned}
+> 3x+2y &= 52 \\
+> 2x+4y &= 64
+> \end{aligned}
+> $$
+>
+> Kalikan persamaan pertama dengan $2$:
+>
+> $$
+> 6x+4y=104
+> $$
+>
+> Kurangkan dengan persamaan kedua:
+>
+> $$
+> \begin{aligned}
+> 4x &= 40 \\
+> x &= 10
+> \end{aligned}
+> $$
+>
+> Substitusikan:
+>
+> $$
+> \begin{aligned}
+> 3(10)+2y &= 52 \\
+> 2y &= 22 \\
+> y &= 11
+> \end{aligned}
+> $$
+>
+> Evaluasi:
+>
+> - **A benar:** Filter A menyaring 10 liter per jam.
+> - **B salah:** Filter B menyaring 11 liter per jam.
+> - **C benar:** $10+11=21$ liter.
+> - **D benar:** $4(10)+11=51$ liter.
+> - **E salah:** Kapasitas filter B lebih besar daripada filter A.
+>
+> Jadi, jawaban yang benar adalah $\boxed{A,\ C,\ D}$.
+
+### Contoh Soal 20 — Pilihan Ganda Kompleks (Benar–Salah)
+
+**Evaluasi Penggunaan Air untuk Bibit Pohon**
+
+Sebuah komunitas lingkungan melakukan kegiatan penghijauan dengan menanam dua jenis bibit pohon, yaitu bibit A dan bibit B.
+
+Pada tahap awal penanaman, seluruh bibit berjumlah $72$ pohon.
+
+Setiap bibit A memerlukan $2$ liter air, sedangkan setiap bibit B memerlukan $3$ liter air untuk penyiraman awal.
+
+Total air yang digunakan adalah $184$ liter.
+
+Komunitas ingin mengevaluasi komposisi bibit dan memperkirakan pengaruh perubahan kebutuhan air terhadap kegiatan berikutnya.
+
+**Tentukan Benar atau Salah untuk setiap pernyataan berikut!**
+
+| Pernyataan | Benar | Salah |
+| :--- | :---: | :---: |
+| A. Jumlah bibit A yang ditanam adalah 32 pohon. | ☐ | ☐ |
+| B. Jumlah bibit B lebih sedikit daripada bibit A. | ☐ | ☐ |
+| C. Jika kebutuhan air setiap bibit B meningkat menjadi 4 liter, sedangkan jumlah bibit tetap, total kebutuhan air meningkat menjadi 224 liter. | ☐ | ☐ |
+| D. Jika 8 bibit B diganti dengan 8 bibit A, jumlah bibit tetap dan kebutuhan air berkurang 8 liter. | ☐ | ☐ |
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: Benar – Salah – Benar – Benar**
+>
+> Misalkan:
+> - $x$ = jumlah bibit A,
+> - $y$ = jumlah bibit B.
+>
+> Model matematika:
+>
+> $$
+> \begin{aligned}
+> x+y &= 72 \\
+> 2x+3y &= 184
+> \end{aligned}
+> $$
+>
+> Kalikan persamaan pertama dengan $2$:
+>
+> $$
+> 2x+2y=144
+> $$
+>
+> Kurangkan:
+>
+> $$
+> y=40
+> $$
+>
+> Maka:
+>
+> $$
+> x=72-40=32
+> $$
+>
+> Evaluasi:
+>
+> - **A benar:** Bibit A berjumlah 32 pohon.
+> - **B salah:** Bibit B berjumlah 40 pohon, lebih banyak daripada bibit A.
+> - **C benar:** Kebutuhan air baru:
+>
+> $$
+> \begin{aligned}
+> 32(2)+40(4) &= 64+160\\
+> &=224
+> \end{aligned}
+> $$
+>
+> - **D benar:** Mengganti 8 bibit B dengan 8 bibit A mengurangi kebutuhan air sebesar:
+>
+> $$
+> 8(3-2)=8\text{ liter}
+> $$
+>
+> Jadi, komposisi awal penanaman adalah $\boxed{32\text{ bibit A dan }40\text{ bibit B}}$.
+
+---
+
+## Bagian E: Pengayaan TKA — Pemodelan Usia dan Geometri
+
+Soal berikut melatih pemodelan SPLDV melalui perubahan usia dan ukuran bangun datar. Perhatikan bahwa perubahan luas pada soal geometri dapat disederhanakan menjadi persamaan linear.
+
+### Contoh Soal 21 — Pilihan Ganda Tunggal
+
+**Perencanaan Acara Keluarga**
+
+Empat tahun yang lalu, perbandingan usia seorang paman dan keponakannya adalah $3:1$. Delapan tahun yang akan datang, perbandingan usia mereka menjadi $2:1$.
+
+Jika suatu saat usia keponakannya mencapai $28$ tahun, berapakah usia pamannya pada saat itu?
+
+A. $48$ tahun  
+B. $50$ tahun  
+C. $52$ tahun  
+D. $54$ tahun  
+E. $56$ tahun
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: C**
+>
+> Misalkan $x$ = usia paman sekarang dan $y$ = usia keponakan sekarang.
+>
+> Empat tahun lalu:
+>
+> $$
+> \frac{x-4}{y-4}=3 \implies x-3y=-8 \tag{1}
+> $$
+>
+> Delapan tahun yang akan datang:
+>
+> $$
+> \frac{x+8}{y+8}=2 \implies x-2y=8 \tag{2}
+> $$
+>
+> Kurangkan persamaan (2) dengan (1):
+>
+> $$
+> (x-2y)-(x-3y)=8-(-8) \implies y=16
+> $$
+>
+> Substitusikan ke persamaan (2):
+>
+> $$
+> x-2(16)=8 \implies x=40
+> $$
+>
+> Selisih usia mereka $40-16=24$ tahun dan tidak berubah. Ketika keponakan berusia $28$ tahun, usia paman adalah:
+>
+> $$
+> 28+24=\boxed{52\text{ tahun}}
+> $$
+
+### Contoh Soal 22 — Pilihan Ganda Tunggal
+
+**Analisis Data Keluarga**
+
+Tiga tahun yang lalu, jumlah usia seorang ayah dan anaknya adalah $54$ tahun. Enam tahun yang akan datang, usia ayah tepat dua kali usia anaknya.
+
+Usia anak tersebut enam tahun yang akan datang adalah ....
+
+A. $20$ tahun  
+B. $22$ tahun  
+C. $24$ tahun  
+D. $26$ tahun  
+E. $28$ tahun
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: C**
+>
+> Misalkan $x$ = usia ayah sekarang dan $y$ = usia anak sekarang.
+>
+> Dari jumlah usia tiga tahun yang lalu:
+>
+> $$
+> (x-3)+(y-3)=54 \implies x+y=60 \tag{1}
+> $$
+>
+> Dari usia enam tahun yang akan datang:
+>
+> $$
+> x+6=2(y+6) \implies x-2y=6 \tag{2}
+> $$
+>
+> Substitusikan $x=60-y$ ke persamaan (2):
+>
+> $$
+> \begin{aligned}
+> 60-y-2y&=6\\
+> 3y&=54\\
+> y&=18
+> \end{aligned}
+> $$
+>
+> Maka $x=60-18=42$. Usia anak enam tahun lagi adalah:
+>
+> $$
+> 18+6=\boxed{24\text{ tahun}}
+> $$
+
+### Contoh Soal 23 — Pilihan Ganda Kompleks (Multi-answer)
+
+**Evaluasi Usia Ayah dan Anak**
+
+Enam tahun yang lalu, perbandingan usia seorang ayah dan anaknya adalah $5:1$. Enam tahun yang akan datang, perbandingan usia keduanya menjadi $7:3$.
+
+**Pilihlah semua pernyataan yang benar! Jawaban benar lebih dari satu.**
+
+- [ ] **A.** Usia ayah sekarang adalah $36$ tahun.
+- [ ] **B.** Usia anak sekarang adalah $14$ tahun.
+- [ ] **C.** Selisih usia ayah dan anak adalah $24$ tahun.
+- [ ] **D.** Dua belas tahun yang akan datang, usia ayah tepat dua kali usia anaknya.
+- [ ] **E.** Jumlah usia mereka empat tahun yang lalu adalah $42$ tahun.
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: A, C, D**
+>
+> Misalkan $x$ = usia ayah dan $y$ = usia anak sekarang.
+>
+> Enam tahun lalu:
+>
+> $$
+> \frac{x-6}{y-6}=5 \implies x-5y=-24 \tag{1}
+> $$
+>
+> Enam tahun yang akan datang:
+>
+> $$
+> \frac{x+6}{y+6}=\frac73 \implies 3x-7y=24 \tag{2}
+> $$
+>
+> Kalikan persamaan (1) dengan $3$ dan kurangkan dari persamaan (2):
+>
+> $$
+> \begin{aligned}
+> 3x-15y&=-72\\
+> 3x-7y&=24\\
+> \hline
+> 8y&=96\\
+> y&=12
+> \end{aligned}
+> $$
+>
+> Dari persamaan (1), $x=5(12)-24=36$.
+>
+> Evaluasi pernyataan:
+> - **A benar:** Usia ayah $36$ tahun.
+> - **B salah:** Usia anak $12$ tahun, bukan $14$ tahun.
+> - **C benar:** Selisih usia $36-12=24$ tahun.
+> - **D benar:** Dalam $12$ tahun, usia mereka $48$ dan $24$ tahun, sehingga perbandingannya $2:1$.
+> - **E salah:** Empat tahun lalu jumlah usia $32+8=40$ tahun.
+>
+> Jadi, jawaban yang benar adalah $\boxed{A,\ C,\ D}$.
+
+### Contoh Soal 24 — Pilihan Ganda Kompleks (Benar–Salah)
+
+**Evaluasi Data Usia Dua Peneliti**
+
+Sebuah lembaga penelitian menyimpan data usia dua peneliti, yaitu peneliti senior dan junior. Delapan tahun yang lalu, jumlah usia keduanya adalah $50$ tahun. Empat tahun yang akan datang, usia peneliti senior akan $10$ tahun lebih muda daripada dua kali usia peneliti junior pada saat yang sama.
+
+**Tentukan Benar atau Salah untuk setiap pernyataan berikut!**
+
+| Pernyataan | Benar | Salah |
+| :--- | :---: | :---: |
+| A. Usia peneliti senior sekarang adalah 42 tahun. | ☐ | ☐ |
+| B. Selisih usia kedua peneliti adalah 18 tahun. | ☐ | ☐ |
+| C. Delapan tahun yang akan datang, jumlah usia mereka menjadi 74 tahun. | ☐ | ☐ |
+| D. Empat tahun yang akan datang, usia peneliti junior adalah 28 tahun. | ☐ | ☐ |
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: Benar – Benar – Salah – Benar**
+>
+> Misalkan $x$ = usia senior dan $y$ = usia junior sekarang.
+>
+> $$
+> \begin{aligned}
+> (x-8)+(y-8)&=50 \implies x+y=66 \tag{1}\\
+> x+4&=2(y+4)-10 \implies x-2y=-6 \tag{2}
+> \end{aligned}
+> $$
+>
+> Substitusikan $x=66-y$ ke persamaan (2):
+>
+> $$
+> 66-3y=-6 \implies y=24
+> $$
+>
+> Maka $x=66-24=42$.
+>
+> Evaluasi pernyataan:
+> - **A benar:** Usia senior $42$ tahun.
+> - **B benar:** Selisih usia $42-24=18$ tahun.
+> - **C salah:** Jumlah usia delapan tahun lagi adalah $66+2(8)=82$ tahun.
+> - **D benar:** Usia junior empat tahun lagi adalah $24+4=28$ tahun.
+>
+> Jadi, urutannya adalah $\boxed{\text{B – B – S – B}}$.
+
+### Contoh Soal 25 — Pilihan Ganda Kompleks (Multi-answer)
+
+**Menelusuri Perubahan Usia Dua Bersaudara**
+
+Empat tahun yang lalu, perbandingan usia seorang kakak dan adiknya adalah $7:4$. Delapan tahun yang akan datang, perbandingan usia keduanya menjadi $10:7$.
+
+**Pilihlah semua pernyataan yang benar! Jawaban benar lebih dari satu.**
+
+- [ ] **A.** Usia kakak sekarang adalah $32$ tahun.
+- [ ] **B.** Selisih usia kakak dan adik adalah $10$ tahun.
+- [ ] **C.** Jumlah usia mereka sekarang adalah $52$ tahun.
+- [ ] **D.** Enam tahun yang akan datang, perbandingan usia keduanya menjadi $19:13$.
+- [ ] **E.** Dua belas tahun yang akan datang, selisih usia keduanya menjadi $16$ tahun.
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: A, C, D**
+>
+> Misalkan $x$ = usia kakak dan $y$ = usia adik sekarang.
+>
+> Empat tahun lalu:
+>
+> $$
+> \frac{x-4}{y-4}=\frac74 \implies 4x-7y=-12 \tag{1}
+> $$
+>
+> Delapan tahun yang akan datang:
+>
+> $$
+> \frac{x+8}{y+8}=\frac{10}{7} \implies 7x-10y=24 \tag{2}
+> $$
+>
+> Kalikan persamaan (1) dengan $7$ dan persamaan (2) dengan $4$:
+>
+> $$
+> \begin{aligned}
+> 28x-49y&=-84\\
+> 28x-40y&=96
+> \end{aligned}
+> $$
+>
+> Kurangkan kedua persamaan:
+>
+> $$
+> 9y=180 \implies y=20
+> $$
+>
+> Substitusikan ke persamaan (1):
+>
+> $$
+> 4x-7(20)=-12 \implies x=32
+> $$
+>
+> Evaluasi pernyataan:
+> - **A benar:** Kakak berusia $32$ tahun.
+> - **B salah:** Selisih usia $32-20=12$ tahun.
+> - **C benar:** Jumlah usia $32+20=52$ tahun.
+> - **D benar:** Enam tahun lagi perbandingannya $38:26=19:13$.
+> - **E salah:** Selisih usia tetap $12$ tahun, bukan $16$ tahun.
+>
+> Jadi, jawaban yang benar adalah $\boxed{A,\ C,\ D}$.
+
+### Contoh Soal 26 — Pilihan Ganda Kompleks (Benar–Salah)
+
+**Analisis Catatan Usia Dua Bersaudara**
+
+Jumlah usia seorang kakak dan adiknya tiga tahun yang lalu adalah $44$ tahun. Usia kakak saat ini diketahui $5$ tahun lebih tua daripada usia adiknya lima tahun yang akan datang.
+
+**Tentukan Benar atau Salah untuk setiap pernyataan berikut!**
+
+| Pernyataan | Benar | Salah |
+| :--- | :---: | :---: |
+| A. Usia kakak sekarang adalah 30 tahun. | ☐ | ☐ |
+| B. Usia adik sekarang adalah 18 tahun. | ☐ | ☐ |
+| C. Selisih usia mereka akan tetap 10 tahun. | ☐ | ☐ |
+| D. Delapan tahun yang akan datang, jumlah usia mereka menjadi 66 tahun. | ☐ | ☐ |
+| E. Empat tahun yang lalu, jumlah usia keduanya adalah 42 tahun. | ☐ | ☐ |
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: Benar – Salah – Benar – Benar – Benar**
+>
+> Misalkan $x$ = usia kakak dan $y$ = usia adik sekarang.
+>
+> Dari jumlah usia tiga tahun lalu:
+>
+> $$
+> (x-3)+(y-3)=44 \implies x+y=50 \tag{1}
+> $$
+>
+> Dari hubungan usia lintas waktu:
+>
+> $$
+> x=(y+5)+5 \implies x-y=10 \tag{2}
+> $$
+>
+> Jumlahkan persamaan (1) dan (2):
+>
+> $$
+> 2x=60 \implies x=30
+> $$
+>
+> Maka $y=50-30=20$.
+>
+> Evaluasi pernyataan:
+> - **A benar:** Kakak berusia $30$ tahun.
+> - **B salah:** Adik berusia $20$ tahun, bukan $18$ tahun.
+> - **C benar:** Selisih usia keduanya tetap $10$ tahun.
+> - **D benar:** Delapan tahun lagi jumlah usia $50+16=66$ tahun.
+> - **E benar:** Empat tahun lalu jumlah usia $50-8=42$ tahun.
+>
+> Jadi, urutannya adalah $\boxed{\text{B – S – B – B – B}}$.
+
+### Contoh Soal 27 — Pilihan Ganda Tunggal
+
+**Perancangan Ulang Taman Sekolah — Persegi Panjang**
+
+Sebuah taman sekolah berbentuk persegi panjang akan diperbarui dengan dua alternatif desain. Pada desain pertama, panjang taman ditambah $3$ meter dan lebarnya dikurangi $2$ meter sehingga luasnya berkurang $6\text{ m}^2$. Pada desain kedua, panjang taman dikurangi $2$ meter dan lebarnya ditambah $3$ meter sehingga luasnya bertambah $24\text{ m}^2$.
+
+Keliling taman sebelum mengalami perubahan adalah ....
+
+A. $56$ meter  
+B. $58$ meter  
+C. $60$ meter  
+D. $62$ meter  
+E. $64$ meter
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: C**
+>
+> Misalkan $x$ = panjang dan $y$ = lebar taman semula (meter). Luas semula adalah $xy$.
+>
+> Desain pertama:
+>
+> $$
+> \begin{aligned}
+> (x+3)(y-2)&=xy-6\\
+> xy-2x+3y-6&=xy-6\\
+> 2x-3y&=0 \tag{1}
+> \end{aligned}
+> $$
+>
+> Desain kedua:
+>
+> $$
+> \begin{aligned}
+> (x-2)(y+3)&=xy+24\\
+> xy+3x-2y-6&=xy+24\\
+> 3x-2y&=30 \tag{2}
+> \end{aligned}
+> $$
+>
+> Kalikan (1) dengan $3$ dan (2) dengan $2$:
+>
+> $$
+> \begin{aligned}
+> 6x-9y&=0\\
+> 6x-4y&=60
+> \end{aligned}
+> $$
+>
+> Selisih kedua persamaan menghasilkan $5y=60$, sehingga $y=12$. Dari (1), $2x=36$, sehingga $x=18$.
+>
+> Keliling awal:
+>
+> $$
+> K=2(x+y)=2(18+12)=\boxed{60\text{ meter}}
+> $$
+
+### Contoh Soal 28 — Pilihan Ganda Tunggal
+
+**Perencanaan Bidang Penyangga — Segitiga Siku-Siku**
+
+Sebuah bidang penyangga berbentuk segitiga siku-siku mengalami dua alternatif perubahan ukuran. Pada rancangan pertama, alas segitiga ditambah $4$ cm dan tingginya dikurangi $3$ cm sehingga luasnya berkurang $6\text{ cm}^2$. Pada rancangan kedua, alas dikurangi $2$ cm dan tinggi ditambah $4$ cm sehingga luasnya bertambah $16\text{ cm}^2$.
+
+Keliling segitiga sebelum mengalami perubahan adalah ....
+
+A. $40$ cm  
+B. $44$ cm  
+C. $48$ cm  
+D. $52$ cm  
+E. $56$ cm
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: C**
+>
+> Misalkan $x$ = alas dan $y$ = tinggi segitiga semula (cm). Luas segitiga adalah $\frac12xy$.
+>
+> Rancangan pertama:
+>
+> $$
+> \begin{aligned}
+> \frac12(x+4)(y-3)&=\frac12xy-6\\
+> (x+4)(y-3)&=xy-12\\
+> 3x-4y&=0 \tag{1}
+> \end{aligned}
+> $$
+>
+> Rancangan kedua:
+>
+> $$
+> \begin{aligned}
+> \frac12(x-2)(y+4)&=\frac12xy+16\\
+> (x-2)(y+4)&=xy+32\\
+> 2x-y&=20 \tag{2}
+> \end{aligned}
+> $$
+>
+> Dari (2), $y=2x-20$. Substitusikan ke (1):
+>
+> $$
+> \begin{aligned}
+> 3x-4(2x-20)&=0\\
+> -5x+80&=0\\
+> x&=16
+> \end{aligned}
+> $$
+>
+> Maka $y=12$. Dengan Teorema Pythagoras, sisi miring:
+>
+> $$
+> c=\sqrt{16^2+12^2}=20
+> $$
+>
+> Jadi, keliling awal:
+>
+> $$
+> K=16+12+20=\boxed{48\text{ cm}}
+> $$
+
+### Contoh Soal 29 — Pilihan Ganda Kompleks (Multi-answer)
+
+**Evaluasi Desain Taman Berbentuk Lingkaran**
+
+Sebuah taman berbentuk lingkaran memiliki pintu masuk sehingga tidak seluruh kelilingnya dipasangi pagar. Pada rancangan awal, panjang pagar yang dibutuhkan adalah $40$ meter. Kemudian, pengelola merencanakan perluasan taman dengan menambah jari-jari sebesar $3{,}5$ meter dan memperbesar lebar pintu masuk menjadi dua kali semula. Setelah perubahan tersebut, panjang pagar yang dibutuhkan menjadi $58$ meter.
+
+Dengan menggunakan $\pi=\frac{22}{7}$, **pilihlah semua pernyataan yang benar! Jawaban benar lebih dari satu.**
+
+- [ ] **A.** Jari-jari taman semula adalah $7$ meter.
+- [ ] **B.** Lebar pintu masuk semula adalah $6$ meter.
+- [ ] **C.** Luas taman semula adalah $154\text{ m}^2$.
+- [ ] **D.** Keliling taman setelah diperluas adalah $66$ meter.
+- [ ] **E.** Lebar pintu masuk setelah perubahan adalah $8$ meter.
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: A, C, D, E**
+>
+> Misalkan $x$ = keliling lingkaran semula (meter) dan $y$ = lebar pintu masuk semula (meter).
+>
+> Panjang pagar merupakan keliling dikurangi lebar pintu:
+>
+> $$
+> x-y=40 \tag{1}
+> $$
+>
+> Pertambahan jari-jari $3{,}5$ meter menambah keliling sebesar:
+>
+> $$
+> 2\pi(3{,}5)=2\left(\frac{22}{7}\right)(3{,}5)=22\text{ meter}
+> $$
+>
+> Karena lebar pintu menjadi $2y$, panjang pagar setelah perluasan:
+>
+> $$
+> (x+22)-2y=58 \implies x-2y=36 \tag{2}
+> $$
+>
+> Kurangkan (2) dari (1):
+>
+> $$
+> y=4
+> $$
+>
+> Dari (1), $x=44$. Karena $x=2\pi r$:
+>
+> $$
+> 44=2\left(\frac{22}{7}\right)r \implies r=7\text{ m}
+> $$
+>
+> Luas awal:
+>
+> $$
+> L=\frac{22}{7}(7)^2=154\text{ m}^2
+> $$
+>
+> Keliling setelah perluasan adalah $44+22=66$ meter; lebar pintu setelah perubahan adalah $2(4)=8$ meter.
+>
+> Evaluasi pernyataan:
+> - **A benar:** Jari-jari awal $7$ m.
+> - **B salah:** Lebar pintu awal $4$ m, bukan $6$ m.
+> - **C benar:** Luas awal $154\text{ m}^2$.
+> - **D benar:** Keliling baru $66$ m.
+> - **E benar:** Lebar pintu baru $8$ m.
+>
+> Jadi, jawabannya $\boxed{A,\ C,\ D,\ E}$.
+
+### Contoh Soal 30 — Pilihan Ganda Kompleks (Benar–Salah)
+
+**Perencanaan Atap Bangunan — Segitiga Sama Kaki**
+
+Sebuah atap bangunan memiliki penampang berbentuk segitiga sama kaki. Keliling penampang tersebut adalah $36$ meter, sedangkan panjang masing-masing sisi yang sama adalah $3$ meter lebih panjang daripada alasnya. Perancang ingin menentukan ukuran penampang serta luas bidang segitiga sebelum melakukan pembangunan.
+
+**Tentukan Benar atau Salah untuk setiap pernyataan berikut!**
+
+| Pernyataan | Benar | Salah |
+| :--- | :---: | :---: |
+| A. Panjang masing-masing sisi yang sama adalah 13 meter. | ☐ | ☐ |
+| B. Panjang alas segitiga adalah 12 meter. | ☐ | ☐ |
+| C. Tinggi segitiga adalah 12 meter. | ☐ | ☐ |
+| D. Luas penampang segitiga adalah 60 m². | ☐ | ☐ |
+
+> [!success]- Klik untuk Lihat Jawaban
+> **Kunci: Benar – Salah – Benar – Benar**
+>
+> Misalkan $x$ = panjang masing-masing sisi yang sama dan $y$ = panjang alas (meter).
+>
+> Keliling segitiga:
+>
+> $$
+> 2x+y=36 \tag{1}
+> $$
+>
+> Hubungan sisi sama dan alas:
+>
+> $$
+> x-y=3 \tag{2}
+> $$
+>
+> Dari (2), $x=y+3$. Substitusikan ke (1):
+>
+> $$
+> \begin{aligned}
+> 2(y+3)+y&=36\\
+> 3y&=30\\
+> y&=10
+> \end{aligned}
+> $$
+>
+> Maka $x=10+3=13$. Tinggi segitiga membagi alas menjadi dua bagian sama panjang, masing-masing $5$ m.
+>
+> Berdasarkan Teorema Pythagoras:
+>
+> $$
+> t=\sqrt{13^2-5^2}=\sqrt{144}=12\text{ m}
+> $$
+>
+> Luas penampang:
+>
+> $$
+> L=\frac12(10)(12)=60\text{ m}^2
+> $$
+>
+> Evaluasi pernyataan:
+> - **A benar:** Sisi yang sama panjang $13$ m.
+> - **B salah:** Alas $10$ m, bukan $12$ m.
+> - **C benar:** Tinggi $12$ m.
+> - **D benar:** Luas $60\text{ m}^2$.
+>
+> Jadi, urutannya $\boxed{\text{B – S – B – B}}$.
+
+---
+
+## Ringkasan
+
+- SPLDV terdiri atas dua persamaan linear dengan dua variabel.
+- Solusinya harus memenuhi kedua persamaan secara bersamaan.
+- Metode grafik, substitusi, eliminasi, dan campuran dapat digunakan untuk menentukan penyelesaian.
+- SPLDV dapat memiliki satu solusi, tidak ada solusi, atau tak hingga banyak solusi.
+- Dalam masalah kontekstual, pemodelan dan penafsiran hasil sama pentingnya dengan perhitungan.
+
+> [!important] Persiapan TKA
+> Pada soal penalaran, jangan langsung menghitung. Identifikasi informasi yang diketahui, periksa kecukupan data, lalu pilih metode penyelesaian yang paling efisien.
+
+---
+
+## Konsep Terkait
+
+- [[00. Peta Konsep Sistem Persamaan dan Program Linear]]
+- [[02. Sistem Persamaan Linear Tiga Variabel (SPLTV)]]
+- [[04. Program Linear]]
