@@ -8,7 +8,8 @@ Halo! Saya adalah seorang pengajar Matematika. Di sini saya mendokumentasikan be
 # Persiapan UH & PSAS
 ---
 ### Kelas X
-* [[00. Peta Konsep Sistem Persamaan dan Program Linear | Sistem Persamaan Linear dan Program Linear]]
+* [[00. Peta Konsep Eksponen dan Logaritma |Eksponen dan Logaritma]]
+* [[00. Peta Konsep Sistem Persamaan dan Program Linear |Sistem Persamaan Linear dan Program Linear]]
 
 ---
 
